@@ -26,18 +26,17 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 # Kaminari: https://github.com/amatsuda/kaminari
 gem 'kaminari', '0.16.1'
 
-# Friendly_id: https://github.com/norman/friendly_id
 gem 'friendly_id', '5.0.4'
 
-# Font-awesome: https://github.com/FortAwesome/font-awesome-sass
 gem 'font-awesome-sass', '4.2.2'
 
-# Bootstrap 3: https://github.com/twbs/bootstrap-sass
 gem 'bootstrap-sass', '3.3.1.0'
 
 gem "activeadmin", github: "activeadmin/activeadmin"
 
-# Figaro: https://github.com/laserlemon/figaro
+
+gem "asset_sync"
+
 group :development, :test do
   gem 'figaro', '1.0.0'
   gem "guard-livereload"
