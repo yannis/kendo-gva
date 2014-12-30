@@ -1,0 +1,154 @@
+.container
+  .row
+    .col-sm-6
+      %h2
+        Bienvenue
+      %p.lead
+        Nous pratiquons
+        = link_to "le Kendo", "#kendo"
+        à Genève, en Suisse.
+      %p
+        Nous faisons partie du Shung Do Kwan, un grand Club qui regroupe divers arts martiaux japonais.
+      %p
+        Nous faisons partie de la Fédération Suisse de Kendo, elle même chapeautée par la Fédération Européenne de Kendo et la Fédération Internationale de Kendo.
+      %p
+        Nous proposons des cours pour débutants et avancés, adultes et enfants.
+      %p
+        Chaque année au mois de septembre, nous organisons aussi un grand tournoi international:
+        = link_to "La Coupe Kasahara", "http://kasaharacup.com", target: "_blank", title: "Kasahara Kendo Cup"
+    .col-sm-6
+      %h4
+        You don't speak french?
+      %p
+        Please note that our classes are given in french but many of our kenshis speak also some english and are ready to give you any infos that you may need. Do not hesitate
+        = link_to "to contact us", "#contact_form"
+        if you need more details about our classes.
+    .col-sm-10.col-sm-offset-1
+      .panel.panel-default
+        .panel-heading
+          %h2 Dernière nouvelle
+        .panel-body
+          %h3= @last_post.title
+          =raw @last_post.content_html
+        .panel-footer.text-right
+          = link_to "Toutes les nouvelles", posts_path
+.container
+  .row
+    .col-sm-6#horaires
+      %h2 Horaires
+      %h3 Adultes
+      %dl
+        %dt Lundi
+        %dd 18h30-20h15 (tous niveaux)
+        %dt Jeudi
+        %dd 18h30-20h00 (débutants)
+        %dd 20h00-21h30 (avancés)
+      %h3 Enfants (dès 8 ans)
+      %dl
+        %dt Jeudi
+        %dd 18h30-20h00 (débutants)
+    .col-sm-6
+      %h2 Situation
+      %p
+        Notre Dojo est situé dans la salle de gym de l'école primaire de Cayla à l'adresse suivante:
+        %address
+          12 rue William-Lescaze
+          %br 1203 Genève
+        Arrêts TPG “Jean-Jacques” ou “Contrat-Social”
+%iframe#googlemap{src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2761.250580022449!2d6.1204649999999985!3d46.205470000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c64c9c7e48119%3A0x2b74219698e25476!2sColl%C3%A8ge+de+Cayla!5e0!3m2!1sen!2s!4v1419528968296", frameborder: "0", style: "border:0"}
+.container
+  .row
+    .col-sm-12
+      %h2
+        Cotisations annuelles
+      %ul
+        %li
+          Enfants jusqu'à 13 ans: Frs 390.-
+          %br
+            Dès le 2e enfant: Frs 195.- (rabais de 50%)
+        %li
+          Juniors dès l'année civile de leurs 14 ans jusqu'à 20 ans et étudiants: Frs 460.-
+        %li
+          Adultes dès l'année civile de leurs 20 ans: Frs 660.-
+        %li
+          Cotisation annuelle à la Fédération Suisse de Kendo: 80 CHF (100 CHF la première année)
+    .col-sm-12
+      %h2
+        Cours enfants
+      %p.lead
+        Nous proposons des cours aux enfants dès 8 ans. Les rentrées pour ces cours se font deux fois par ans, au mois de septembre et janvier. La prochaine rentrée aura lieu le RENTREE.
+      %p
+        La Fédération Japonaise définit le Kendo comme un art martial "conçu pour discipliner le caractère de l'homme à travers la mise en oeuvre des principes du sabre. Le but de la pratique du Kendo est de former l'esprit et le corps, de cultiver un caractère vigoureux, et, par un entraînement correct et rigoureux, de s'efforcer de progresser dans l'art du Kendo, de tenir en estime la courtoisie et l'honneur, de coopérer avec les autres en toute sincérité, et de toujours poursuivre la culture de soi."
+    .col-sm-12
+      .row
+        .col-sm-6
+          = form_tag "http://kendo-geneve.us6.list-manage.com/subscribe/post", class: "form" do
+            = hidden_field_tag :u, "5545e540aff9e8b07df2f5531"
+            = hidden_field_tag :id, "2f8b7857fe"
+            .panel.panel-default.contact
+              .panel-heading
+                %h3
+                  = label_tag 'EMAIL', "Newsletter"
+              .panel-body
+                %p.help-block
+                  Inscrivez-vous pour recevoir les dernières nouvelles concernant nos activités
+                .form-group
+                  = email_field_tag 'EMAIL', nil, required: true, placeholder: "Email", class: "form-control"
+                .form-group
+                  = text_field_tag 'FNAME', nil, required: true, placeholder: "Prénom", class: "form-control"
+                .form-group
+                  = text_field_tag 'LNAME', nil, required: true, placeholder: "Nom", class: "form-control"
+                = button_tag "Inscrivez-vous", class: "btn btn-primary"
+        .col-sm-6#contact_form
+          %h3
+            Contactez-nous
+          = form_tag email_confirmation_path, method: 'post', html: {role: "form"} do
+
+            .form-group
+              = text_field_tag :name, @name, placeholder: "Saisissez votre nom…", autofocus: true, class: "form-control"
+
+            .form-group
+              = text_field_tag :email, @email, placeholder: "Saisissez votre email", class: "form-control"
+
+            .form-group
+              = text_area_tag :message, @message, placeholder: "Saisissez votre message...", rows: 10, class: "form-control"
+
+            .row
+              .col-xs-12.padded
+                %button.btn.btn-primary
+                  %i.fa.fa-envelope
+                  Envoyez votre message
+        .col-sm-6
+          %h3 Calendrier
+          %iframe#googlecal{src: "https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;hl=fr&amp;bgcolor=%23ffffff&amp;src=o229hp9cnspcv2ua4gt8kipcm8%40group.calendar.google.com&amp;color=%23182C57&amp;src=chocolatepangolin%40gmail.com&amp;color=%23A32929&amp;ctz=Europe%2FZurich", style: " border-width:0 ", width: "800", height: "600", frameborder: "0", scrolling: "no"}
+        .col-sm-6#social
+          .row
+            .col-sm-12
+              %h3 Retouvez nous sur…
+            .col-sm-12
+              = link_to "<i class='fa fa-twitter'></i> Twitter".html_safe, "https://twitter.com/kendo_in_geneva", id: 'twitter_icon'
+            .col-sm-12
+              = link_to "<i class='fa fa-facebook'></i> Facebook".html_safe, "https://www.facebook.com/kendogeneve", id: 'facebook_icon'
+            .col-sm-12
+              = link_to "<i class='fa fa-flickr'></i> Flickr".html_safe, "https://www.flickr.com/photos/8469782@N03", id: 'flickr_icon'
+.container
+  .row
+    .col-sm-12
+      %h2 Le Kendo
+      %p
+        « Le kendo est la plus ancienne, la plus respectée et la plus populaire des disciplines modernes du Budō » remarque en 1983 Donn F. Draeger, l'un des plus grands spécialistes des arts martiaux japonais.
+      %p
+        Le kendo (littéralement la voie du sabre) est l'évolution moderne du kenjutsu (l'art du sabre). Cet art guerrier, développé par les samouraïs japonais, est représentatif de plusieurs siècles de combats au sabre (katana). Le kendo n'est pas qu'un sport de combat comme l'escrime. Il comprend également tout un volet spirituel (le "Dô", qui signifie la voie). Cet art martial permet à ses pratiquants de développer leur force de caractère et leur détermination.
+      %p
+        Le kendo peut être pratiqué comme un art martial, mais également un sport de compétition, aujourd'hui largement pratiqué dans le monde.
+      - if @teachers.present?
+        .row
+          .col-sm-12
+            %h2
+              Les enseignants
+            - @teachers.each do |teacher|
+              .teacher{class: "col-sm-#{@teacher_col_width}"}
+                %i.fa.fa-user
+                %h4
+                  = teacher.name
+                  = "(#{teacher.grade} Dan)"

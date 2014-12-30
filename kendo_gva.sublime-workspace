@@ -1,0 +1,3360 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ret",
+				"return"
+			],
+			[
+				"in",
+				"individual_category"
+			],
+			[
+				"ke",
+				"kenshi"
+			],
+			[
+				"kendo",
+				"Kendocup"
+			],
+			[
+				"In",
+				"individual_categories"
+			],
+			[
+				"table",
+				"tableize"
+			],
+			[
+				"kin",
+				"kind_ids"
+			],
+			[
+				"app",
+				"application"
+			],
+			[
+				"fet",
+				"fetch"
+			],
+			[
+				"go",
+				"god_with_path"
+			],
+			[
+				"allele",
+				"alleles"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"va",
+				"be_valid_verbose"
+			],
+			[
+				"all",
+				"allele"
+			],
+			[
+				"an",
+				"animal"
+			],
+			[
+				"alle",
+				"allele_id"
+			],
+			[
+				"lo",
+				"locus"
+			],
+			[
+				"la",
+				"laboratory"
+			],
+			[
+				"sa",
+				"shared_with_lab"
+			],
+			[
+				"doc",
+				"doc_attributes"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"padd",
+				"padding-top: "
+			],
+			[
+				"margin",
+				"margin-bottom: "
+			],
+			[
+				"mar",
+				"margin-bottom: "
+			],
+			[
+				"back",
+				"background-position: "
+			],
+			[
+				"log",
+				"log	rails_logger_info"
+			],
+			[
+				"mater",
+				"maternal_allele1_animal1"
+			],
+			[
+				"allel",
+				"allele1"
+			],
+			[
+				"tra",
+				"transfers_att"
+			],
+			[
+				"user",
+				"user2"
+			],
+			[
+				"cate",
+				"category_id"
+			],
+			[
+				"model",
+				"model_type"
+			],
+			[
+				"ide",
+				"identifications"
+			],
+			[
+				"to",
+				"to_not"
+			],
+			[
+				"p",
+				"present"
+			],
+			[
+				"label",
+				"label-animal"
+			],
+			[
+				"font",
+				"font-size: "
+			],
+			[
+				"st",
+				"stop_on"
+			],
+			[
+				"start",
+				"start_on"
+			],
+			[
+				"sha",
+				"shared_with_lab"
+			],
+			[
+				"kind",
+				"kind_id"
+			],
+			[
+				"id",
+				"id_number"
+			],
+			[
+				"fathe",
+				"father_id"
+			],
+			[
+				"dea",
+				"deathcause_id"
+			],
+			[
+				"dead",
+				"dead_on"
+			],
+			[
+				"bor",
+				"born_on"
+			],
+			[
+				"te",
+				"technique"
+			],
+			[
+				"tec",
+				"technique"
+			],
+			[
+				"locus",
+				"locus_id"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"ob",
+				"object_type"
+			],
+			[
+				"margi",
+				"margin-top: "
+			],
+			[
+				"fla",
+				"flash	flash[…]"
+			],
+			[
+				"nu",
+				"numberOfLabels"
+			],
+			[
+				"nml",
+				"numberOfLabels"
+			],
+			[
+				"li",
+				"listItem"
+			],
+			[
+				"storeL",
+				"storeLabel"
+			],
+			[
+				"sto",
+				"storeLink"
+			],
+			[
+				"se",
+				"secondaryMenu"
+			],
+			[
+				"set",
+				"setSecondaryMenu"
+			],
+			[
+				"La",
+				"LabelLink"
+			],
+			[
+				"conte",
+				"contextmenu"
+			],
+			[
+				"context",
+				"context_menu"
+			],
+			[
+				"o",
+				"objectType"
+			],
+			[
+				"labe",
+				"labelId"
+			],
+			[
+				"ot",
+				"objectType"
+			],
+			[
+				"tr",
+				"trigger"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"j",
+				"jqXHR"
+			],
+			[
+				"un",
+				"unstoreLink"
+			],
+			[
+				"str",
+				"storedStatusChanged"
+			],
+			[
+				"obe",
+				"object_id"
+			],
+			[
+				"ca",
+				"cage_id"
+			],
+			[
+				"su",
+				"sub_menus"
+			],
+			[
+				"na",
+				"navigation"
+			],
+			[
+				"de",
+				"dependent"
+			],
+			[
+				"add",
+				"add_index"
+			],
+			[
+				"vi",
+				"visit"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"si",
+				"sign"
+			],
+			[
+				"ne",
+				"new_user"
+			],
+			[
+				"fan",
+				"fancy_allele_1"
+			],
+			[
+				"ani",
+				"animals_1"
+			],
+			[
+				"fana",
+				"fancy_animal_1"
+			],
+			[
+				"faa1",
+				"fancy_animal_1"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"cre",
+				"create"
+			],
+			[
+				"C",
+				"Chromosome"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"lab",
+				"laboratories"
+			],
+			[
+				"my",
+				"my_prefix_1"
+			],
+			[
+				"animal",
+				"animal_3"
+			],
+			[
+				"mother",
+				"mother_10"
+			],
+			[
+				"update",
+				"update_sex"
+			],
+			[
+				"anima",
+				"animal_2"
+			],
+			[
+				"annam",
+				"animal_name_3"
+			],
+			[
+				"have",
+				"have_text"
+			],
+			[
+				"expe",
+				"expect"
+			],
+			[
+				"deat",
+				"deathcause"
+			],
+			[
+				"loa",
+				"location"
+			],
+			[
+				"trasfer",
+				"transfer_form"
+			],
+			[
+				"fin",
+				"find"
+			],
+			[
+				"fil",
+				"fill_in"
+			],
+			[
+				"creae",
+				"created"
+			],
+			[
+				"Ide",
+				"Identification"
+			],
+			[
+				"iden",
+				"identifications"
+			],
+			[
+				"Fu",
+				"FurColor"
+			],
+			[
+				"ex",
+				"experiment"
+			],
+			[
+				"exp",
+				"experiments"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"aut",
+				"autorisations"
+			],
+			[
+				"e",
+				"exp	expect(subject).to something"
+			],
+			[
+				"categor",
+				"categories"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"oligo",
+				"oligo1"
+			],
+			[
+				"oli",
+				"oligo1"
+			],
+			[
+				"crea",
+				"create"
+			],
+			[
+				"cr",
+				"create"
+			],
+			[
+				"ala",
+				"alarm_row"
+			],
+			[
+				"cage",
+				"cage_1"
+			],
+			[
+				"alar",
+				"alarm"
+			],
+			[
+				"al",
+				"alarm"
+			],
+			[
+				"deplo",
+				"deploy_to"
+			],
+			[
+				"the",
+				"theCanvas"
+			],
+			[
+				"anim",
+				"animalId"
+			],
+			[
+				"dra",
+				"draw_arrow"
+			],
+			[
+				"max",
+				"maxNameLength"
+			],
+			[
+				"ma",
+				"maxNameLength"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "kendo_gva.sublime-project",
+			"settings":
+			{
+				"buffer_size": 226,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1299,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.haml",
+			"settings":
+			{
+				"buffer_size": 756,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/admin/users/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 1441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 727,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/initializers/active_admin.rb",
+			"settings":
+			{
+				"buffer_size": 7435,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 8921 files for \"admin_user\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/admin/user.rb:\n   24  \n   25    action_item only: :show do\n   26:     link_to \"Receipt\", receipt_admin_user_path(user)\n   27    end\n   28  \n\n/Users/yannis/railsapps/kendo_gva/app/controllers/admin/users_controller.rb:\n   13    \n   14    def show\n   15:     redirect_to edit_admin_user_path(params[:id])\n   16    end\n   17    \n   ..\n   36        @user.skip_reconfirmation!\n   37        @user.save\n   38:       redirect_to admin_users_path, notice: \"#{@user.email} updated.\"\n   39      else\n   40        flash[:alert] = \"#{old_email} couldn't be updated.\"\n   ..\n   50    rescue\n   51      flash[:alert] = \"The user with an id of #{params[:id]} doesn't exist.\"\n   52:     redirect_to admin_users_path\n   53    end\n   54    \n\n/Users/yannis/railsapps/kendo_gva/app/views/admin/base/index.html.erb:\n    4    <div class=\"col-sm-4\">\n    5      <h3>Menu</h3>\n    6:     <h4><%= link_to \"Users\", admin_users_path %> <small>- <%= \"#{pluralize(@count, 'user')}\" %></small></h4>\n    7      <h4><%= link_to \"Posts\", admin_posts_dashboard_path %> <small>- <%= \"#{pluralize(@post_count, 'post')}\" %></small></h4>\n    8      <hr/>\n    .\n   14        <% @last_signups.each do |user| %>\n   15        <li class=\"list-padded-bottom\">\n   16:         <%= link_to user.email, edit_admin_user_path(user) %><br/>\n   17          <small><%= time_ago_in_words(user.created_at)%> ago</small>\n   18        </li>\n   ..\n   26        <% @last_signins.each do |user| %>\n   27        <li class=\"list-padded-bottom\">\n   28:         <%= link_to user.email, edit_admin_user_path(user) %><br/>\n   29          <small>\n   30            <% unless user.last_sign_in_at.nil? %>\n\n/Users/yannis/railsapps/kendo_gva/app/views/admin/users/edit.html.erb:\n    5        Edit User <small><%= \"#{@user.email} - id: #{@user.id}\" %></small>\n    6      </h1>\n    7:     <p><%= link_to \"Back to Users\", admin_users_path %></p>\n    8  \n    9      <%= form_for [:admin, @user], :html => { :role => \"form\" } do |f| %>\n\n/Users/yannis/railsapps/kendo_gva/app/views/admin/users/index.html.erb:\n    8  </div>\n    9  \n   10: <%= form_tag admin_users_path, method: 'get', html: {role: \"form\"} do %>\n   11    <p>\n   12      <%= text_field_tag :search, params[:search] %>\n   13      <%= submit_tag \"Search\", :name => nil, class: \"btn btn-sm btn-primary\" %>\n   14:     <%= link_to \"All\", admin_users_path, {class: \"btn btn-sm btn-link\"} %>\n   15    </p>\n   16  <% end %>\n   ..\n   32    <tr>\n   33      <td><%= user.id %></td>\n   34:     <td><%= link_to user.email, admin_user_path(user) %></td>\n   35      <td><%= user.admin? ? \"<b>yes</b>\".html_safe : \"no\" %></td>\n   36      <td><%= user.locked? ? \"<b>yes</b>\".html_safe : \"no\" %></td>\n\n/Users/yannis/railsapps/kendo_gva/config/routes.rb:\n    1  KendoGva::Application.routes.draw do\n    2:   devise_for :admin_users, ActiveAdmin::Devise.config\n    3    ActiveAdmin.routes(self)\n    4  \n\n/Users/yannis/railsapps/kendo_gva/config/initializers/active_admin.rb:\n   55    # This setting changes the method which Active Admin calls\n   56    # within the application controller.\n   57:   # config.authentication_method = :authenticate_admin_user!\n   58  \n   59    # == User Authorization\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/activeadmin.gemspec:\n   12    s.description = \"The administration framework for Ruby on Rails.\"\n   13    s.email = [\"gregdbell@gmail.com\"]\n   14:   s.files = [\".gitignore\", \".travis.yml\", \".yardopts\", \"CHANGELOG.md\", \"CONTRIBUTING.md\", \"Gemfile\", \"Guardfile\", \"LICENSE\", \"README.md\", \"Rakefile\", \"activeadmin.gemspec\", \"app/assets/images/active_admin/datepicker/datepicker-input-icon.png\", \"app/assets/images/active_admin/nested_menu_arrow.gif\", \"app/assets/images/active_admin/nested_menu_arrow_dark.gif\", \"app/assets/images/active_admin/orderable.png\", \"app/assets/javascripts/active_admin/application.js.coffee\", \"app/assets/javascripts/active_admin/base.js.coffee\", \"app/assets/javascripts/active_admin/ext/jquery-ui.js.coffee\", \"app/assets/javascripts/active_admin/ext/jquery.js.coffee\", \"app/assets/javascripts/active_admin/lib/batch_actions.js.coffee\", \"app/assets/javascripts/active_admin/lib/checkbox-toggler.js.coffee\", \"app/assets/javascripts/active_admin/lib/dropdown-menu.js.coffee\", \"app/assets/javascripts/active_admin/lib/flash.js.coffee\", \"app/assets/javascripts/active_admin/lib/has_many.js.coffee\", \"app/assets/javascripts/active_admin/lib/modal_dialog.js.coffee\", \"app/assets/javascripts/active_admin/lib/popover.js.coffee\", \"app/assets/javascripts/active_admin/lib/table-checkbox-toggler.js.coffee\", \"app/assets/stylesheets/active_admin/_base.scss\", \"app/assets/stylesheets/active_admin/_forms.scss\", \"app/assets/stylesheets/active_admin/_header.scss\", \"app/assets/stylesheets/active_admin/_mixins.scss\", \"app/assets/stylesheets/active_admin/_typography.scss\", \"app/assets/stylesheets/active_admin/components/_batch_actions.scss\", \"app/assets/stylesheets/active_admin/components/_blank_slates.scss\", \"app/assets/stylesheets/active_admin/components/_breadcrumbs.scss\", \"app/assets/stylesheets/active_admin/components/_buttons.scss\", \"app/assets/stylesheets/active_admin/components/_columns.scss\", \"app/assets/stylesheets/active_admin/components/_comments.scss\", \"app/assets/stylesheets/active_admin/components/_date_picker.scss\", \"app/assets/stylesheets/active_admin/components/_dropdown_menu.scss\", \"app/assets/stylesheets/active_admin/components/_flash_messages.scss\", \"app/assets/stylesheets/active_admin/components/_grid.scss\", \"app/assets/stylesheets/active_admin/components/_index_list.scss\", \"app/assets/stylesheets/active_admin/components/_links.scss\", \"app/assets/stylesheets/active_admin/components/_modal_dialog.scss\", \"app/assets/stylesheets/active_admin/components/_pagination.scss\", \"app/assets/stylesheets/active_admin/components/_panels.scss\", \"app/assets/stylesheets/active_admin/components/_popovers.scss\", \"app/assets/stylesheets/active_admin/components/_scopes.scss\", \"app/assets/stylesheets/active_admin/components/_status_tags.scss\", \"app/assets/stylesheets/active_admin/components/_table_tools.scss\", \"app/assets/stylesheets/active_admin/components/_tables.scss\", \"app/assets/stylesheets/active_admin/components/_tabs.scss\", \"app/assets/stylesheets/active_admin/components/_unsupported_browser.scss\", \"app/assets/stylesheets/active_admin/mixins/_all.scss\", \"app/assets/stylesheets/active_admin/mixins/_buttons.scss\", \"app/assets/stylesheets/active_admin/mixins/_gradients.scss\", \"app/assets/stylesheets/active_admin/mixins/_icons.scss\", \"app/assets/stylesheets/active_admin/mixins/_reset.scss\", \"app/assets/stylesheets/active_admin/mixins/_rounded.scss\", \"app/assets/stylesheets/active_admin/mixins/_sections.scss\", \"app/assets/stylesheets/active_admin/mixins/_shadows.scss\", \"app/assets/stylesheets/active_admin/mixins/_typography.scss\", \"app/assets/stylesheets/active_admin/mixins/_utilities.scss\", \"app/assets/stylesheets/active_admin/mixins/_variables.scss\", \"app/assets/stylesheets/active_admin/pages/_logged_out.scss\", \"app/assets/stylesheets/active_admin/print.css.scss\", \"app/assets/stylesheets/active_admin/structure/_footer.scss\", \"app/assets/stylesheets/active_admin/structure/_main_structure.scss\", \"app/assets/stylesheets/active_admin/structure/_title_bar.scss\", \"app/views/active_admin/devise/confirmations/new.html.erb\", \"app/views/active_admin/devise/mailer/reset_password_instructions.html.erb\", \"app/views/active_admin/devise/mailer/unlock_instructions.html.erb\", \"app/views/active_admin/devise/passwords/edit.html.erb\", \"app/views/active_admin/devise/passwords/new.html.erb\", \"app/views/active_admin/devise/registrations/new.html.erb\", \"app/views/active_admin/devise/sessions/new.html.erb\", \"app/views/active_admin/devise/shared/_links.erb\", \"app/views/active_admin/devise/unlocks/new.html.erb\", \"app/views/active_admin/page/index.html.arb\", \"app/views/active_admin/resource/edit.html.arb\", \"app/views/active_admin/resource/index.html.arb\", \"app/views/active_admin/resource/new.html.arb\", \"app/views/active_admin/resource/show.html.arb\", \"app/views/layouts/active_admin.html.arb\", \"app/views/layouts/active_admin_logged_out.html.erb\", \"config/locales/ar.yml\", \"config/locales/bg.yml\", \"config/locales/bs.yml\", \"config/locales/ca.yml\", \"config/locales/cs.yml\", \"config/locales/da.yml\", \"config/locales/de-CH.yml\", \"config/locales/de.yml\", \"config/locales/el.yml\", \"config/locales/en-GB.yml\", \"config/locales/en.yml\", \"config/locales/es-MX.yml\", \"config/locales/es.yml\", \"config/locales/fa.yml\", \"config/locales/fi.yml\", \"config/locales/fr.yml\", \"config/locales/he.yml\", \"config/locales/hr.yml\", \"config/locales/hu.yml\", \"config/locales/it.yml\", \"config/locales/ja.yml\", \"config/locales/ko.yml\", \"config/locales/lt.yml\", \"config/locales/lv.yml\", \"config/locales/nb.yml\", \"config/locales/nl.yml\", \"config/locales/pl.yml\", \"config/locales/pt-BR.yml\", \"config/locales/pt-PT.yml\", \"config/locales/ro.yml\", \"config/locales/ru.yml\", \"config/locales/sv-SE.yml\", \"config/locales/tr.yml\", \"config/locales/uk.yml\", \"config/locales/vi.yml\", \"config/locales/zh-CN.yml\", \"config/locales/zh-TW.yml\", \"cucumber.yml\", \"docs/0-installation.md\", \"docs/1-general-configuration.md\", \"docs/10-custom-pages.md\", \"docs/11-decorators.md\", \"docs/12-arbre-components.md\", \"docs/13-authorization-adapter.md\", \"docs/14-gotchas.md\", \"docs/2-resource-customization.md\", \"docs/3-index-pages.md\", \"docs/3-index-pages/custom-index.md\", \"docs/3-index-pages/index-as-block.md\", \"docs/3-index-pages/index-as-blog.md\", \"docs/3-index-pages/index-as-grid.md\", \"docs/3-index-pages/index-as-table.md\", \"docs/4-csv-format.md\", \"docs/5-forms.md\", \"docs/6-show-pages.md\", \"docs/7-sidebars.md\", \"docs/8-custom-actions.md\", \"docs/9-batch-actions.md\", \"docs/README.md\", \"features/action_item.feature\", \"features/authorization.feature\", \"features/authorization_cancan.feature\", \"features/authorization_pundit.feature\", \"features/belongs_to.feature\", \"features/breadcrumb.feature\", \"features/comments/commenting.feature\", \"features/comments/viewing_index.feature\", \"features/dashboard.feature\", \"features/decorators.feature\", \"features/development_reloading.feature\", \"features/edit_page.feature\", \"features/favicon.feature\", \"features/first_boot.feature\", \"features/global_navigation.feature\", \"features/i18n.feature\", \"features/index/batch_actions.feature\", \"features/index/filters.feature\", \"features/index/format_as_csv.feature\", \"features/index/formats.feature\", \"features/index/index_as_block.feature\", \"features/index/index_as_blog.feature\", \"features/index/index_as_grid.feature\", \"features/index/index_as_table.feature\", \"features/index/index_blank_slate.feature\", \"features/index/index_parameters.feature\", \"features/index/index_scope_to.feature\", \"features/index/index_scopes.feature\", \"features/index/page_title.feature\", \"features/index/pagination.feature\", \"features/index/switch_index_view.feature\", \"features/menu.feature\", \"features/new_page.feature\", \"features/registering_assets.feature\", \"features/registering_pages.feature\", \"features/registering_resources.feature\", \"features/renamed_resource.feature\", \"features/root_to.feature\", \"features/show/default_content.feature\", \"features/show/page_title.feature\", \"features/show/tabs.feature\", \"features/sidebar_sections.feature\", \"features/site_title.feature\", \"features/specifying_actions.feature\", \"features/step_definitions/action_item_steps.rb\", \"features/step_definitions/action_link_steps.rb\", \"features/step_definitions/additional_web_steps.rb\", \"features/step_definitions/asset_steps.rb\", \"features/step_definitions/attribute_steps.rb\", \"features/step_definitions/batch_action_steps.rb\", \"features/step_definitions/blog_steps.rb\", \"features/step_definitions/breadcrumb_steps.rb\", \"features/step_definitions/comment_steps.rb\", \"features/step_definitions/configuration_steps.rb\", \"features/step_definitions/dashboard_steps.rb\", \"features/step_definitions/factory_steps.rb\", \"features/step_definitions/filter_steps.rb\", \"features/step_definitions/flash_steps.rb\", \"features/step_definitions/format_steps.rb\", \"features/step_definitions/i18n_steps.rb\", \"features/step_definitions/index_scope_steps.rb\", \"features/step_definitions/index_views_steps.rb\", \"features/step_definitions/layout_steps.rb\", \"features/step_definitions/member_link_steps.rb\", \"features/step_definitions/menu_steps.rb\", \"features/step_definitions/pagination_steps.rb\", \"features/step_definitions/sidebar_steps.rb\", \"features/step_definitions/site_title_steps.rb\", \"features/step_definitions/symbol_leak_steps.rb\", \"features/step_definitions/tab_steps.rb\", \"features/step_definitions/table_steps.rb\", \"features/step_definitions/user_steps.rb\", \"features/step_definitions/web_steps.rb\", \"features/sti_resource.feature\", \"features/strong_parameters.feature\", \"features/support/env.rb\", \"features/support/paths.rb\", \"features/support/selectors.rb\", \"features/symbol_leak.feature\", \"features/users/logging_in.feature\", \"features/users/logging_out.feature\", \"features/users/resetting_password.feature\", \"lib/active_admin.rb\", \"lib/active_admin/abstract_view_factory.rb\", \"lib/active_admin/application.rb\", \"lib/active_admin/asset_registration.rb\", \"lib/active_admin/authorization_adapter.rb\", \"lib/active_admin/base_controller.rb\", \"lib/active_admin/base_controller/authorization.rb\", \"lib/active_admin/base_controller/menu.rb\", \"lib/active_admin/batch_actions.rb\", \"lib/active_admin/batch_actions/controller.rb\", \"lib/active_admin/batch_actions/resource_extension.rb\", \"lib/active_admin/batch_actions/views/batch_action_form.rb\", \"lib/active_admin/batch_actions/views/batch_action_popover.rb\", \"lib/active_admin/batch_actions/views/batch_action_selector.rb\", \"lib/active_admin/batch_actions/views/selection_cells.rb\", \"lib/active_admin/callbacks.rb\", \"lib/active_admin/cancan_adapter.rb\", \"lib/active_admin/component.rb\", \"lib/active_admin/controller_action.rb\", \"lib/active_admin/csv_builder.rb\", \"lib/active_admin/dependency.rb\", \"lib/active_admin/deprecation.rb\", \"lib/active_admin/devise.rb\", \"lib/active_admin/dsl.rb\", \"lib/active_admin/engine.rb\", \"lib/active_admin/error.rb\", \"lib/active_admin/event.rb\", \"lib/active_admin/filters.rb\", \"lib/active_admin/filters/dsl.rb\", \"lib/active_admin/filters/forms.rb\", \"lib/active_admin/filters/formtastic_addons.rb\", \"lib/active_admin/filters/resource_extension.rb\", \"lib/active_admin/form_builder.rb\", \"lib/active_admin/helpers/collection.rb\", \"lib/active_admin/helpers/i18n.rb\", \"lib/active_admin/helpers/optional_display.rb\", \"lib/active_admin/helpers/scope_chain.rb\", \"lib/active_admin/helpers/settings.rb\", \"lib/active_admin/iconic.rb\", \"lib/active_admin/iconic/icons.rb\", \"lib/active_admin/inputs.rb\", \"lib/active_admin/inputs/datepicker_input.rb\", \"lib/active_admin/inputs/filters/base.rb\", \"lib/active_admin/inputs/filters/base/search_method_select.rb\", \"lib/active_admin/inputs/filters/boolean_input.rb\", \"lib/active_admin/inputs/filters/check_boxes_input.rb\", \"lib/active_admin/inputs/filters/date_range_input.rb\", \"lib/active_admin/inputs/filters/numeric_input.rb\", \"lib/active_admin/inputs/filters/select_input.rb\", \"lib/active_admin/inputs/filters/string_input.rb\", \"lib/active_admin/menu.rb\", \"lib/active_admin/menu_collection.rb\", \"lib/active_admin/menu_item.rb\", \"lib/active_admin/namespace.rb\", \"lib/active_admin/order_clause.rb\", \"lib/active_admin/orm/active_record.rb\", \"lib/active_admin/orm/active_record/comments.rb\", \"lib/active_admin/orm/active_record/comments/comment.rb\", \"lib/active_admin/orm/active_record/comments/namespace_helper.rb\", \"lib/active_admin/orm/active_record/comments/resource_helper.rb\", \"lib/active_admin/orm/active_record/comments/show_page_helper.rb\", \"lib/active_admin/orm/active_record/comments/views.rb\", \"lib/active_admin/orm/active_record/comments/views/active_admin_comments.rb\", \"lib/active_admin/orm/mongoid.rb\", \"lib/active_admin/orm/mongoid/.gitkeep\", \"lib/active_admin/page.rb\", \"lib/active_admin/page_controller.rb\", \"lib/active_admin/page_dsl.rb\", \"lib/active_admin/page_presenter.rb\", \"lib/active_admin/pundit_adapter.rb\", \"lib/active_admin/resource.rb\", \"lib/active_admin/resource/action_items.rb\", \"lib/active_admin/resource/belongs_to.rb\", \"lib/active_admin/resource/controllers.rb\", \"lib/active_admin/resource/includes.rb\", \"lib/active_admin/resource/menu.rb\", \"lib/active_admin/resource/naming.rb\", \"lib/active_admin/resource/page_presenters.rb\", \"lib/active_admin/resource/pagination.rb\", \"lib/active_admin/resource/routes.rb\", \"lib/active_admin/resource/scope_to.rb\", \"lib/active_admin/resource/scopes.rb\", \"lib/active_admin/resource/sidebars.rb\", \"lib/active_admin/resource_collection.rb\", \"lib/active_admin/resource_controller.rb\", \"lib/active_admin/resource_controller/action_builder.rb\", \"lib/active_admin/resource_controller/data_access.rb\", \"lib/active_admin/resource_controller/decorators.rb\", \"lib/active_admin/resource_controller/resource_class_methods.rb\", \"lib/active_admin/resource_controller/scoping.rb\", \"lib/active_admin/resource_controller/sidebars.rb\", \"lib/active_admin/resource_controller/streaming.rb\", \"lib/active_admin/resource_dsl.rb\", \"lib/active_admin/router.rb\", \"lib/active_admin/scope.rb\", \"lib/active_admin/sidebar_section.rb\", \"lib/active_admin/version.rb\", \"lib/active_admin/view_factory.rb\", \"lib/active_admin/view_helpers.rb\", \"lib/active_admin/view_helpers/active_admin_application_helper.rb\", \"lib/active_admin/view_helpers/auto_link_helper.rb\", \"lib/active_admin/view_helpers/breadcrumb_helper.rb\", \"lib/active_admin/view_helpers/display_helper.rb\", \"lib/active_admin/view_helpers/download_format_links_helper.rb\", \"lib/active_admin/view_helpers/fields_for.rb\", \"lib/active_admin/view_helpers/flash_helper.rb\", \"lib/active_admin/view_helpers/form_helper.rb\", \"lib/active_admin/view_helpers/icon_helper.rb\", \"lib/active_admin/view_helpers/method_or_proc_helper.rb\", \"lib/active_admin/view_helpers/sidebar_helper.rb\", \"lib/active_admin/view_helpers/title_helper.rb\", \"lib/active_admin/view_helpers/view_factory_helper.rb\", \"lib/active_admin/views.rb\", \"lib/active_admin/views/action_items.rb\", \"lib/active_admin/views/components/action_list_popover.rb\", \"lib/active_admin/views/components/active_admin_form.rb\", \"lib/active_admin/views/components/attributes_table.rb\", \"lib/active_admin/views/components/blank_slate.rb\", \"lib/active_admin/views/components/columns.rb\", \"lib/active_admin/views/components/dropdown_menu.rb\", \"lib/active_admin/views/components/index_list.rb\", \"lib/active_admin/views/components/paginated_collection.rb\", \"lib/active_admin/views/components/panel.rb\", \"lib/active_admin/views/components/popover.rb\", \"lib/active_admin/views/components/scopes.rb\", \"lib/active_admin/views/components/sidebar_section.rb\", \"lib/active_admin/views/components/site_title.rb\", \"lib/active_admin/views/components/status_tag.rb\", \"lib/active_admin/views/components/table_for.rb\", \"lib/active_admin/views/components/tabs.rb\", \"lib/active_admin/views/components/unsupported_browser.rb\", \"lib/active_admin/views/footer.rb\", \"lib/active_admin/views/header.rb\", \"lib/active_admin/views/index_as_block.rb\", \"lib/active_admin/views/index_as_blog.rb\", \"lib/active_admin/views/index_as_grid.rb\", \"lib/active_admin/views/index_as_table.rb\", \"lib/active_admin/views/pages/base.rb\", \"lib/active_admin/views/pages/form.rb\", \"lib/active_admin/views/pages/index.rb\", \"lib/active_admin/views/pages/layout.rb\", \"lib/active_admin/views/pages/page.rb\", \"lib/active_admin/views/pages/show.rb\", \"lib/active_admin/views/tabbed_navigation.rb\", \"lib/active_admin/views/title_bar.rb\", \"lib/activeadmin.rb\", \"lib/generators/active_admin/assets/assets_generator.rb\", \"lib/generators/active_admin/assets/templates/active_admin.css.scss\", \"lib/generators/active_admin/assets/templates/active_admin.js.coffee\", \"lib/generators/active_admin/devise/devise_generator.rb\", \"lib/generators/active_admin/install/install_generator.rb\", \"lib/generators/active_admin/install/templates/active_admin.rb.erb\", \"lib/generators/active_admin/install/templates/admin_user.rb.erb\", \"lib/generators/active_admin/install/templates/dashboard.rb\", \"lib/generators/active_admin/install/templates/migrations/create_active_admin_comments.rb\", \"lib/generators/active_admin/page/USAGE\", \"lib/generators/active_admin/page/page_generator.rb\", \"lib/generators/active_admin/page/templates/page.rb\", \"lib/generators/active_admin/resource/resource_generator.rb\", \"lib/generators/active_admin/resource/templates/admin.rb\", \"lib/ransack_ext.rb\", \"script/local\", \"script/travis_cache\", \"script/use_rails\", \"spec/javascripts/coffeescripts/jquery.aa.checkbox-toggler-spec.js.coffee\", \"spec/javascripts/coffeescripts/jquery.aa.flash.js.coffee\", \"spec/javascripts/coffeescripts/jquery.aa.popover-spec.js.coffee\", \"spec/javascripts/coffeescripts/jquery.aa.table-checkbox-toggler-spec.js.coffee\", \"spec/javascripts/fixtures/checkboxes.html\", \"spec/javascripts/fixtures/flashes.html\", \"spec/javascripts/fixtures/table_checkboxes.html\", \"spec/javascripts/helpers/SpecHelper.js\", \"spec/javascripts/support/jasmine.yml\", \"spec/javascripts/support/jasmine_config.rb\", \"spec/javascripts/support/jasmine_runner.rb\", \"spec/rails_helper.rb\", \"spec/requests/default_namespace_spec.rb\", \"spec/requests/javascript_spec.rb\", \"spec/requests/memory_spec.rb\", \"spec/requests/stylesheets_spec.rb\", \"spec/spec_helper.rb\", \"spec/support/deferred_garbage_collection.rb\", \"spec/support/detect_rails_version.rb\", \"spec/support/integration_example_group.rb\", \"spec/support/jslint.yml\", \"spec/support/rails_template.rb\", \"spec/support/rails_template_with_data.rb\", \"spec/support/templates/admin/stores.rb\", \"spec/support/templates/cucumber.rb\", \"spec/support/templates/cucumber_with_reloading.rb\", \"spec/support/templates/en.yml\", \"spec/support/templates/policies/active_admin/comment_policy.rb\", \"spec/support/templates/policies/active_admin/page_policy.rb\", \"spec/support/templates/policies/admin_user_policy.rb\", \"spec/support/templates/policies/application_policy.rb\", \"spec/support/templates/policies/category_policy.rb\", \"spec/support/templates/policies/post_policy.rb\", \"spec/support/templates/policies/store_policy.rb\", \"spec/support/templates/policies/user_policy.rb\", \"spec/support/templates/post_decorator.rb\", \"spec/unit/abstract_view_factory_spec.rb\", \"spec/unit/action_builder_spec.rb\", \"spec/unit/active_admin_spec.rb\", \"spec/unit/application_spec.rb\", \"spec/unit/asset_registration_spec.rb\", \"spec/unit/authorization/authorization_adapter_spec.rb\", \"spec/unit/authorization/controller_authorization_spec.rb\", \"spec/unit/authorization/index_overriding_spec.rb\", \"spec/unit/auto_link_spec.rb\", \"spec/unit/batch_actions/resource_spec.rb\", \"spec/unit/batch_actions/settings_spec.rb\", \"spec/unit/belongs_to_spec.rb\", \"spec/unit/cancan_adapter_spec.rb\", \"spec/unit/comments_spec.rb\", \"spec/unit/component_spec.rb\", \"spec/unit/config_shared_examples.rb\", \"spec/unit/controller_filters_spec.rb\", \"spec/unit/csv_builder_spec.rb\", \"spec/unit/dependency_spec.rb\", \"spec/unit/devise_spec.rb\", \"spec/unit/dsl_spec.rb\", \"spec/unit/event_spec.rb\", \"spec/unit/filters/filter_form_builder_spec.rb\", \"spec/unit/filters/resource_spec.rb\", \"spec/unit/form_builder_spec.rb\", \"spec/unit/generators/install_spec.rb\", \"spec/unit/helpers/collection_spec.rb\", \"spec/unit/helpers/scope_chain_spec.rb\", \"spec/unit/helpers/settings_spec.rb\", \"spec/unit/i18n_spec.rb\", \"spec/unit/menu_collection_spec.rb\", \"spec/unit/menu_item_spec.rb\", \"spec/unit/menu_spec.rb\", \"spec/unit/namespace/authorization_spec.rb\", \"spec/unit/namespace/register_page_spec.rb\", \"spec/unit/namespace/register_resource_spec.rb\", \"spec/unit/namespace_spec.rb\", \"spec/unit/order_clause_spec.rb\", \"spec/unit/page_controller_spec.rb\", \"spec/unit/page_spec.rb\", \"spec/unit/pretty_format_spec.rb\", \"spec/unit/pundit_adapter_spec.rb\", \"spec/unit/resource/action_items_spec.rb\", \"spec/unit/resource/includes_spec.rb\", \"spec/unit/resource/menu_spec.rb\", \"spec/unit/resource/naming_spec.rb\", \"spec/unit/resource/page_presenters_spec.rb\", \"spec/unit/resource/pagination_spec.rb\", \"spec/unit/resource/routes_spec.rb\", \"spec/unit/resource/scopes_spec.rb\", \"spec/unit/resource/sidebars_spec.rb\", \"spec/unit/resource_collection_spec.rb\", \"spec/unit/resource_controller/data_access_spec.rb\", \"spec/unit/resource_controller/decorators_spec.rb\", \"spec/unit/resource_controller/sidebars_spec.rb\", \"spec/unit/resource_controller_spec.rb\", \"spec/unit/resource_registration_spec.rb\", \"spec/unit/resource_spec.rb\", \"spec/unit/routing_spec.rb\", \"spec/unit/scope_spec.rb\", \"spec/unit/settings_spec.rb\", \"spec/unit/view_factory_spec.rb\", \"spec/unit/view_helpers/breadcrumbs_spec.rb\", \"spec/unit/view_helpers/display_name_spec.rb\", \"spec/unit/view_helpers/download_format_links_helper_spec.rb\", \"spec/unit/view_helpers/fields_for_spec.rb\", \"spec/unit/view_helpers/flash_helper_spec.rb\", \"spec/unit/view_helpers/form_helper_spec.rb\", \"spec/unit/view_helpers/method_or_proc_helper_spec.rb\", \"spec/unit/views/components/action_list_popover_spec.rb\", \"spec/unit/views/components/attributes_table_spec.rb\", \"spec/unit/views/components/batch_action_popover_spec.rb\", \"spec/unit/views/components/blank_slate_spec.rb\", \"spec/unit/views/components/columns_spec.rb\", \"spec/unit/views/components/index_list_spec.rb\", \"spec/unit/views/components/index_table_for_spec.rb\", \"spec/unit/views/components/paginated_collection_spec.rb\", \"spec/unit/views/components/panel_spec.rb\", \"spec/unit/views/components/popover_spec.rb\", \"spec/unit/views/components/sidebar_section_spec.rb\", \"spec/unit/views/components/site_title_spec.rb\", \"spec/unit/views/components/status_tag_spec.rb\", \"spec/unit/views/components/table_for_spec.rb\", \"spec/unit/views/components/tabs_spec.rb\", \"spec/unit/views/components/unsupported_browser_spec.rb\", \"spec/unit/views/pages/form_spec.rb\", \"spec/unit/views/pages/index_spec.rb\", \"spec/unit/views/pages/layout_spec.rb\", \"spec/unit/views/pages/show_spec.rb\", \"spec/unit/views/tabbed_navigation_spec.rb\", \"tasks/docs.rake\", \"tasks/parallel_tests.rake\", \"tasks/test.rake\", \"tasks/yard.rake\"]\n   15    s.homepage = \"http://activeadmin.info\"\n   16    s.licenses = [\"MIT\"]\n   17    s.rubygems_version = \"2.2.2\"\n   18    s.summary = \"The administration framework for Ruby on Rails.\"\n   19:   s.test_files = [\"features/action_item.feature\", \"features/authorization.feature\", \"features/authorization_cancan.feature\", \"features/authorization_pundit.feature\", \"features/belongs_to.feature\", \"features/breadcrumb.feature\", \"features/comments/commenting.feature\", \"features/comments/viewing_index.feature\", \"features/dashboard.feature\", \"features/decorators.feature\", \"features/development_reloading.feature\", \"features/edit_page.feature\", \"features/favicon.feature\", \"features/first_boot.feature\", \"features/global_navigation.feature\", \"features/i18n.feature\", \"features/index/batch_actions.feature\", \"features/index/filters.feature\", \"features/index/format_as_csv.feature\", \"features/index/formats.feature\", \"features/index/index_as_block.feature\", \"features/index/index_as_blog.feature\", \"features/index/index_as_grid.feature\", \"features/index/index_as_table.feature\", \"features/index/index_blank_slate.feature\", \"features/index/index_parameters.feature\", \"features/index/index_scope_to.feature\", \"features/index/index_scopes.feature\", \"features/index/page_title.feature\", \"features/index/pagination.feature\", \"features/index/switch_index_view.feature\", \"features/menu.feature\", \"features/new_page.feature\", \"features/registering_assets.feature\", \"features/registering_pages.feature\", \"features/registering_resources.feature\", \"features/renamed_resource.feature\", \"features/root_to.feature\", \"features/show/default_content.feature\", \"features/show/page_title.feature\", \"features/show/tabs.feature\", \"features/sidebar_sections.feature\", \"features/site_title.feature\", \"features/specifying_actions.feature\", \"features/step_definitions/action_item_steps.rb\", \"features/step_definitions/action_link_steps.rb\", \"features/step_definitions/additional_web_steps.rb\", \"features/step_definitions/asset_steps.rb\", \"features/step_definitions/attribute_steps.rb\", \"features/step_definitions/batch_action_steps.rb\", \"features/step_definitions/blog_steps.rb\", \"features/step_definitions/breadcrumb_steps.rb\", \"features/step_definitions/comment_steps.rb\", \"features/step_definitions/configuration_steps.rb\", \"features/step_definitions/dashboard_steps.rb\", \"features/step_definitions/factory_steps.rb\", \"features/step_definitions/filter_steps.rb\", \"features/step_definitions/flash_steps.rb\", \"features/step_definitions/format_steps.rb\", \"features/step_definitions/i18n_steps.rb\", \"features/step_definitions/index_scope_steps.rb\", \"features/step_definitions/index_views_steps.rb\", \"features/step_definitions/layout_steps.rb\", \"features/step_definitions/member_link_steps.rb\", \"features/step_definitions/menu_steps.rb\", \"features/step_definitions/pagination_steps.rb\", \"features/step_definitions/sidebar_steps.rb\", \"features/step_definitions/site_title_steps.rb\", \"features/step_definitions/symbol_leak_steps.rb\", \"features/step_definitions/tab_steps.rb\", \"features/step_definitions/table_steps.rb\", \"features/step_definitions/user_steps.rb\", \"features/step_definitions/web_steps.rb\", \"features/sti_resource.feature\", \"features/strong_parameters.feature\", \"features/support/env.rb\", \"features/support/paths.rb\", \"features/support/selectors.rb\", \"features/symbol_leak.feature\", \"features/users/logging_in.feature\", \"features/users/logging_out.feature\", \"features/users/resetting_password.feature\", \"spec/javascripts/coffeescripts/jquery.aa.checkbox-toggler-spec.js.coffee\", \"spec/javascripts/coffeescripts/jquery.aa.flash.js.coffee\", \"spec/javascripts/coffeescripts/jquery.aa.popover-spec.js.coffee\", \"spec/javascripts/coffeescripts/jquery.aa.table-checkbox-toggler-spec.js.coffee\", \"spec/javascripts/fixtures/checkboxes.html\", \"spec/javascripts/fixtures/flashes.html\", \"spec/javascripts/fixtures/table_checkboxes.html\", \"spec/javascripts/helpers/SpecHelper.js\", \"spec/javascripts/support/jasmine.yml\", \"spec/javascripts/support/jasmine_config.rb\", \"spec/javascripts/support/jasmine_runner.rb\", \"spec/rails_helper.rb\", \"spec/requests/default_namespace_spec.rb\", \"spec/requests/javascript_spec.rb\", \"spec/requests/memory_spec.rb\", \"spec/requests/stylesheets_spec.rb\", \"spec/spec_helper.rb\", \"spec/support/deferred_garbage_collection.rb\", \"spec/support/detect_rails_version.rb\", \"spec/support/integration_example_group.rb\", \"spec/support/jslint.yml\", \"spec/support/rails_template.rb\", \"spec/support/rails_template_with_data.rb\", \"spec/support/templates/admin/stores.rb\", \"spec/support/templates/cucumber.rb\", \"spec/support/templates/cucumber_with_reloading.rb\", \"spec/support/templates/en.yml\", \"spec/support/templates/policies/active_admin/comment_policy.rb\", \"spec/support/templates/policies/active_admin/page_policy.rb\", \"spec/support/templates/policies/admin_user_policy.rb\", \"spec/support/templates/policies/application_policy.rb\", \"spec/support/templates/policies/category_policy.rb\", \"spec/support/templates/policies/post_policy.rb\", \"spec/support/templates/policies/store_policy.rb\", \"spec/support/templates/policies/user_policy.rb\", \"spec/support/templates/post_decorator.rb\", \"spec/unit/abstract_view_factory_spec.rb\", \"spec/unit/action_builder_spec.rb\", \"spec/unit/active_admin_spec.rb\", \"spec/unit/application_spec.rb\", \"spec/unit/asset_registration_spec.rb\", \"spec/unit/authorization/authorization_adapter_spec.rb\", \"spec/unit/authorization/controller_authorization_spec.rb\", \"spec/unit/authorization/index_overriding_spec.rb\", \"spec/unit/auto_link_spec.rb\", \"spec/unit/batch_actions/resource_spec.rb\", \"spec/unit/batch_actions/settings_spec.rb\", \"spec/unit/belongs_to_spec.rb\", \"spec/unit/cancan_adapter_spec.rb\", \"spec/unit/comments_spec.rb\", \"spec/unit/component_spec.rb\", \"spec/unit/config_shared_examples.rb\", \"spec/unit/controller_filters_spec.rb\", \"spec/unit/csv_builder_spec.rb\", \"spec/unit/dependency_spec.rb\", \"spec/unit/devise_spec.rb\", \"spec/unit/dsl_spec.rb\", \"spec/unit/event_spec.rb\", \"spec/unit/filters/filter_form_builder_spec.rb\", \"spec/unit/filters/resource_spec.rb\", \"spec/unit/form_builder_spec.rb\", \"spec/unit/generators/install_spec.rb\", \"spec/unit/helpers/collection_spec.rb\", \"spec/unit/helpers/scope_chain_spec.rb\", \"spec/unit/helpers/settings_spec.rb\", \"spec/unit/i18n_spec.rb\", \"spec/unit/menu_collection_spec.rb\", \"spec/unit/menu_item_spec.rb\", \"spec/unit/menu_spec.rb\", \"spec/unit/namespace/authorization_spec.rb\", \"spec/unit/namespace/register_page_spec.rb\", \"spec/unit/namespace/register_resource_spec.rb\", \"spec/unit/namespace_spec.rb\", \"spec/unit/order_clause_spec.rb\", \"spec/unit/page_controller_spec.rb\", \"spec/unit/page_spec.rb\", \"spec/unit/pretty_format_spec.rb\", \"spec/unit/pundit_adapter_spec.rb\", \"spec/unit/resource/action_items_spec.rb\", \"spec/unit/resource/includes_spec.rb\", \"spec/unit/resource/menu_spec.rb\", \"spec/unit/resource/naming_spec.rb\", \"spec/unit/resource/page_presenters_spec.rb\", \"spec/unit/resource/pagination_spec.rb\", \"spec/unit/resource/routes_spec.rb\", \"spec/unit/resource/scopes_spec.rb\", \"spec/unit/resource/sidebars_spec.rb\", \"spec/unit/resource_collection_spec.rb\", \"spec/unit/resource_controller/data_access_spec.rb\", \"spec/unit/resource_controller/decorators_spec.rb\", \"spec/unit/resource_controller/sidebars_spec.rb\", \"spec/unit/resource_controller_spec.rb\", \"spec/unit/resource_registration_spec.rb\", \"spec/unit/resource_spec.rb\", \"spec/unit/routing_spec.rb\", \"spec/unit/scope_spec.rb\", \"spec/unit/settings_spec.rb\", \"spec/unit/view_factory_spec.rb\", \"spec/unit/view_helpers/breadcrumbs_spec.rb\", \"spec/unit/view_helpers/display_name_spec.rb\", \"spec/unit/view_helpers/download_format_links_helper_spec.rb\", \"spec/unit/view_helpers/fields_for_spec.rb\", \"spec/unit/view_helpers/flash_helper_spec.rb\", \"spec/unit/view_helpers/form_helper_spec.rb\", \"spec/unit/view_helpers/method_or_proc_helper_spec.rb\", \"spec/unit/views/components/action_list_popover_spec.rb\", \"spec/unit/views/components/attributes_table_spec.rb\", \"spec/unit/views/components/batch_action_popover_spec.rb\", \"spec/unit/views/components/blank_slate_spec.rb\", \"spec/unit/views/components/columns_spec.rb\", \"spec/unit/views/components/index_list_spec.rb\", \"spec/unit/views/components/index_table_for_spec.rb\", \"spec/unit/views/components/paginated_collection_spec.rb\", \"spec/unit/views/components/panel_spec.rb\", \"spec/unit/views/components/popover_spec.rb\", \"spec/unit/views/components/sidebar_section_spec.rb\", \"spec/unit/views/components/site_title_spec.rb\", \"spec/unit/views/components/status_tag_spec.rb\", \"spec/unit/views/components/table_for_spec.rb\", \"spec/unit/views/components/tabs_spec.rb\", \"spec/unit/views/components/unsupported_browser_spec.rb\", \"spec/unit/views/pages/form_spec.rb\", \"spec/unit/views/pages/index_spec.rb\", \"spec/unit/views/pages/layout_spec.rb\", \"spec/unit/views/pages/show_spec.rb\", \"spec/unit/views/tabbed_navigation_spec.rb\"]\n   20  \n   21    if s.respond_to? :specification_version then\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/docs/1-general-configuration.md:\n   12  \n   13  ```ruby\n   14: config.authentication_method = :authenticate_admin_user!\n   15  ```\n   16  \n   ..\n   18  \n   19  ```ruby\n   20: config.current_user_method = :current_admin_user\n   21  ```\n   22  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/docs/3-index-pages.md:\n  175  \n  176  # conditionally show a custom controller scope\n  177: scope \"Published\", if: proc { current_admin_user.can? :manage, Posts } do |posts|\n  178    posts.published\n  179  end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/docs/7-sidebars.md:\n   35  \n   36  ```ruby\n   37: sidebar :help, if: proc{ current_admin_user.super_admin? } do\n   38    \"Only for super admins!\"\n   39  end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/docs/8-custom-actions.md:\n  136  \n  137  ```ruby\n  138: action_item :super_action, only: :show, if: proc{ current_admin_user.super_admin? } do\n  139    \"Only display this to super admins on the show screen\"\n  140  end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/docs/9-batch-actions.md:\n  155  \n  156  ```coffee\n  157: if $('body.admin_users').length\n  158    $('a[data-prompt]').click ->\n  159      ActiveAdmin.modal_dialog $(@).data('prompt'), comment: 'textarea',\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/features/action_item.feature:\n   33      \"\"\"\n   34      ActiveAdmin.register Post do\n   35:       action_item :embiggen, :if => proc{ !current_active_admin_user.nil? } do\n   36          link_to \"Embiggen\", '/'\n   37        end\n   ..\n   55      \"\"\"\n   56      ActiveAdmin.register Post do\n   57:       action_item :embiggen, :if => proc{ current_active_admin_user.nil? } do\n   58          link_to \"Embiggen\", '/'\n   59        end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/features/new_page.feature:\n   92          form do |f|\n   93            f.inputs \"Your Post\" do\n   94:             if current_admin_user && false\n   95                f.input :title\n   96              end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/features/sidebar_sections.feature:\n   81      \"\"\"\n   82      ActiveAdmin.register Post do\n   83:       sidebar :help, :only => :index, :if => proc{ current_active_admin_user.nil? } do\n   84          \"Need help? Email us at help@example.com\"\n   85        end\n   ..\n  129      \"\"\"\n  130      ActiveAdmin.register Post do\n  131:       sidebar :help, :only => :show, :if => proc{ !current_active_admin_user.nil? } do\n  132          \"Need help? Email us at help@example.com\"\n  133        end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/features/site_title.feature:\n   42      \"\"\"\n   43        ActiveAdmin.application.site_title_image = nil # Configuration is not reset between scenarios\n   44:       ActiveAdmin.application.site_title = proc { \"Hello #{controller.current_admin_user.try(:email) || 'you!'}\" }\n   45      \"\"\"\n   46      When I am on the dashboard\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/features/index/index_as_table.feature:\n   68        ActiveAdmin.register Post do\n   69          index do\n   70:           if current_active_admin_user\n   71              column :title\n   72            end\n   73:           if current_active_admin_user.nil?\n   74              column :body\n   75            end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/features/step_definitions/user_steps.rb:\n   22    step 'log out'\n   23  \n   24:   visit new_admin_user_session_path\n   25    fill_in 'Email',    with: 'admin@example.com'\n   26    fill_in 'Password', with: 'password'\n   ..\n   33  \n   34  Given /^\"([^\"]*)\" requests a password reset with token \"([^\"]*)\"( but it expires)?$/ do |email, token, expired|\n   35:   visit new_admin_user_password_path\n   36    fill_in 'Email', with: email\n   37    allow(Devise).to receive(:friendly_token).and_return(token)\n   ..\n   42  \n   43  When /^I fill in the password field with \"([^\"]*)\"$/ do |password|\n   44:   fill_in 'admin_user_password', with: password\n   45  end\n   46  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/features/support/paths.rb:\n   41  \n   42      when /^the last author's posts$/\n   43:       admin_user_posts_path(User.last)\n   44  \n   45      when /^the last author's last post page$/\n   46:       admin_user_post_path(User.last, Post.where(author_id: User.last.id).last)\n   47  \n   48      when /^the last post's edit page$/\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/features/users/logging_in.feature:\n   18      Then I should be on the the dashboard\n   19      And I should see the element \"a[href='/admin/logout'       ]:contains('Logout')\"\n   20:     And I should see the element \"a[href='/admin/admin_users/1']:contains('admin@example.com')\"\n   21  \n   22    Scenario: Attempting to log in with an incorrect email address\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/lib/active_admin/application.rb:\n   54      # The path to log user's out with. If set to a symbol, we assume\n   55      # that it's a method to call which returns the path\n   56:     inheritable_setting :logout_link_path, :destroy_admin_user_session_path\n   57  \n   58      # The method to use when generating the link for user logout\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/lib/active_admin/authorization_adapter.rb:\n   30      #\n   31      # @param [any] user The current user. The user is set to whatever is returned\n   32:     #        from `#current_active_admin_user` in the controller.\n   33      #\n   34      def initialize(resource, user)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/lib/active_admin/base_controller.rb:\n   12  \n   13      before_filter :only_render_implemented_actions\n   14:     before_filter :authenticate_active_admin_user\n   15  \n   16      class << self\n   ..\n   36  \n   37      # Calls the authentication method as defined in ActiveAdmin.authentication_method\n   38:     def authenticate_active_admin_user\n   39        send(active_admin_namespace.authentication_method) if active_admin_namespace.authentication_method\n   40      end\n   41  \n   42:     def current_active_admin_user\n   43        send(active_admin_namespace.current_user_method) if active_admin_namespace.current_user_method\n   44      end\n   45:     helper_method :current_active_admin_user\n   46  \n   47:     def current_active_admin_user?\n   48:       !!current_active_admin_user\n   49      end\n   50:     helper_method :current_active_admin_user?\n   51  \n   52      def active_admin_config\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/lib/active_admin/namespace.rb:\n  134            label: ->{ I18n.t 'active_admin.logout' },\n  135            url:   ->{ render_or_call_method_or_proc_on self, active_admin_namespace.logout_link_path },\n  136:           if:    :current_active_admin_user?\n  137        end\n  138      end\n  ...\n  147        if current_user_method\n  148          menu.add id: 'current_user', priority: priority, html_options: html_options,\n  149:           label: ->{ display_name current_active_admin_user },\n  150:           url:   ->{ auto_url_for(current_active_admin_user) || '#' },\n  151:           if:    :current_active_admin_user?\n  152        end\n  153      end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/lib/active_admin/scope.rb:\n   14      #   # => Scope with name 'Published' and scope method :public\n   15      #\n   16:     #   Scope.new 'Published', :public, if: proc { current_admin_user.can? :manage, resource_class } do |articles|\n   17      #     articles.where published: true\n   18      #   end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/lib/active_admin/base_controller/authorization.rb:\n   54        def authorize!(action, subject = nil)\n   55          unless authorized? action, subject\n   56:           raise ActiveAdmin::AccessDenied.new(current_active_admin_user,\n   57                                                action,\n   58                                                subject)\n   ..\n   73        def active_admin_authorization\n   74          @active_admin_authorization ||=\n   75:          active_admin_authorization_adapter.new active_admin_config, current_active_admin_user\n   76        end\n   77  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/lib/active_admin/orm/active_record/comments.rb:\n   40        before_save do |comment|\n   41          comment.namespace = active_admin_config.namespace.name\n   42:         comment.author    = current_active_admin_user\n   43        end\n   44  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/lib/active_admin/resource/scope_to.rb:\n   29        # To conditionally use this scope, you can use conditional procs\n   30        #\n   31:       #   scope_to :current_user, if: proc{ admin_user_signed_in? }\n   32        #\n   33        # or\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/lib/active_admin/views/index_as_table.rb:\n  271          #\n  272          # # Append some actions onto the end of the default actions.\n  273:         # actions do |admin_user|\n  274:         #   item 'Grant Admin', grant_admin_admin_user_path(admin_user)\n  275:         #   item 'Grant User', grant_user_admin_user_path(admin_user)\n  276          # end\n  277          #\n  278          # # Append some actions onto the end of the default actions using arbre dsl.\n  279:         # actions do |admin_user|\n  280:         #   a link_to 'Grant Admin', grant_admin_admin_user_path(admin_user)\n  281          # end\n  282          #\n  283          # # Custom actions without the defaults.\n  284:         # actions defaults: false do |admin_user|\n  285:         #   item 'Grant Admin', grant_admin_admin_user_path(admin_user)\n  286          # end\n  287          #\n  288          # # Append some actions onto the end of the default actions displayed in a Dropdown Menu\n  289:         # actions dropdown: true do |admin_user|\n  290:         #   item 'Grant Admin', grant_admin_admin_user_path(admin_user)\n  291          # end\n  292          #\n  293          # # Custom actions without the defaults displayed in a Dropdown Menu.\n  294:         # actions defaults: false, dropdown: true, dropdown_name: 'Additional actions' do |admin_user|\n  295:         #   item 'Grant Admin', grant_admin_admin_user_path(admin_user)\n  296          # end\n  297          #\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/lib/generators/active_admin/devise/devise_generator.rb:\n   11                      desc: \"Should the generated resource be registerable?\"\n   12  \n   13:       RESERVED_NAMES = [:active_admin_user]\n   14  \n   15        class_option  :default_user, :type => :boolean, :default => true,\n   ..\n   33        end\n   34  \n   35:       def create_admin_user\n   36          if RESERVED_NAMES.include?(name.underscore)\n   37            raise Error, \"The name #{name} is reserved by Active Admin\"\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/lib/generators/active_admin/install/install_generator.rb:\n   22          if options[:users].present?\n   23            @user_class = name\n   24:           template 'admin_user.rb.erb', \"app/admin/#{name.underscore}.rb\"\n   25          end\n   26        end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/spec/requests/default_namespace_spec.rb:\n   23  \n   24        it \"should generate a log out path\" do\n   25:         expect(destroy_admin_user_session_path).to eq \"/logout\"\n   26        end\n   27  \n   28        it \"should generate a log in path\" do\n   29:         expect(new_admin_user_session_path).to eq \"/login\"\n   30        end\n   31  \n   ..\n   50  \n   51        it \"should generate a log out path\" do\n   52:         expect(destroy_admin_user_session_path).to eq \"/test/logout\"\n   53        end\n   54  \n   55        it \"should generate a log in path\" do\n   56:         expect(new_admin_user_session_path).to eq \"/test/login\"\n   57        end\n   58  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/spec/support/rails_template_with_data.rb:\n   23  \n   24    scope :my_posts do |posts|\n   25:     posts.where(author_id: current_admin_user.id)\n   26    end\n   27  EOF\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/spec/unit/application_spec.rb:\n   78  \n   79      it \"should have a logout link path (Devise's default)\" do\n   80:       expect(application.logout_link_path).to eq :destroy_admin_user_session_path\n   81      end\n   82  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/spec/unit/devise_spec.rb:\n   57          scope path: SCOPE do\n   58            ActiveAdmin.routes(self)\n   59:           devise_for :admin_users, ActiveAdmin::Devise.config\n   60          end\n   61        end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/spec/unit/resource_controller_spec.rb:\n   12        expect(namespace).to receive(:authentication_method).once.and_return(nil)\n   13  \n   14:       controller.send(:authenticate_active_admin_user)\n   15      end\n   16  \n   ..\n   19  \n   20        expect(namespace).to receive(:authentication_method).twice.\n   21:         and_return(:authenticate_admin_user!)\n   22  \n   23:       expect(controller).to receive(:authenticate_admin_user!).and_return(true)\n   24  \n   25:       controller.send(:authenticate_active_admin_user)\n   26      end\n   27  \n   ..\n   35        expect(namespace).to receive(:current_user_method).once.and_return(nil)\n   36  \n   37:       expect(controller.send(:current_active_admin_user)).to eq nil\n   38      end\n   39  \n   ..\n   43  \n   44        expect(namespace).to receive(:current_user_method).twice.\n   45:         and_return(:current_admin_user)\n   46  \n   47:       expect(controller).to receive(:current_admin_user).and_return(user)\n   48  \n   49:       expect(controller.send(:current_active_admin_user)).to eq user\n   50      end\n   51    end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/spec/unit/routing_spec.rb:\n  113    describe \"belongs to resource\" do\n  114      it \"should route the nested index path\" do\n  115:       expect(admin_user_posts_path(1)).to eq \"/admin/users/1/posts\"\n  116      end\n  117  \n  118      it \"should route the nested show path\" do\n  119:       expect(admin_user_post_path(1,2)).to eq \"/admin/users/1/posts/2\"\n  120      end\n  121  \n  122      it \"should route the nested new path\" do\n  123:       expect(new_admin_user_post_path(1)).to eq \"/admin/users/1/posts/new\"\n  124      end\n  125  \n  126      it \"should route the nested edit path\" do\n  127:       expect(edit_admin_user_post_path(1,2)).to eq \"/admin/users/1/posts/2/edit\"\n  128      end\n  129  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/spec/unit/views/pages/layout_spec.rb:\n   11        active_admin_namespace:     active_admin_namespace,\n   12        csrf_meta_tag:              '',\n   13:       current_active_admin_user:  nil,\n   14:       current_active_admin_user?: false,\n   15        current_menu:               double('Menu', items: []),\n   16        params:                     {controller: 'UsersController', action: 'edit'},\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rails-4.1.8/guides/source/active_support_core_extensions.md:\n 1522  ```ruby\n 1523  \"product\".camelize    # => \"Product\"\n 1524: \"admin_user\".camelize # => \"AdminUser\"\n 1525  ```\n 1526  \n ....\n 1570  ```ruby\n 1571  \"Product\".underscore   # => \"product\"\n 1572: \"AdminUser\".underscore # => \"admin_user\"\n 1573  ```\n 1574  \n\n97 matches across 40 files\n",
+			"settings":
+			{
+				"buffer_size": 51748,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "app/admin/user.rb",
+			"settings":
+			{
+				"buffer_size": 1403,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n",
+			"settings":
+			{
+				"buffer_size": 2331,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "vendor/bundle/ruby/2.1.0/gems/rails-4.1.8/guides/source/layout.html.erb",
+			"settings":
+			{
+				"buffer_size": 6491,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/admin/admin_user.rb",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"selected_items":
+		[
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"rdoc",
+				"Set Syntax: Rd (R Documentation)"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"sass",
+				"Set Syntax: SASS"
+			],
+			[
+				"rail",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"rspec",
+				"Set Syntax: RSpec"
+			],
+			[
+				"rspe",
+				"Set Syntax: RSpec"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"colo",
+				"Color Picker: Insert Color"
+			],
+			[
+				"coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"cu",
+				"Set Syntax: Cucumber Steps"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"color",
+				"Color Picker: Insert Color"
+			],
+			[
+				"ht",
+				"StringEncode: HTML Entitize"
+			],
+			[
+				"sa",
+				"Set Syntax: SASS"
+			],
+			[
+				"cucu",
+				"Set Syntax: Cucumber Steps"
+			],
+			[
+				"cuc",
+				"Set Syntax: Cucumber Steps"
+			],
+			[
+				"rails",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"steps",
+				"Set Syntax: Cucumber Steps"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"co",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"migrat",
+				"RubyTest: Generate Rails Migration"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"cucum",
+				"Set Syntax: Cucumber Steps"
+			],
+			[
+				"gher",
+				"Set Syntax: Gherkin"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"hex",
+				"Snippet: color: hex"
+			],
+			[
+				"installpac",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packake",
+				"Package Control: Discover Packages"
+			],
+			[
+				"new",
+				"File: New View into File"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/yannis/railsapps/kendo_gva/app/views/pages/home.html.erb",
+		"/Users/yannis/railsapps/kendo_gva/app/admin/admin_user.rb",
+		"/Users/yannis/railsapps/kendocup/config/initializers/active_admin.rb",
+		"/Users/yannis/railsapps/kendocup/config/routes.rb",
+		"/Users/yannis/railsapps/kendocup/lib/kendocup/admin/dashboard.rb",
+		"/Users/yannis/railsapps/kendocup/spec/dummy/config/locales/devise.en.yml",
+		"/Users/yannis/railsapps/kendocup/lib/generators/kendocup/install_generator.rb",
+		"/Users/yannis/railsapps/kendocup/lib/generators/kendocup/kendocup_generator.rb",
+		"/Users/yannis/railsapps/kendocup/app/views/kendocup/cups/index.html.haml.json",
+		"/Users/yannis/railsapps/kendocup/README.rdoc",
+		"/Users/yannis/railsapps/kendocup/lib/kendocup.rb",
+		"/Users/yannis/railsapps/kendocup/lib/kendocup/acts_as_fighter.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/headline.rb",
+		"/Users/yannis/railsapps/kendocup/lib/kendocup/acts_as_category.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/user.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/tree.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/team_category.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/team.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/smart_pooler.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/result.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/purchase.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/product.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/pool.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/participation.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/mailing_list.rb~end",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/kenshi.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/individual_category.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/fight.rb",
+		"/Users/yannis/railsapps/kendocup/lib/translate.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/event.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/club.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140418185835_add_columns_to_kendocup_users.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140323071451_create_kendocup_events.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140618094105_add_timestamps_to_kendocup_teams.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140903193602_create_kendocup_headlines.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140607164756_add_fee_fields_to_kendocup_cups.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140524043826_create_kendocup_purchases.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140524043825_create_kendocup_products.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140419152111_create_kendocup_teams.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140322143928_create_kendocup_participations.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140322140629_create_kendocup_kenshis.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140321201103_devise_create_kendocup_users.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140322134236_create_kendocup_fights.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140320142056_create_kendocup_clubs.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140319173336_create_kendocup_categories.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140319165902_create_kendocup_cups.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20141009093718_create_kendocup_results.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/cup.rb",
+		"/Users/yannis/railsapps/kendocup/spec/factories/kendocup_team_categories.rb",
+		"/Users/yannis/railsapps/kendocup/spec/factories/kendocup_individual_categories.rb",
+		"/Users/yannis/railsapps/kendocup/spec/factories/kendocup_users.rb",
+		"/Users/yannis/railsapps/kendocup/spec/factories/kendocup_fights.rb",
+		"/Users/yannis/railsapps/kendocup/spec/factories/kendocup_clubs.rb",
+		"/Users/yannis/railsapps/kendocup/spec/factories/kendocup_headlines.rb",
+		"/Users/yannis/railsapps/kendocup/spec/factories/kendocup_kenshis.rb",
+		"/Users/yannis/railsapps/kendocup/spec/factories/kendocup_cups.rb",
+		"/Users/yannis/railsapps/kendocup/spec/controllers/kendocup/cups_controller_spec.rb",
+		"/Users/yannis/railsapps/kendocup/spec/rails_helper.rb",
+		"/Users/yannis/railsapps/kendocup/spec/views/kendocup/cups/show.html.erb_spec.rb",
+		"/Users/yannis/railsapps/kendocup/spec/views/kendocup/cups/new.html.erb_spec.rb",
+		"/Users/yannis/railsapps/kendocup/spec/views/kendocup/cups/index.html.erb_spec.rb",
+		"/Users/yannis/railsapps/kendocup/spec/views/kendocup/cups/edit.html.erb_spec.rb",
+		"/Users/yannis/railsapps/kendocup/spec/routing/kendocup/cups_routing_spec.rb",
+		"/Users/yannis/railsapps/kendocup/spec/models/kendocup/cup_spec.rb",
+		"/Users/yannis/railsapps/kendocup/lib/kendocup/engine.rb",
+		"/Users/yannis/railsapps/kendocup/spec/spec_helper.rb",
+		"/Users/yannis/railsapps/kendocup/spec/dummy/config/application.rb",
+		"/Users/yannis/railsapps/kendocup/Rakefile",
+		"/Users/yannis/railsapps/kendocup/kendocup.gemspec",
+		"/Users/yannis/railsapps/kendocup/spec/dummy/config/database.yml",
+		"/Users/yannis/railsapps/kendocup/kendocup.sublime-project",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20141107154131_create_kendocup_cups.rb",
+		"/Users/yannis/railsapps/kendocup/lib/kendocup/translate.rb",
+		"/Users/yannis/railsapps/kendocup/app/models/kendocup/mailing_list.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140618094105_add_timestamps_to_Kendocupteams.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140618094105_add_timestamps_to_teams.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20141009093718_create_results.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140903193602_create_headlines.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140607164756_add_fee_fields_to_cups.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140524043826_create_purchases.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140524043825_create_products.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140419152111_create_teams.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140418185835_add_columns_to_users.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140323071451_create_events.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140322143928_create_participations.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140322140629_create_kenshis.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140321201103_devise_create_users.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140322134236_create_fights.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140320142056_create_clubs.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140319173336_create_categories.rb",
+		"/Users/yannis/railsapps/kendocup/db/migrate/20140319165902_create_cups.rb",
+		"/Users/yannis/railsapps/myanimals/.ruby-version",
+		"/Users/yannis/railsapps/myanimals/app/assets/images/calendar.gif",
+		"/Users/yannis/railsapps/myanimals/config/secrets.yml",
+		"/Users/yannis/railsapps/myanimals/config/deploy/production.rb",
+		"/Users/yannis/railsapps/myanimals/config/deploy/staging.rb",
+		"/Users/yannis/railsapps/myanimals/config/unicorn_staging.god",
+		"/Users/yannis/railsapps/myanimals/config/unicorn.rb",
+		"/Users/yannis/railsapps/myanimals/config/unicorn_init.sh",
+		"/Users/yannis/railsapps/myanimals/config/unicorn_staging_init.sh",
+		"/Users/yannis/railsapps/myanimals/spec/rails_helper.rb",
+		"/Users/yannis/railsapps/myanimals/.rspec",
+		"/Users/yannis/railsapps/myanimals/features/animals/table/select_unselect_animals_in_table.feature",
+		"/Users/yannis/railsapps/myanimals/db/migrate/20141002120647_add_label_to_animals.rb",
+		"/Users/yannis/railsapps/myanimals/vendor/assets/javascripts/qrcode.js",
+		"/Users/yannis/railsapps/myanimals/spec/views/cages/labels.html.haml_spec.rb",
+		"/Users/yannis/railsapps/myanimals/spec/views/labels/labels.html.haml_spec.rb",
+		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/utilities/augmentable.js.coffee",
+		"/Users/yannis/railsapps/myanimals/spec/features/cages/cage_label_feature_spec.rb",
+		"/Users/yannis/railsapps/myanimals/app/views/animals/_mouse_chromosome_id_to_add.html.haml (original)",
+		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/models/labels.js.coffee",
+		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/labels.js.coffee",
+		"/Users/yannis/railsapps/myanimals/app/helpers/label_helper.rxml",
+		"/Users/yannis/railsapps/myanimals/features/users/user_edit.feature",
+		"/Users/yannis/railsapps/myanimals/spec/features/users/user_show_feature_spec.rb",
+		"/Users/yannis/railsapps/myanimals/spec/features/loci/loci_form_add_allele_feature_spec.rb",
+		"/Users/yannis/railsapps/myanimals/spec/features/loci/loci_feature_spec.rb",
+		"/Users/yannis/railsapps/myanimals/spec/features/autorisations/autorisation_form_category_feature_spec.rb",
+		"/Users/yannis/railsapps/myanimals/spec/features/animals/table/animal_table_transefer_feature_spec.rb",
+		"/Users/yannis/railsapps/myanimals/features/animals/table/edit_animal_from_context_menu.feature",
+		"/Users/yannis/railsapps/myanimals/spec/features/animals/animal_form_feature_spec.rb",
+		"/Users/yannis/railsapps/myanimals/spec/support/token_input_helpers.rb",
+		"/Users/yannis/railsapps/myanimals/features/animals/form/transfer.feature",
+		"/Users/yannis/railsapps/myanimals/spec/features/animals/animal_form_category_feature_spec.rb",
+		"/Users/yannis/railsapps/myanimals/features/animals/form/experiment.feature",
+		"/Users/yannis/railsapps/myanimals/features/animals/form/identification.feature",
+		"/Users/yannis/railsapps/myanimals/spec/features/animals/animal_form_category_feature_spec.spec.rb",
+		"/Users/yannis/railsapps/myanimals/features/alarms/create_edit_alarm.feature"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+			"",
+			"config/",
+			"",
+			"db/migrate/",
+			"",
+			"app/admin/",
+			"app/models/",
+			"",
+			"spec/dummy",
+			"",
+			"db/",
+			"spec/",
+			"app/assets/",
+			"",
+			"spec/models/",
+			"",
+			"spec/helpers/",
+			"spec/mailers/",
+			"spec/helpers/",
+			"",
+			"spec/controllers/",
+			"",
+			"spec/",
+			"",
+			"app/",
+			"spec/controllers/",
+			"",
+			"app/models/",
+			"",
+			"spec/",
+			"app/",
+			"",
+			"spec/",
+			"spec",
+			"",
+			"app/",
+			"",
+			"app/",
+			"app/controllers/",
+			"",
+			"db/",
+			"",
+			"app/",
+			"db/",
+			"config/",
+			"",
+			"spec/features/",
+			"features/",
+			"spec/features/",
+			"features/",
+			"spec/features/",
+			"features/",
+			"spec/features/",
+			"features/",
+			"spec/features/",
+			"features/",
+			"spec/features/",
+			"features/",
+			"spec/features/",
+			"features/",
+			"spec/features/",
+			"features/",
+			"spec/",
+			"features/",
+			"spec/",
+			"features/",
+			"spec/",
+			"features/",
+			"spec/",
+			"features/",
+			"spec/",
+			"features/",
+			"spec/",
+			"features/",
+			"",
+			"features/",
+			"",
+			"features/",
+			"features",
+			"",
+			"public/genealogy-tree",
+			"public/",
+			"",
+			"public/",
+			"vendor/",
+			"",
+			"public/Pedigree-Viewer/",
+			"public/",
+			"",
+			"spec/",
+			"vendor/",
+			"public/Pedigree-Viewer/",
+			"",
+			"/app/",
+			"",
+			"features/",
+			"",
+			"spec/",
+			"features/",
+			"",
+			"spec/",
+			"specs/",
+			"features/",
+			"",
+			"features/",
+			"app/assets/",
+			"features/",
+			"spec/",
+			"",
+			"app/",
+			"",
+			"spec/",
+			"spec",
+			"",
+			"app",
+			"",
+			"app/",
+			"spec/",
+			"feature/",
+			"spec/",
+			"app/",
+			"",
+			"app/",
+			"",
+			"feature/",
+			"",
+			"spec/",
+			"app/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"admin_user",
+			"current",
+			"default_url_options",
+			"ActiveAdmin",
+			"locale",
+			"kendocup.",
+			"kendocup",
+			"kendocup_",
+			"kendocup_kenshis",
+			"kendocup_headlines",
+			"kendocup_teams",
+			"kendocup_participations",
+			"kendocup_",
+			"namespace",
+			"kendocup",
+			":kendocup_",
+			"kendocup_",
+			"isolate_namespace",
+			", :type =>",
+			", :type => :model do",
+			"change_table :kendocup_",
+			"add_column :kendocup_",
+			"create_table :kendocup_",
+			"require 'active",
+			"require \"active",
+			"Extra",
+			"loca",
+			"I18",
+			"default_locale",
+			".locale =",
+			"action_item \\w",
+			"action_item only:",
+			"action_item ",
+			"action_item :",
+			"action_item :only",
+			"action_item",
+			"name",
+			"action_item",
+			"route_to(\"",
+			": \"/cups",
+			": \"/cups\"",
+			":(\\w+) => ",
+			"teams",
+			"purchases",
+			"kenshis",
+			"cups",
+			"application",
+			"      bounding_box [bounds.right-75, bounds.top+20], :width => 300 do\n        logo = \"#{Rails.root}/app/assets/images/logo/logo-75.jpg\"\n        image logo, :at => [0,0], :width => 60\n      end",
+			"logo-75.jpg",
+			"require",
+			"team_match_sheet_admin_kendocup_team_categories_path",
+			"ActiveAdmin\\.register Kendocup::(\\w+) do",
+			"module Kendocup\n  class ",
+			"_kenshi",
+			"_kendocup_kendocup",
+			"_individual_category",
+			"product_",
+			"admin_product_path",
+			"team_match_sheet_admin_team_categories_path",
+			"logout_link_path",
+			"logout",
+			"admin_root_path",
+			"admin",
+			"deadline_passed",
+			"create :",
+			":(\\w+) => ",
+			"create :",
+			"build :",
+			"create :cup",
+			"ensure_inclusion",
+			"create :participation",
+			"create :kenshi",
+			"create(:kenshi",
+			"failure_message_for",
+			"failure_message_for_should",
+			"acts_as_fighter",
+			"gem",
+			"add_index :",
+			"add_column :cups",
+			"rails_helper",
+			"z-index",
+			"staging",
+			"production",
+			"staging",
+			"taggable_type",
+			"type",
+			":(\\w+) => ",
+			"eye",
+			"project1",
+			"god_with_path",
+			":(\\w+) => ",
+			"includes",
+			"include",
+			"includes",
+			"alleles_animals.allele_id",
+			"FactoryGirl.",
+			"name ASC",
+			"self.class.to_s.table",
+			"next",
+			"previous_and_next_links_for",
+			"content_for :previous_and_next",
+			"javascript",
+			"javascript_include_tag",
+			"add_object",
+			"complete",
+			"Get categories from parents",
+			".loading",
+			"background",
+			"loading",
+			":(\\w+) => ",
+			"allele.reload.shared_with_lab.should be true",
+			"Rails.application.secrets",
+			"secrets",
+			":(\\w+) => ",
+			"default_url_options",
+			":(\\w+) => ",
+			"bioseminars",
+			":(\\w+) => ",
+			"bioseminars",
+			":(\\w+) => ",
+			"bioseminars",
+			":(\\w+) => ",
+			"tag_tokens_feature_spec.rb",
+			":(\\w+) => ",
+			"copy_to_give_to",
+			"/",
+			"<\\/a>\\/",
+			"\\/<a"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"participations",
+			":",
+			", type: ",
+			", type: :model do",
+			"change_table :",
+			"add_column :",
+			"create_table :",
+			"$1: ",
+			"      # bounding_box [bounds.right-75, bounds.top+20], :width => 300 do\n      #   logo = \"#{Rails.root}/app/assets/images/logo/logo-75.jpg\"\n      #   image logo, :at => [0,0], :width => 60\n      # end",
+			"ActiveAdmin.register Kendocup::$1, as: \"$1\" do",
+			"class ",
+			"",
+			"admin_kendocup_product_path",
+			"$1: ",
+			"spec_helper",
+			"$1: ",
+			"",
+			"describe $1Helper, type: :helper do",
+			"",
+			"$1: ",
+			"",
+			"$1: ",
+			"describe $1Controller, type: :controller do",
+			"$1: ",
+			"",
+			"$1: ",
+			"be true",
+			"$1: ",
+			"let!(:$1) {$2}",
+			"let(:$1) {$2}",
+			"$1: ",
+			"describe $1Controller, type: :controller do",
+			"failure_message",
+			"failure_message_when_negated",
+			"$1: ",
+			".find_or_create_by(name: ",
+			"$1: ",
+			"labelizable",
+			"label.lebelizable",
+			"labelizable_type",
+			"$1: ",
+			"number_of_labels",
+			"$1: ",
+			"",
+			"$1: ",
+			"#{$1}",
+			"$1: ",
+			"",
+			"$1: ",
+			"$1 $2",
+			"$1: $2",
+			"$1: ",
+			"\"Domus\"",
+			"font_body_size",
+			"@font_title",
+			"@font_body",
+			"organismic",
+			"bookable",
+			"$1: ",
+			"$1:",
+			"session[:registration_id_token]",
+			"[]",
+			"locus",
+			"loci",
+			"Locus",
+			"locus",
+			"loci",
+			"Loci",
+			"type => 'datetime'",
+			"type='date-time'",
+			"gift_object",
+			"object",
+			"",
+			"give_to!",
+			"give_to",
+			"MyUtilities.Augmentable.set()",
+			"420",
+			"400",
+			"MyUtilities.Modal.remove",
+			"MyUtilities.Modal.Instance",
+			"MyModal.Instance",
+			"let(:$1) {Factory",
+			"locus",
+			"Locus",
+			"locus",
+			"loci",
+			"Loci",
+			"acts_as_categorisable_and_taggable",
+			"categories_tokens",
+			"",
+			"let(:$1) {FactoryGirl",
+			"require 'sharing'\nclass $1 < ActiveRecord::Base\n  acts_as_sharable",
+			"\"",
+			" then ",
+			" ",
+			"self.",
+			"",
+			"let(:$1) {",
+			"allele",
+			"alleles",
+			"Allele",
+			"Alleles",
+			"$1: ",
+			"locus",
+			"kind",
+			"Kinds",
+			"Kind",
+			"Kinds",
+			"kinds",
+			"loci",
+			"locus",
+			"loci",
+			"Locus",
+			"Loci",
+			"locus",
+			"alleles",
+			"Locus",
+			"locus",
+			"Loci",
+			"loci",
+			"locus",
+			"Locus",
+			"Loci",
+			"loci",
+			"Locus",
+			"Loci",
+			"locus",
+			"loci"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "kendo_gva.sublime-project",
+					"settings":
+					{
+						"buffer_size": 226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								950,
+								950
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/application.html.haml",
+					"settings":
+					{
+						"buffer_size": 756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/admin/users/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 1441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 339.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								453,
+								453
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "config/initializers/active_admin.rb",
+					"settings":
+					{
+						"buffer_size": 7435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3533,
+								3533
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 624.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 51748,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										191,
+										201
+									],
+									[
+										368,
+										378
+									],
+									[
+										515,
+										525
+									],
+									[
+										775,
+										785
+									],
+									[
+										980,
+										990
+									],
+									[
+										1351,
+										1361
+									],
+									[
+										1618,
+										1628
+									],
+									[
+										1939,
+										1949
+									],
+									[
+										2166,
+										2176
+									],
+									[
+										2412,
+										2422
+									],
+									[
+										2589,
+										2599
+									],
+									[
+										2880,
+										2890
+									],
+									[
+										3204,
+										3214
+									],
+									[
+										20069,
+										20079
+									],
+									[
+										21952,
+										21962
+									],
+									[
+										30923,
+										30933
+									],
+									[
+										35240,
+										35250
+									],
+									[
+										35345,
+										35355
+									],
+									[
+										35603,
+										35613
+									],
+									[
+										35864,
+										35874
+									],
+									[
+										36150,
+										36160
+									],
+									[
+										36420,
+										36430
+									],
+									[
+										36805,
+										36815
+									],
+									[
+										37007,
+										37017
+									],
+									[
+										37307,
+										37317
+									],
+									[
+										37647,
+										37657
+									],
+									[
+										37876,
+										37886
+									],
+									[
+										38305,
+										38315
+									],
+									[
+										38633,
+										38643
+									],
+									[
+										38733,
+										38743
+									],
+									[
+										38992,
+										39002
+									],
+									[
+										39269,
+										39279
+									],
+									[
+										39507,
+										39517
+									],
+									[
+										39753,
+										39763
+									],
+									[
+										39860,
+										39870
+									],
+									[
+										40318,
+										40328
+									],
+									[
+										40774,
+										40784
+									],
+									[
+										41163,
+										41173
+									],
+									[
+										41496,
+										41506
+									],
+									[
+										41682,
+										41692
+									],
+									[
+										41858,
+										41868
+									],
+									[
+										42033,
+										42043
+									],
+									[
+										42082,
+										42092
+									],
+									[
+										42124,
+										42134
+									],
+									[
+										42191,
+										42201
+									],
+									[
+										42585,
+										42595
+									],
+									[
+										42819,
+										42829
+									],
+									[
+										42889,
+										42899
+									],
+									[
+										42951,
+										42961
+									],
+									[
+										43272,
+										43282
+									],
+									[
+										43713,
+										43723
+									],
+									[
+										44036,
+										44046
+									],
+									[
+										44376,
+										44386
+									],
+									[
+										44693,
+										44703
+									],
+									[
+										45012,
+										45022
+									],
+									[
+										45075,
+										45085
+									],
+									[
+										45091,
+										45101
+									],
+									[
+										45152,
+										45162
+									],
+									[
+										45168,
+										45178
+									],
+									[
+										45339,
+										45349
+									],
+									[
+										45407,
+										45417
+									],
+									[
+										45423,
+										45433
+									],
+									[
+										45574,
+										45584
+									],
+									[
+										45637,
+										45647
+									],
+									[
+										45653,
+										45663
+									],
+									[
+										45851,
+										45861
+									],
+									[
+										45914,
+										45924
+									],
+									[
+										45930,
+										45940
+									],
+									[
+										46163,
+										46173
+									],
+									[
+										46226,
+										46236
+									],
+									[
+										46242,
+										46252
+									],
+									[
+										46575,
+										46585
+									],
+									[
+										46729,
+										46739
+									],
+									[
+										47138,
+										47148
+									],
+									[
+										47457,
+										47467
+									],
+									[
+										47600,
+										47610
+									],
+									[
+										47761,
+										47771
+									],
+									[
+										47909,
+										47919
+									],
+									[
+										48205,
+										48215
+									],
+									[
+										48515,
+										48525
+									],
+									[
+										48793,
+										48803
+									],
+									[
+										49151,
+										49161
+									],
+									[
+										49313,
+										49323
+									],
+									[
+										49391,
+										49401
+									],
+									[
+										49479,
+										49489
+									],
+									[
+										49665,
+										49675
+									],
+									[
+										49831,
+										49841
+									],
+									[
+										49903,
+										49913
+									],
+									[
+										49992,
+										50002
+									],
+									[
+										50286,
+										50296
+									],
+									[
+										50437,
+										50447
+									],
+									[
+										50594,
+										50604
+									],
+									[
+										50753,
+										50763
+									],
+									[
+										51113,
+										51123
+									],
+									[
+										51159,
+										51169
+									],
+									[
+										51530,
+										51540
+									],
+									[
+										51689,
+										51699
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								2888,
+								2888
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1240.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/admin/user.rb",
+					"settings":
+					{
+						"buffer_size": 1403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"settings":
+					{
+						"buffer_size": 2331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2331,
+								2331
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "vendor/bundle/ruby/2.1.0/gems/rails-4.1.8/guides/source/layout.html.erb",
+					"settings":
+					{
+						"buffer_size": 6491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 425.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/admin/admin_user.rb",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.tests":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"home",
+				"app/views/pages/home.html.erb"
+			],
+			[
+				"appham",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"layou",
+				"vendor/bundle/ruby/2.1.0/gems/rails-4.1.8/guides/source/layout.html.erb"
+			],
+			[
+				"",
+				"Find Results"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"act",
+				"config/initializers/active_admin.rb"
+			],
+			[
+				"userin",
+				"app/views/admin/users/index.html.erb"
+			],
+			[
+				"apphaml",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"appcon",
+				"spec/dummy/app/controllers/application_controller.rb"
+			],
+			[
+				"apprb",
+				"app/controllers/kendocup/application_controller.rb"
+			],
+			[
+				"dash",
+				"/Users/yannis/railsapps/kendocup/lib/kendocup/admin/dashboard.rb"
+			],
+			[
+				"das",
+				"app/admin/dashboard.rb"
+			],
+			[
+				"ac",
+				"config/initializers/active_admin.rb"
+			],
+			[
+				"cupcontr",
+				"app/controllers/kendocup/cups_controller.rb"
+			],
+			[
+				"headcontspe",
+				"spec/controllers/kendocup/headlines_controller_spec.rb"
+			],
+			[
+				"cupcon",
+				"app/controllers/kendocup/cups_controller.rb"
+			],
+			[
+				"cupinde",
+				"app/views/kendocup/cups/index.html.haml"
+			],
+			[
+				"seed",
+				"spec/dummy/db/seeds.rb"
+			],
+			[
+				"sed",
+				"spec/dummy/config/environments/development.rb"
+			],
+			[
+				"devise",
+				"config/initializers/devise.rb"
+			],
+			[
+				"dummyroutes",
+				"spec/dummy/config/routes.rb"
+			],
+			[
+				"modeluser",
+				"app/models/kendocup/user.rb"
+			],
+			[
+				"router",
+				"config/routes.rb"
+			],
+			[
+				"devi",
+				"config/initializers/devise.rb"
+			],
+			[
+				"gemspe",
+				"kendocup.gemspec"
+			],
+			[
+				"user",
+				"app/models/kendocup/user.rb"
+			],
+			[
+				"omn",
+				"app/controllers/kendocup/users/omniauth_callbacks_controller.rb"
+			],
+			[
+				"route",
+				"spec/dummy/config/routes.rb"
+			],
+			[
+				"kenshis_controller.rb",
+				"app/controllers/kendocup/kenshis_controller.rb"
+			],
+			[
+				"acts",
+				"lib/kendocup/acts_as_category.rb"
+			],
+			[
+				"dummr",
+				"spec/dummy/config/routes.rb"
+			],
+			[
+				"engine",
+				"lib/kendocup/engine.rb"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"kend",
+				"lib/kendocup.rb"
+			],
+			[
+				"data",
+				"spec/dummy/config/database.yml"
+			],
+			[
+				"create",
+				"db/migrate/20140319165902_create_kendocup_cups.rb"
+			],
+			[
+				"modelcu",
+				"app/models/kendocup/cup.rb"
+			],
+			[
+				"install",
+				"/Users/yannis/railsapps/kendocup/lib/generators/kendocup/install_generator.rb"
+			],
+			[
+				"crea",
+				"db/migrate/20140319165902_create_kendocup_cups.rb"
+			],
+			[
+				"kendo",
+				"lib/kendocup.rb"
+			],
+			[
+				"gems",
+				"kendocup.gemspec"
+			],
+			[
+				"app",
+				"spec/dummy/config/application.rb"
+			],
+			[
+				"dummroute",
+				"spec/dummy/config/routes.rb"
+			],
+			[
+				"libken",
+				"lib/kendocup.rb"
+			],
+			[
+				"userspe",
+				"spec/models/kendocup/user_spec.rb"
+			],
+			[
+				"partcontspe",
+				"spec/controllers/kendocup/participations_controller_spec.rb"
+			],
+			[
+				"puconspe",
+				"spec/controllers/kendocup/purchases_controller_spec.rb"
+			],
+			[
+				"headspe",
+				"spec/models/kendocup/headline_spec.rb"
+			],
+			[
+				"partsp",
+				"spec/models/kendocup/participation_spec.rb"
+			],
+			[
+				"kencontspe",
+				"spec/controllers/kendocup/kenshis_controller_spec.rb"
+			],
+			[
+				"spe",
+				"spec/spec_helper.rb"
+			],
+			[
+				"speche",
+				"spec/spec_helper.rb"
+			],
+			[
+				"smartpospe",
+				"spec/models/kendocup/smart_pooler_spec.rb"
+			],
+			[
+				"factcu",
+				"spec/factories/kendocup_cups.rb"
+			],
+			[
+				"indcatspe",
+				"spec/models/kendocup/individual_category_spec.rb"
+			],
+			[
+				"kenshien",
+				"config/locales/kenshis.en.yml"
+			],
+			[
+				"kens",
+				"app/models/kendocup/kenshi.rb"
+			],
+			[
+				"factke",
+				"spec/factories/kendocup_kenshis.rb"
+			],
+			[
+				"treespec",
+				"spec/models/kendocup/tree_spec.rb"
+			],
+			[
+				"partspec",
+				"spec/models/kendocup/participation_spec.rb"
+			],
+			[
+				"partfr",
+				"config/locales/participations.fr.yml"
+			],
+			[
+				"dummroutes",
+				"spec/dummy/config/routes.rb"
+			],
+			[
+				"cupsrou",
+				"spec/routing/kendocup/cups_routing_spec.rb"
+			],
+			[
+				"sma",
+				"spec/models/kendocup/smart_pooler_spec.rb"
+			],
+			[
+				"headspec",
+				"spec/models/kendocup/headline_spec.rb"
+			],
+			[
+				"headline_spec.rb",
+				"spec/models/kendocup/headline_spec.rb"
+			],
+			[
+				"kenda",
+				"/Users/yannis/railsapps/kendocup/app/models/kendocup_ability.rb"
+			],
+			[
+				"kendabil",
+				"app/models/kendocup/kendocup_ability.rb"
+			],
+			[
+				"gene",
+				"lib/generators/kendocup/kendocup_generator.rb"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"project",
+				"kendocup.sublime-project"
+			],
+			[
+				"gener",
+				"lib/generators/view/view_generator.rb"
+			],
+			[
+				"tcatma",
+				"app/pdfs/team_category_match_sheet_pdf.rb"
+			],
+			[
+				"team_category_match_sheet_pdf.rb",
+				"app/pdfs/team_category_match_sheet_pdf.rb"
+			],
+			[
+				"teama",
+				"app/pdfs/team_category_match_sheet_pdf.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"teamc",
+				"app/admin/team_category.rb"
+			],
+			[
+				"dummro",
+				"spec/dummy/config/routes.rb"
+			],
+			[
+				"kensh",
+				"app/admin/kenshi.rb"
+			],
+			[
+				"individua",
+				"app/admin/individual_category.rb"
+			],
+			[
+				"adminpro",
+				"app/admin/product.rb"
+			],
+			[
+				"a",
+				"config/initializers/active_admin.rb"
+			],
+			[
+				"showhtm",
+				"app/views/kendocup/cups/show.html.haml"
+			],
+			[
+				"dummylay",
+				"spec/dummy/app/views/layouts/application.html.erb"
+			],
+			[
+				"admin",
+				"config/initializers/active_admin.rb"
+			],
+			[
+				"deviseen",
+				"config/locales/devise.en.yml"
+			],
+			[
+				"kenscontr",
+				"app/controllers/kendocup/kenshis_controller.rb"
+			],
+			[
+				"headcontr",
+				"app/controllers/kendocup/headlines_controller.rb"
+			],
+			[
+				"kenshispe",
+				"spec/controllers/kendocup/kenshis_controller_spec.rb"
+			],
+			[
+				"libke",
+				"lib/kendocup.rb"
+			],
+			[
+				"abil",
+				"app/models/kendocup/ability.rb"
+			],
+			[
+				"appco",
+				"app/controllers/kendocup/application_controller.rb"
+			],
+			[
+				"cupspe",
+				"spec/controllers/kendocup/cups_controller_spec.rb"
+			],
+			[
+				"headcon",
+				"app/controllers/kendocup/headlines_controller.rb"
+			],
+			[
+				"cupco",
+				"app/controllers/kendocup/cups_controller.rb"
+			],
+			[
+				"headlcontr",
+				"spec/controllers/kendocup/headlines_controller_spec.rb"
+			],
+			[
+				"cuconspe",
+				"spec/controllers/kendocup/cups_controller_spec.rb"
+			],
+			[
+				"headlcont",
+				"spec/controllers/kendocup/headlines_controller_spec.rb"
+			],
+			[
+				".",
+				".gitignore"
+			],
+			[
+				"parspe",
+				"spec/models/kendocup/participation_spec.rb"
+			],
+			[
+				"sp",
+				"spec/spec_helper.rb"
+			],
+			[
+				"spechel",
+				"spec/spec_helper.rb"
+			],
+			[
+				"kenshi",
+				"spec/models/kendocup/kenshi_spec.rb"
+			],
+			[
+				"factpro",
+				"spec/factories/kendocup_products.rb"
+			],
+			[
+				"part",
+				"app/models/kendocup/participation.rb"
+			],
+			[
+				"actsas",
+				"lib/kendocup/acts_as_category.rb"
+			],
+			[
+				"incatspe",
+				"spec/models/kendocup/individual_category_spec.rb"
+			],
+			[
+				"facpa",
+				"spec/factories/kendocup_participations.rb"
+			],
+			[
+				"mym",
+				"spec/support/my_matchers.rb"
+			],
+			[
+				"fightspe",
+				"spec/models/kendocup/fight_spec.rb"
+			],
+			[
+				"figh",
+				"app/models/kendocup/fight.rb"
+			],
+			[
+				"facfi",
+				"spec/factories/kendocup_fights.rb"
+			],
+			[
+				"fis",
+				"spec/models/kendocup/fight_spec.rb"
+			],
+			[
+				"devis",
+				"config/initializers/devise.rb"
+			],
+			[
+				"userr",
+				"app/models/kendocup/user.rb"
+			],
+			[
+				"clubspec",
+				"spec/models/kendocup/club_spec.rb"
+			],
+			[
+				"userrb",
+				"app/models/kendocup/user.rb"
+			],
+			[
+				"evens",
+				"spec/models/kendocup/event_spec.rb"
+			],
+			[
+				"evenspe",
+				"spec/models/kendocup/event_spec.rb"
+			],
+			[
+				"event",
+				"app/models/kendocup/event.rb"
+			],
+			[
+				"spec",
+				"spec/spec_helper.rb"
+			],
+			[
+				"clu",
+				"spec/models/kendocup/club_spec.rb"
+			],
+			[
+				"actasf",
+				"lib/kendocup/acts_as_fighter.rb"
+			],
+			[
+				"cup",
+				"app/models/kendocup/cup.rb"
+			],
+			[
+				"head",
+				"app/models/kendocup/headline.rb"
+			],
+			[
+				"teaca",
+				"app/models/kendocup/team_category.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"ka",
+				"/Users/yannis/railsapps/kasaharacup/kasaharacup.sublime-project"
+			],
+			[
+				"",
+				"/Users/yannis/railsapps/kasaharacup/kasaharacup.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 334.0,
+	"status_bar_visible": true
+}

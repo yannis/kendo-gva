@@ -4,27 +4,35 @@ class PagesController < ApplicationController
   ]
 
   def home
+    @last_post = Post.order(:created_at).last
+    @teachers = Teacher.active.order("grade DESC, name ASC")
+    teachers_size = @teachers.count
+    if 12.modulo(teachers_size) == 0
+      @teacher_col_width = 12/teachers_size
+    else
+      @teacher_col_width = 2
+    end
   end
-  
+
   def inside
   end
-  
-def posts
+
+  def posts
     @posts = Post.published.page(params[:page]).per(10)
   end
-  
+
   def show_post
     @post = Post.friendly.find(params[:id])
   rescue
     redirect_to root_path
   end
- 
-  
+
+
   def email
     @name = params[:name]
     @email = params[:email]
     @message = params[:message]
-    
+
     if @name.blank?
       flash[:alert] = "Please enter your name before sending your message. Thank you."
       render :contact
@@ -37,10 +45,10 @@ def posts
     elsif @message.scan(/<a href=/).size > 0 || @message.scan(/\[url=/).size > 0 || @message.scan(/\[link=/).size > 0 || @message.scan(/http:\/\//).size > 0
       flash[:alert] = "You can't send links. Thank you for your understanding."
       render :contact
-    else    
+    else
       ContactMailer.contact_message(@name,@email,@message).deliver
       redirect_to root_path, notice: "Your message was sent. Thank you."
     end
   end
-  
+
 end
