@@ -1,17 +1,47 @@
 @import "variables"
 @import "bootstrap"
-@import "bootswatch"
 @import "font-awesome-sprockets"
 @import "font-awesome"
 
 @import "typography"
 
+body
+  .container, .jumbotron
+    position: relative
+    z-index: 0
+    &:after
+      content: ""
+      background: image-url("noise.png")
+      opacity: 0.1
+      position: fixed
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+      z-index: -1
+
+.jumbotron
+  #logo
+    +text-hide
+    height: 200px
+    background-image: image-url("logo_400.png")
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center
+  p.small
+    font-size: 1em
+
+
 .navbar .nav > li > a
   font-size: 1.2em
 
+
+#calendrier
+  overflow: scroll
 #googlecal
   width: 100%
   height: 600px
+
 #googlemap
   width: 100%
   height: 400px
@@ -26,5 +56,26 @@
   i.fa
     font-size: 10em
 
-#social
-  font-size: 3em
+.sidenav
+  &.affix
+    top: 0
+
+section
+  &:first-of-type
+    margin-top: 0
+  margin: 4em auto
+
+.sidenav
+  li.active
+    background-color: $gray-lighter
+
+@media (min-width: $screen-md-min)
+  .jumbotron
+    #logo
+      background-position: left
+
+  #calendrier
+    overflow: hidden
+  #googlecal
+    width: 100%
+    height: 600px

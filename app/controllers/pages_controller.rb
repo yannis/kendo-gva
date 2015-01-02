@@ -6,6 +6,7 @@ class PagesController < ApplicationController
   def home
     @last_post = Post.order(:created_at).last
     @teachers = Teacher.active.order("grade DESC, name ASC")
+    @startdate = Startdate.future.order(:start_on).first.start_on
     teachers_size = @teachers.count
     if 12.modulo(teachers_size) == 0
       @teacher_col_width = 12/teachers_size
@@ -15,10 +16,6 @@ class PagesController < ApplicationController
   end
 
   def inside
-  end
-
-  def posts
-    @posts = Post.published.page(params[:page]).per(10)
   end
 
   def show_post

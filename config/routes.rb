@@ -1,17 +1,15 @@
 KendoGva::Application.routes.draw do
+
   # devise_for :admin_users, ActiveAdmin::Devise.config
   devise_for :users
 
   root "pages#home"
   get "home", to: "pages#home", as: "home"
-  get "inside", to: "pages#inside", as: "inside"
-  get "/contact", to: "pages#contact", as: "contact"
+  # get "inside", to: "pages#inside", as: "inside"
+  # get "/contact", to: "pages#contact", as: "contact"
   post "/emailconfirmation", to: "pages#email", as: "email_confirmation"
 
-  get "posts", to: "pages#posts", as: "posts"
-  get "posts/:id", to: "pages#show_post", as: "post"
-
-  # ActiveAdmin.routes(self)
+  resources :posts, only: [:index, :show]
 
   namespace :admin do
     root "base#index"

@@ -1,0 +1,10 @@
+- title("Posts")
+.container
+  .row
+    .col-sm-12
+      %h1
+    = render @posts
+
+    .col-sm-12
+      .pagination-control.text-center
+        = paginate @posts

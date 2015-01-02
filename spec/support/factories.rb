@@ -7,6 +7,10 @@ FactoryGirl.define do
     grade {1}
   end
 
+  factory :startdate do
+    start_on {1.month.since}
+  end
+
   factory :user do
     first_name { Faker::Name.first_name}
     last_name { Faker::Name.last_name}

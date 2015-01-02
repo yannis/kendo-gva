@@ -1,0 +1,5 @@
+fr:
+  activerecord:
+    attributes:
+      startdate:
+        start_on: "Début"

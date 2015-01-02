@@ -4,6 +4,7 @@
 # Temporary admin account
 User.destroy_all
 Teacher.destroy_all
+Startdate.destroy_all
 
 u = User.new(
     email: "admin@example.com",
@@ -40,3 +41,5 @@ teachers = [
 teachers.each do |teacher|
   Teacher.create! teacher
 end
+
+Startdate.create start_on: 1.months.since
