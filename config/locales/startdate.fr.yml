@@ -1,5 +1,9 @@
 fr:
   activerecord:
+    models:
+      startdate:
+        one: Rentrée
+        other: Rentrées
     attributes:
       startdate:
         start_on: "Début"

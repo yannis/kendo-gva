@@ -4,6 +4,3 @@ fr:
       user:
         one: Utilisateur
         other: Utilisateurs
-    attributes:
-      user:
-        start_on: "Début"
