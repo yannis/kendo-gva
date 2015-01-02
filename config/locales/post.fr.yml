@@ -1,0 +1,11 @@
+fr:
+  activerecord:
+    models:
+      post:
+        one: Nouvelle
+        other: Nouvelles
+    attributes:
+      post:
+        title: "Titre"
+        content_md: "Contenu Markdown"
+        content_html: "Contenu HTML"

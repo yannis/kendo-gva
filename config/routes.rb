@@ -11,12 +11,15 @@ KendoGva::Application.routes.draw do
 
   resources :posts, only: [:index, :show]
 
-  namespace :admin do
-    root "base#index"
-    resources :users
-    get "posts/drafts", to: "posts#drafts", as: "posts_drafts"
-    get "posts/dashboard", to: "posts#dashboard", as: "posts_dashboard"
-    resources :posts
-  end
+
+  ActiveAdmin.routes(self)
+
+  # namespace :admin do
+  #   root "base#index"
+  #   resources :users
+  #   get "posts/drafts", to: "posts#drafts", as: "posts_drafts"
+  #   get "posts/dashboard", to: "posts#dashboard", as: "posts_dashboard"
+  #   resources :posts
+  # end
 
 end

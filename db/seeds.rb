@@ -7,7 +7,7 @@ Teacher.destroy_all
 Startdate.destroy_all
 
 u = User.new(
-    email: "admin@example.com",
+    email: "contact@kendo-geneve.ch",
     password: "1234",
     password_confirmation: "1234",
     admin: true

@@ -16,6 +16,7 @@ gem 'pg'
 
 # Devise: https://github.com/plataformatec/devise
 gem 'devise', '3.4.1'
+gem "devise-i18n"
 
 # Redcarpet: https://github.com/vmg/redcarpet
 gem 'redcarpet', '3.2.0'
