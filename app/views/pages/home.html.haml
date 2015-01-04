@@ -18,8 +18,7 @@
         %p.small
           Nous proposons des cours pour débutants et avancés, adultes et enfants.
         %p.small
-          Chaque année au mois de septembre, nous organisons aussi un grand tournoi international:
-          = link_to "La Coupe Kasahara", "http://kasaharacup.com", target: "_blank", title: "Kasahara Kendo Cup"
+          =raw "Chaque année au mois de septembre, nous organisons aussi un grand tournoi international: #{link_to "La Coupe Kasahara", "http://kasaharacup.com", target: "_blank", title: "Kasahara Kendo Cup"}."
 .container
   .row
     .col-md-9
@@ -61,11 +60,13 @@
         %p
           Nous organisons deux rentrées pour les débutants, au mois de septembre et janvier.
         %p
-          =raw "La prochaine aura lieu le #{l @startdate, format: :long}."
+          =raw "La prochaine aura lieu le <strong>#{l @startdate, format: :long}</strong>."
         %p
           Pour débuter, il vous suffit de nous rejoindre ce jour là avec une tenue de type “training” ou kimono de judo/karate (si vous en possèdez déjà un). Merci d'être prêt environ 10 minutes avant le début du cours.
         %p
           Si vous ne connaissez pas le kendo, nous vous recommandons de venir assister à une leçon. Le lundi, la leçon est mixte (débutants/avancés) et donne donc un très bon aperçu du kendo et de la façon dont il est enseigné dans notre club. N’hésitez pas à nous contacter si vous avez des questions.
+        %p
+          Si vous pratiquez déjà le kendo, vous pouvez évidemment rejoindre nos entrainements à tous moments.
 
       %section#fees
         %h2
@@ -188,9 +189,9 @@
             You don't speak french?
         .panel-body
           %p
-          Please note that our classes are given in french but many of our kenshis speak also some english and are ready to give you any infos that you may need. Do not hesitate
+          Please note that our classes are given in french but many of our kenshis also speak some english and are ready to give you any information that you may need. Do not hesitate
           = link_to "to contact us", "#contact"
-          if you have any inquiries regarding our activities.
+          for any inquiries regarding our activities.
 
       .sidenav{role: "complementary"}
         %nav.hidden-print.hidden-xs.hidden-sm
@@ -211,6 +212,8 @@
               = link_to "Enfants", "#kids"
             %li
               = link_to "Contact", "#contact"
+            %li
+              = link_to "Newsletter", "#newsletter"
             %li
               = link_to "Calendrier", "#calendrier"
             %li
