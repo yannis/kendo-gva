@@ -35,7 +35,6 @@ gem 'bootstrap-sass', '3.3.1.0'
 
 gem "activeadmin", github: "activeadmin/activeadmin"
 
-
 gem "asset_sync"
 
 group :development, :test do
@@ -61,4 +60,8 @@ group :test do
   gem 'shoulda-matchers'
 end
 
+group :production do
+  gem 'rails_12factor'
+  gem 'unicorn'
+end
 
