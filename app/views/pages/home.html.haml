@@ -144,11 +144,11 @@
                   %p.help-block
                     Inscrivez-vous pour recevoir 1 ou 2 fois par mois des informations concernant nos activités
                   .form-group
-                    = email_field_tag 'EMAIL', nil, required: true, placeholder: "Email", class: "form-control"
-                  .form-group
                     = text_field_tag 'FNAME', nil, required: true, placeholder: "Prénom", class: "form-control"
                   .form-group
                     = text_field_tag 'LNAME', nil, required: true, placeholder: "Nom", class: "form-control"
+                  .form-group
+                    = email_field_tag 'EMAIL', nil, required: true, placeholder: "Email", class: "form-control"
                   %button.btn.btn-primary
                     %i.fa.fa-pencil
                     Inscrivez-vous
