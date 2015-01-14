@@ -193,8 +193,14 @@
           = link_to "to contact us", "#contact"
           for any inquiries regarding our activities.
 
-      .sidenav{role: "complementary"}
-        %nav.hidden-print.hidden-xs.hidden-sm
+
+      .sidenav{role: "navigation"}
+        %nav.hidden-print
+          %button.navbar-toggle{type: "button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
           %ul.nav
             %li
               = link_to "Bienvenue", "#bienvenue"

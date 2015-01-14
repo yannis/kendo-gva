@@ -20,8 +20,7 @@
     .row
       .col-sm-12.col-md-6.col-md-offset-3.text-center
         = render 'layouts/messages'
-    - if request[:controller] != "pages"
-      = render "layouts/navigation"
+    = render "layouts/navigation"
     = yield
     = render 'layouts/footer'
   - if Rails.env.production?
