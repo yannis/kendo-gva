@@ -2,16 +2,16 @@ var ready = function() {
   $('.sidenav').affix({
     offset: {
       top: function () {
-        return (this.top = $('.jumbotron').outerHeight(true)+$('#english').outerHeight(true))
+        return (this.top = $('#bienvenue').outerHeight(true)+$('#english').outerHeight(true))
       },
       bottom: function () {
         return (this.bottom = $('.footer').outerHeight(true))
       }
     }
   });
-  $('body').scrollspy({
-    target: '.sidenav'
-  });
+  // $('body').scrollspy({
+  //   target: '.sidebar-nav'
+  // });
 }
 
 
