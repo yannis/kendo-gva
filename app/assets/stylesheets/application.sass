@@ -7,6 +7,7 @@
 @import "sidenav"
 
 body
+  padding-top: 40px
   .container, .jumbotron
     position: relative
     z-index: 0
@@ -70,7 +71,13 @@ section
   li.active
     background-color: $gray-lighter
 
+
+@media (max-width: $screen-sm-min)
+
+
 @media (min-width: $screen-md-min)
+  body
+    padding-top: 0
   .jumbotron
     #logo
       background-position: left
@@ -80,3 +87,5 @@ section
   #googlecal
     width: 100%
     height: 600px
+
+@media (min-width: $screen-lg-min)

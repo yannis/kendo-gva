@@ -1,4 +1,32 @@
-%li
-  = link_to "Home".html_safe, root_path, data: {toggle: "tooltip", placement: "bottom"}, title: "Tous les détails concernant notre club"
-%li
-  = link_to "News", posts_path, data: {toggle: "tooltip", placement: "bottom"}, title: "Les dernières nouvelles"
+- if request[:controller] != "pages"
+  %li
+    = link_to "Home".html_safe, root_path, data: {toggle: "tooltip", placement: "bottom"}, title: "Tous les détails concernant notre club"
+  %li
+    = link_to "News", posts_path, data: {toggle: "tooltip", placement: "bottom"}, title: "Les dernières nouvelles"
+- else
+  %li
+    = link_to "Bienvenue", "#bienvenue"
+  %li
+    = link_to "Dernière nouvelle", "#last_news"
+  %li
+    = link_to "Horaires", "#horaires"
+  %li
+    = link_to "Situation", "#location"
+  %li
+    = link_to "Débuter", "#debuter"
+  %li
+    = link_to "Cotisations", "#fees"
+  %li
+    = link_to "Enfants", "#kids"
+  %li
+    = link_to "Contact", "#contact"
+  %li
+    = link_to "Newsletter", "#newsletter"
+  %li
+    = link_to "Calendrier", "#calendrier"
+  %li
+    = link_to "Kendo", "#kendo"
+  %li
+    = link_to "Enseignants", "#teachers"
+  %li.small
+    = link_to "<em>top</em>".html_safe, "#bienvenue"

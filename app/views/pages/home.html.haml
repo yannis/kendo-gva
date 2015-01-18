@@ -1,10 +1,10 @@
-.jumbotron#bienvenue
-  .container
+#bienvenue
+  .container.jumbotron
     .row
-      .col-md-3
+      .col-md-3.hidden-xs.hidden-sm
         #logo
           Kendo GVA
-      .col-md-9
+      .col-xs-12.col-sm-12.col-md-9
         %h2
           Bienvenue
         %p
@@ -186,21 +186,16 @@
       .panel.panel-default#english
         .panel-heading
           %h4
-            You don't speak French?
+            You don't speak french?
         .panel-body
           %p
-          Please note that our classes are given in French but many of our kenshis also speak some English and are ready to give you any information that you may need. Do not hesitate
+          Please note that our classes are given in french but many of our kenshis also speak some english and are ready to give you any information that you may need. Do not hesitate
           = link_to "to contact us", "#contact"
           for any inquiries regarding our activities.
 
 
-      .sidenav{role: "navigation"}
-        %nav.hidden-print
-          %button.navbar-toggle{type: "button"}
-            %span.sr-only Toggle navigation
-            %span.icon-bar
-            %span.icon-bar
-            %span.icon-bar
+      .sidenav{role: "complementary"}
+        %nav.hidden-print.hidden-xs.hidden-sm
           %ul.nav
             %li
               = link_to "Bienvenue", "#bienvenue"
