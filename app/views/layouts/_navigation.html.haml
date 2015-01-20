@@ -1,16 +1,16 @@
 - if request[:controller] != "pages"
-  .container
-    .row
-      .col-md-12
-        %nav.navbar#mainnav
+  %nav.navbar.navbar-fixed-top
+    .container
+      .row
+        .col-md-12
           .navbar-header
-            %button.navbar-toggle{type: "button", data: {toggle: "collapse", target: ".navbar-collapse"}}
+            %button.navbar-toggle{type: "button", data: {toggle: "collapse", target: "#navigationbar"}}
               %span.sr-only Toggle navigation
               %span.icon-bar
               %span.icon-bar
               %span.icon-bar
-            = link_to image_tag("logo_400_orange.png", size: "100X100", alt: "Logo"), root_path, class: 'navbar-brand'
-          .collapse.navbar-collapse.masthead-nav
+            = link_to image_tag("logo_40_orange.png", size: "40x40", alt: "Logo"), root_path, class: 'navbar-brand'
+          #navigationbar.collapse.navbar-collapse.masthead-nav
             %ul.nav.navbar-nav.navbar-right
               %li
                 = link_to "Home".html_safe, root_path, data: {toggle: "tooltip", placement: "bottom"}, title: "Tous les détails concernant notre club"

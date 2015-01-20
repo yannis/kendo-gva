@@ -3,8 +3,8 @@
   .row
     .col-sm-12
       %h1
-    = render @posts
-
+  = render partial: @posts, spacer_template: "layouts/divider"
+  .row
     .col-sm-12
       .pagination-control.text-center
         = paginate @posts

@@ -1,7 +1,10 @@
-.col-sm-3
-  %h3
-    %small
-      %i.fa.fa-calendar
-      = post.updated_at.strftime("%Y, %B %-d")
-.col-sm-9
-  = post.content_html.html_safe
+.row.post
+  .col-sm-3
+    %h3
+      = post.title
+      %br
+      %small
+        %i.fa.fa-calendar
+        = post.updated_at.strftime("%Y, %B %-d")
+  .col-sm-9
+    = post.content_html.html_safe

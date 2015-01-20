@@ -5,9 +5,10 @@
 
 @import "typography"
 @import "sidenav"
+@import "post"
 
 body
-  padding-top: 40px
+  padding-top: 100px
   .container, .jumbotron
     position: relative
     z-index: 0
@@ -22,6 +23,9 @@ body
     bottom: 0
     right: 0
     z-index: -1
+
+hr.divider
+  border-top: 2px solid $orange
 
 .jumbotron
   #logo
@@ -81,6 +85,8 @@ section
 @media (min-width: $screen-md-min)
   body
     padding-top: 0
+    &.with_nav
+      padding-top: 100px
   .jumbotron
     #logo
       background-position: left
