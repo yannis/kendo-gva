@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
 
-# Relations
-has_many :posts
+  # Relations
+  has_many :posts, dependent: :nullify
 
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
@@ -40,5 +40,9 @@ has_many :posts
 
   def self.users_count
     where("admin = ? AND locked = ?",false,false).count
+  end
+
+  def to_s
+    email
   end
 end

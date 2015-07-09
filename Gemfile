@@ -50,6 +50,7 @@ group :development do
   gem "rails_best_practices"
   gem "brakeman", require: false
   gem "bullet"
+  gem "quiet_assets"
 end
 
 group :test do

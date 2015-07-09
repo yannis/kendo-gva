@@ -66,7 +66,7 @@ ActiveRecord::Schema.define(version: 20141231163943) do
   create_table "teachers", force: true do |t|
     t.string   "name"
     t.integer  "grade"
-    t.boolean  "active"
+    t.boolean  "active",     default: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end

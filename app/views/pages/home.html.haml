@@ -22,14 +22,15 @@
 .container
   .row
     .col-md-9
-      %section#last_news.panel.panel-default
-        .panel-heading
-          %h2 Dernière nouvelle
-        .panel-body
-          %h3= @last_post.title
-          =raw @last_post.content_html
-        .panel-footer.text-right
-          = link_to "Toutes les nouvelles", posts_path
+      - if @last_post
+        %section#last_news.panel.panel-default
+          .panel-heading
+            %h2 Dernière nouvelle
+          .panel-body
+            %h3= @last_post.title
+            =raw @last_post.content_html
+          .panel-footer.text-right
+            = link_to "Toutes les nouvelles", posts_path
       %section#horaires
         %h2 Horaires
         .row
