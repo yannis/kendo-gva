@@ -1,30 +1,48 @@
 # A sample Guardfile
 # More info at https://github.com/guard/guard#readme
 
+## Uncomment and set this to only include directories you want to watch
+# directories %w(app lib config test spec features)
+
+## Uncomment to clear the screen before every task
+# clearing :on
+
+## Guard internally checks for changes in the Guardfile and exits.
+## If you want Guard to automatically start up again, run guard in a
+## shell loop, e.g.:
+##
+##  $ while bundle exec guard; do echo "Restarting Guard..."; done
+##
+## Note: if you are using the `directories` clause above and you are not
+## watching the project directory ('.'), then you will want to move
+## the Guardfile to a watched dir and symlink it back, e.g.
+#
+#  $ mkdir config
+#  $ mv Guardfile config/
+#  $ ln -s config/Guardfile .
+#
+# and, you'll have to watch "config/Guardfile" instead of "Guardfile"
+
 guard :bundler do
-  watch('Gemfile')
-  # Uncomment next line if your Gemfile contains the `gemspec' command.
-  # watch(/^.+\.gemspec/)
+  require 'guard/bundler'
+  require 'guard/bundler/verify'
+  helper = Guard::Bundler::Verify.new
+
+  files = ['Gemfile']
+  files += Dir['*.gemspec'] if files.any? { |f| helper.uses_gemspec?(f) }
+
+  # Assume files are symlinked from somewhere
+  files.each { |file| watch(helper.real_path(file)) }
 end
 
-# guard 'spring', :rspec_cli => '--color' do
-#   watch(%r{^spec/.+_spec\.rb$})
-#   watch(%r{^spec/spec_helper\.rb$})                   { |m| 'spec' }
-#   watch(%r{^app/(.+)\.rb$})                           { |m| "spec/#{m[1]}_spec.rb" }
-#   watch(%r{^lib/(.+)\.rb$})                           { |m| "spec/lib/#{m[1]}_spec.rb" }
-#   watch(%r{^app/controllers/(.+)_(controller)\.rb$})  do |m|
-#     %W(spec/routing/#{m[1]}_routing_spec.rb spec/#{m[2]}s/#{m[1]}_#{m[2]}_spec.rb spec/requests/#{m[1]}_spec.rb)
-#   end
+# guard 'livereload' do
+#   watch(%r{app/views/.+\.(erb|haml|slim)$})
+#   watch(%r{app/helpers/.+\.rb})
+#   watch(%r{public/.+\.(css|js|html)})
+#   watch(%r{config/locales/.+\.yml})
+#   # Rails Assets Pipeline
+#   watch(%r{(app|vendor)(/assets/\w+/(.+\.(css|js|html|png|jpg))).*}) { |m| "/assets/#{m[3]}" }
 # end
-
-guard 'livereload' do
-  watch(%r{app/views/.+\.(erb|haml|slim)$})
-  watch(%r{app/helpers/.+\.rb})
-  watch(%r{public/.+\.(css|js|html)})
-  watch(%r{config/locales/.+\.yml})
-  # Rails Assets Pipeline
-  watch(%r{(app|vendor)(/assets/\w+/(.+\.(css|scss|sass|coffee|js|html|png|jpg))).*}) { |m| "/assets/#{m[3]}" }
-end
 
 # Note: The cmd option is now required due to the increasing number of ways
 #       rspec may be run, below are examples of the most common uses.
@@ -60,14 +78,19 @@ guard :rspec, cmd: "bundle exec rspec" do
     [
       rspec.spec.("routing/#{m[1]}_routing"),
       rspec.spec.("controllers/#{m[1]}_controller"),
+      rspec.spec.("requests/#{m[1]}"),
+      rspec.spec.("requests"),
+      rspec.spec.("requests"),
       rspec.spec.("acceptance/#{m[1]}")
     ]
   end
+
 
   # Rails config changes
   watch(rails.spec_helper)     { rspec.spec_dir }
   watch(rails.routes)          { "#{rspec.spec_dir}/routing" }
   watch(rails.app_controller)  { "#{rspec.spec_dir}/controllers" }
+  watch(rails.app_controller)  { "#{rspec.spec_dir}/requests" }
 
   # Capybara features specs
   watch(rails.view_dirs)     { |m| rspec.spec.("features/#{m[1]}") }
