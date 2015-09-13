@@ -1,14 +1,4 @@
-# Don't ignore bundler config!
-# Useful when git cloning an app and not wanting
-# the gems to be installed globally.
-# Can be uncommented if really necessary.
-# /.bundle
-
-# Ignore the bundle directory itself.
 /vendor/bundle
-
-
-# Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
 
@@ -23,3 +13,6 @@ doc/
 # Ignore application configuration
 /config/application.yml
 .secret
+
+*.sublime-workspace
+*.sublime-project
