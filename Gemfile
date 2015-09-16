@@ -42,6 +42,7 @@ group :development, :test do
   gem 'guard-spring'
   gem 'guard-rspec', require: false
   gem 'guard-bundler'
+  gem "byebug"
 end
 
 group :development do

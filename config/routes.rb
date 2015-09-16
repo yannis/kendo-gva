@@ -11,7 +11,7 @@ KendoGva::Application.routes.draw do
 
   resources :posts, only: [:index, :show]
 
-
+  get "/robots.txt" => RobotsGenerator
   ActiveAdmin.routes(self)
 
   # namespace :admin do
