@@ -6,10 +6,10 @@ module ApplicationHelper
   end
 
   def startdate_helper(startdate)
-    if @startdate
-      "La prochaine aura lieu le <strong>#{l @startdate, format: :long}</strong>.".html_safe
+    if startdate
+      "La prochaine aura lieu le <strong>#{l startdate.start_on, format: :long}</strong>.".html_safe
     else
-      "Il n'y a pour l'instant pas de dat prévue poru la prochaine rentrée."
+      "Il n'y a pour l'instant pas de date prévue poru la prochaine rentrée."
     end
   end
 end
