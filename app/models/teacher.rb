@@ -1,5 +1,7 @@
 class Teacher < ActiveRecord::Base
 
+  mount_uploader :portrait, PortraitUploader
+
   validates_presence_of :name
   validates_uniqueness_of :name
   validates_presence_of :grade

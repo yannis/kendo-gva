@@ -36,6 +36,10 @@ gem "activeadmin", github: "activeadmin/activeadmin"
 
 gem "asset_sync"
 
+gem "mini_magick"
+gem "carrierwave"
+gem "fog-aws"
+
 group :development, :test do
   gem 'figaro', '1.0.0'
   gem "guard-livereload"

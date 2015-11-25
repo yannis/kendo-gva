@@ -523,7 +523,7 @@
 			"file": "kendo_gva.sublime-project",
 			"settings":
 			{
-				"buffer_size": 227,
+				"buffer_size": 305,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,23 @@
 			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 1288,
+				"buffer_size": 1303,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/requests/robots_spec.rb",
+			"settings":
+			{
+				"buffer_size": 624,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/robots.txt",
+			"settings":
+			{
+				"buffer_size": 264,
 				"line_ending": "Unix"
 			}
 		},
@@ -561,18 +577,10 @@
 			}
 		},
 		{
-			"file": "app/views/admin/users/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 676,
+				"buffer_size": 714,
 				"line_ending": "Unix"
 			}
 		},
@@ -704,15 +712,7 @@
 			"file": "config/environments/test.rb",
 			"settings":
 			{
-				"buffer_size": 1588,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/_variables.sass",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 1587,
 				"line_ending": "Unix"
 			}
 		},
@@ -736,7 +736,7 @@
 			"file": "app/views/pages/home.html.haml",
 			"settings":
 			{
-				"buffer_size": 10464,
+				"buffer_size": 10710,
 				"line_ending": "Unix"
 			}
 		},
@@ -761,14 +761,6 @@
 			"settings":
 			{
 				"buffer_size": 709,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/admin/posts_controller.rb",
-			"settings":
-			{
-				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -925,10 +917,13 @@
 			}
 		},
 		{
+			"contents": "# ENVIRONMENT VARIABLES\nSENDER_EMAIL: \"info@kendo-geneve.ch\"\n\nGMAIL_USERNAME: \"kendo.geneve@gmail.com\"\nGMAIL_PASSWORD: \"4btW2PPY8vBbJCjqrB2fmwP26vEqqGw8g6D4PYn6QW28iWntaR\"\n\nFOG_PROVIDER: AWS\nFOG_REGION: eu-central-1\n\nTYPEKIT_API_KEY: frb3cgd\nMAILER_HOST: \"kendo-gva.dev\"\nAIRBRAKE_API_KEY: \"8a46c7cf34c5468b989bcb9d2da07752\"\n\nGOOGLE_ANALYTICS: \"UA-37790349-3\"\nROBOTS: \"disallow\"\n\ndevelopment:\n  SECRET_TOKEN: f1ff8ec7ee49cb71219e7df4de4fb0230fbca71ece7e4f2dceea0baea1b5bc0ffa3eaab4f4d40184b4d3cd404fc21ca5ff44a414c94086141438ac2c0fc21595\n\ntest:\n  SECRET_TOKEN: 67c4ef442a4403bd5c3b09e2098f38c9d639533e2b7a89d45749b2d782152b38f9e6ed8fd05ae8930d4b6522487885529881c58f19748a4ff5d8893897dc5fb5\n\nstaging:\n  SECRET_TOKEN: 276f8fa7db23ba16eef35f9a1b272a4a5a292a4d918a368589630f672c9ed361816c06e847ab58a0007183451da160bae94938773efcc4c3b4a2dfb130e309ba\n  MAILER_HOST: \"kendo-gva-staging.herokuapp.com\"\n  # FOG_DIRECTORY: kendo-gva-staging\n  # AWS_ACCESS_KEY_ID: AKIAJQZJVF3L4IFEPGOQ\n  # AWS_SECRET_ACCESS_KEY: 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\n\n  #use same bucket than production for asset sync (required for heroku pipeline)\n  FOG_DIRECTORY: kendo-gva\n  AWS_ACCESS_KEY_ID: AKIAI5XGUXGANRNFOBCA\n  AWS_SECRET_ACCESS_KEY: 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\n\nproduction:\n  SECRET_TOKEN: 7e53b10b2a840e558e15b352b746d7456b4e6adfe4285276b730055be95c0b5a7ddc1bb3b0f8594fca2a5ca92c6f29e78c9d62b7443d3569736f6495d7945b1d\n  MAILER_HOST: \"kendo-geneve.ch\"\n  FOG_DIRECTORY: kendo-gva\n  AWS_ACCESS_KEY_ID: AKIAI5XGUXGANRNFOBCA\n  AWS_SECRET_ACCESS_KEY: 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\n  ROBOTS: \"allow\"",
 			"file": "config/application.yml",
+			"file_size": 1603,
+			"file_write_time": 130868636000000000,
 			"settings":
 			{
-				"buffer_size": 1088,
+				"buffer_size": 1602,
 				"line_ending": "Unix"
 			}
 		},
@@ -936,7 +931,7 @@
 			"file": "config/environments/production.rb",
 			"settings":
 			{
-				"buffer_size": 3336,
+				"buffer_size": 3335,
 				"line_ending": "Unix"
 			}
 		},
@@ -968,7 +963,15 @@
 			"file": "config/application.rb",
 			"settings":
 			{
-				"buffer_size": 1597,
+				"buffer_size": 1649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/robots_generator.rb",
+			"settings":
+			{
+				"buffer_size": 656,
 				"line_ending": "Unix"
 			}
 		},
@@ -1056,7 +1059,7 @@
 			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 418,
+				"buffer_size": 209,
 				"line_ending": "Unix"
 			}
 		},
@@ -1150,9 +1153,14 @@
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1312,11 +1320,15 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 593.0
+		"width": 548.0
 	},
 	"console":
 	{
-		"height": 146.0
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
 	},
 	"distraction_free":
 	{
@@ -1327,8 +1339,16 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/yannis/railsapps/kendo_gva"
+	],
 	"file_history":
 	[
+		"/Users/yannis/railsapps/kendo_gva/public/robots.txt",
+		"/Users/yannis/railsapps/kendo_gva/app/controllers/admin/posts_controller.rb",
+		"/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables.sass",
+		"/Users/yannis/railsapps/kendo_gva/app/views/admin/users/index.html.erb",
 		"/Users/yannis/Dropbox/CV/.gitignore",
 		"/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables2.scss",
 		"/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables.scss",
@@ -1452,11 +1472,7 @@
 		"/Users/yannis/railsapps/myanimals/spec/views/labels/labels.html.haml_spec.rb",
 		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/utilities/augmentable.js.coffee",
 		"/Users/yannis/railsapps/myanimals/spec/features/cages/cage_label_feature_spec.rb",
-		"/Users/yannis/railsapps/myanimals/app/views/animals/_mouse_chromosome_id_to_add.html.haml (original)",
-		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/models/labels.js.coffee",
-		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/labels.js.coffee",
-		"/Users/yannis/railsapps/myanimals/app/helpers/label_helper.rxml",
-		"/Users/yannis/railsapps/myanimals/features/users/user_edit.feature"
+		"/Users/yannis/railsapps/myanimals/app/views/animals/_mouse_chromosome_id_to_add.html.haml (original)"
 	],
 	"find":
 	{
@@ -1875,23 +1891,24 @@
 	"groups":
 	[
 		{
-			"selected": 19,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "kendo_gva.sublime-project",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 227,
+						"buffer_size": 305,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								110,
-								110
+								214,
+								32
 							]
 						],
 						"settings":
@@ -1999,6 +2016,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
@@ -2006,22 +2024,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
 					"file": "Gemfile",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1288,
+						"buffer_size": 1303,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								731,
-								731
+								951,
+								966
 							]
 						],
 						"settings":
@@ -2129,20 +2149,83 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 322.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "spec/requests/robots_spec.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								624
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/robots.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "app/views/layouts/application.html.haml",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1886,
@@ -2261,6 +2344,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
 							"tab_size": 2,
@@ -2270,11 +2354,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "app/views/layouts/_navigation.html.haml",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 2437,
@@ -2393,6 +2479,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
 							"tab_size": 2,
@@ -2402,11 +2489,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "app/views/layouts/_navigation_links.html.haml",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 911,
@@ -2526,6 +2615,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
 							"tab_size": 2,
@@ -2535,51 +2625,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "app/views/admin/users/index.html.erb",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "config/routes.rb",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 676,
+						"buffer_size": 714,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								428,
-								428
+								439,
+								400
 							]
 						],
 						"settings":
@@ -2687,6 +2750,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -2696,11 +2760,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "config/initializers/active_admin.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 7429,
@@ -2819,6 +2885,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -2828,11 +2895,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "lib/markdown.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 676,
@@ -2951,6 +3020,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -2960,11 +3030,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "app/admin/user.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1403,
@@ -3083,6 +3155,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -3092,11 +3165,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "app/admin/post.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 163,
@@ -3215,6 +3290,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
 						},
@@ -3222,11 +3298,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "app/admin/teacher.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 75,
@@ -3242,17 +3320,20 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "app/admin/startdate.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 64,
@@ -3371,6 +3452,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
 						},
@@ -3378,10 +3460,12 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 2331,
@@ -3500,6 +3584,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
@@ -3510,11 +3595,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": "vendor/bundle/ruby/2.1.0/gems/rails-4.1.8/guides/source/layout.html.erb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 6491,
@@ -3531,6 +3618,7 @@
 						"settings":
 						{
 							"codeintel": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -3539,11 +3627,13 @@
 						"translation.y": 2595.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.1.0/test/dummy_rails/app/assets/stylesheets/application.css.sass",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 50,
@@ -3560,17 +3650,20 @@
 						"settings":
 						{
 							"codeintel": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "app/assets/stylesheets/application.sass",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1540,
@@ -3689,6 +3782,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
 							"tab_size": 2,
@@ -3698,11 +3792,13 @@
 						"translation.y": 122.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "app/assets/stylesheets/_post.sass",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 29,
@@ -3821,6 +3917,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
 						},
@@ -3828,11 +3925,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
 					"file": "app/assets/stylesheets/sidenav.sass",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 935,
@@ -3951,6 +4050,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
@@ -3960,10 +4060,12 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 20,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 118457,
@@ -6158,6 +6260,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"detect_indentation": false,
 							"output_tag": 30,
 							"result_base_dir": "",
@@ -6169,14 +6272,16 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 80600.0,
+						"translation.y": 80575.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 21,
 					"file": "app/views/contact_mailer/contact_message.html.erb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 196,
@@ -6295,6 +6400,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
@@ -6302,11 +6408,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 22,
 					"file": "app/mailers/contact_mailer.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 319,
@@ -6425,6 +6533,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
 						},
@@ -6432,146 +6541,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"type": "text"
-				},
-				{
-					"buffer": 22,
-					"file": "config/environments/test.rb",
-					"settings":
-					{
-						"buffer_size": 1588,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1583,
-								1583
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2.0,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5.0,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10.0,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 102.0,
-						"zoom_level": 1.0
-					},
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
 					"buffer": 23,
-					"file": "app/assets/stylesheets/_variables.sass",
+					"file": "config/environments/test.rb",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1587,
 						"regions":
 						{
 						},
@@ -6687,18 +6666,23 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7883.0,
+						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
 					"buffer": 24,
 					"file": "vendor/bundle/ruby/2.1.0/gems/devise-3.4.1/test/rails_app/app/views/home/index.html.erb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 6,
@@ -6715,17 +6699,20 @@
 						"settings":
 						{
 							"codeintel": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
 					"buffer": 25,
 					"file": "app/controllers/pages_controller.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1704,
@@ -6844,6 +6831,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -6853,22 +6841,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
 					"buffer": 26,
 					"file": "app/views/pages/home.html.haml",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10464,
+						"buffer_size": 10710,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								760,
-								760
+								0,
+								0
 							]
 						],
 						"settings":
@@ -6976,6 +6966,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
 							"tab_size": 2,
@@ -6985,11 +6976,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
 					"buffer": 27,
 					"file": "app/assets/stylesheets/typography.sass",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 440,
@@ -7120,6 +7113,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
@@ -7129,11 +7123,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
 					"buffer": 28,
 					"file": "app/views/pages/contact.html.erb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1268,
@@ -7150,6 +7146,7 @@
 						"settings":
 						{
 							"codeintel": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -7158,11 +7155,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
 					"buffer": 29,
 					"file": "app/assets/javascripts/application.js",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 709,
@@ -7281,6 +7280,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
@@ -7288,143 +7288,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 35,
 					"type": "text"
 				},
 				{
 					"buffer": 30,
-					"file": "app/controllers/admin/posts_controller.rb",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2.0,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5.0,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10.0,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 31,
 					"file": "app/models/post.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 561,
@@ -7543,6 +7413,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -7552,11 +7423,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 36,
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 31,
 					"file": "db/migrate/20141010133702_create_posts.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 336,
@@ -7675,6 +7548,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -7684,11 +7558,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 32,
 					"file": "vendor/bundle/ruby/2.1.0/gems/devise-3.4.1/test/rails_app/app/controllers/home_controller.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 324,
@@ -7705,6 +7581,7 @@
 						"settings":
 						{
 							"codeintel": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -7713,11 +7590,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 38,
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 33,
 					"file": "db/seeds.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1244,
@@ -7836,6 +7715,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -7845,11 +7725,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 39,
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 34,
 					"file": "app/models/teacher.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 230,
@@ -7968,6 +7850,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
 						},
@@ -7975,11 +7858,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 40,
 					"type": "text"
 				},
 				{
-					"buffer": 36,
+					"buffer": 35,
 					"file": "spec/models/teacher_spec.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 720,
@@ -8098,8 +7983,9 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
-							"syntax": "Packages/User/RSpec.tmLanguage",
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -8107,11 +7993,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 41,
 					"type": "text"
 				},
 				{
-					"buffer": 37,
+					"buffer": 36,
 					"file": "spec/models/startdate_spec.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 500,
@@ -8230,8 +8118,9 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
-							"syntax": "Packages/User/RSpec.tmLanguage",
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -8239,11 +8128,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 42,
 					"type": "text"
 				},
 				{
-					"buffer": 38,
+					"buffer": 37,
 					"file": "config/locales/startdate.fr.yml",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 153,
@@ -8366,6 +8257,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/YAML/YAML.tmLanguage",
 							"tab_size": 2,
@@ -8375,11 +8267,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 43,
 					"type": "text"
 				},
 				{
-					"buffer": 39,
+					"buffer": 38,
 					"file": "config/locales/user.fr.yml",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 97,
@@ -8498,6 +8392,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/YAML/YAML.tmLanguage"
 						},
@@ -8505,11 +8400,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 44,
 					"type": "text"
 				},
 				{
-					"buffer": 40,
+					"buffer": 39,
 					"file": "config/locales/post.fr.yml",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 218,
@@ -8628,6 +8525,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/YAML/YAML.tmLanguage",
 							"tab_size": 2,
@@ -8637,11 +8535,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 45,
 					"type": "text"
 				},
 				{
-					"buffer": 41,
+					"buffer": 40,
 					"file": "config/database.yml",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 232,
@@ -8760,6 +8660,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/YAML/YAML.tmLanguage",
 							"tab_size": 2,
@@ -8769,11 +8670,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 46,
 					"type": "text"
 				},
 				{
-					"buffer": 42,
+					"buffer": 41,
 					"file": "spec/models/user_spec.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 997,
@@ -8892,18 +8795,21 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
-							"syntax": "Packages/User/RSpec.tmLanguage"
+							"syntax": "Packages/RSpec/RSpec.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 43,
+					"buffer": 42,
 					"file": "app/models/user.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1174,
@@ -9022,20 +8928,23 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 380.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 44,
+					"buffer": 43,
 					"file": "db/migrate/20141010133701_devise_create_users.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1518,
@@ -9154,6 +9063,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -9163,11 +9073,13 @@
 						"translation.y": 455.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 47,
 					"type": "text"
 				},
 				{
-					"buffer": 45,
+					"buffer": 44,
 					"file": "db/migrate/20141228171107_create_teachers.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 216,
@@ -9286,6 +9198,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
 						},
@@ -9293,11 +9206,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 48,
 					"type": "text"
 				},
 				{
-					"buffer": 46,
+					"buffer": 45,
 					"file": "spec/spec_helper.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 4094,
@@ -9416,6 +9331,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -9425,11 +9341,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 49,
 					"type": "text"
 				},
 				{
-					"buffer": 47,
+					"buffer": 46,
 					"file": "Guardfile",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 3366,
@@ -9548,6 +9466,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -9557,11 +9476,13 @@
 						"translation.y": 1830.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 50,
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 47,
 					"file": "spec/rails_helper.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 2621,
@@ -9680,6 +9601,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -9689,11 +9611,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 51,
 					"type": "text"
 				},
 				{
-					"buffer": 49,
+					"buffer": 48,
 					"file": "spec/support/factories.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 450,
@@ -9812,8 +9736,9 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
-							"syntax": "Packages/User/RSpec.tmLanguage",
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -9821,152 +9746,159 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 52,
+					"type": "text"
+				},
+				{
+					"buffer": 49,
+					"file": "config/application.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1602,
+								1602
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 50,
-					"file": "config/application.yml",
-					"settings":
-					{
-						"buffer_size": 1088,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1086,
-								1086
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2.0,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5.0,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10.0,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 80.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 51,
 					"file": "config/environments/production.rb",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3336,
+						"buffer_size": 3335,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3331,
-								3331
+								0,
+								0
 							]
 						],
 						"settings":
@@ -10074,6 +10006,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -10083,11 +10016,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 53,
 					"type": "text"
 				},
 				{
-					"buffer": 52,
+					"buffer": 51,
 					"file": "config/initializers/asset_sync.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 916,
@@ -10206,6 +10141,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 4,
@@ -10215,11 +10151,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 54,
 					"type": "text"
 				},
 				{
-					"buffer": 53,
+					"buffer": 52,
 					"file": "app/assets/javascripts/common.js",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 433,
@@ -10338,6 +10276,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
@@ -10347,11 +10286,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 55,
 					"type": "text"
 				},
 				{
-					"buffer": 54,
+					"buffer": 53,
 					"file": "app/assets/javascripts/analytics.js.coffee",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 147,
@@ -10470,6 +10411,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
 						},
@@ -10477,22 +10419,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 56,
 					"type": "text"
 				},
 				{
-					"buffer": 55,
+					"buffer": 54,
 					"file": "config/application.rb",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1597,
+						"buffer_size": 1649,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								126,
-								155
+								554,
+								554
 							]
 						],
 						"settings":
@@ -10600,20 +10544,54 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 65.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 55,
+					"file": "lib/robots_generator.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 56,
 					"file": "config/initializers/setup_mail.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 345,
@@ -10732,6 +10710,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
 						},
@@ -10739,11 +10718,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 57,
 					"type": "text"
 				},
 				{
 					"buffer": 57,
 					"file": "app/models/startdate.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 188,
@@ -10862,6 +10843,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
 						},
@@ -10869,11 +10851,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 58,
 					"type": "text"
 				},
 				{
 					"buffer": 58,
 					"file": "config/locales/fr-CH.yml",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 4892,
@@ -10890,6 +10874,7 @@
 						"settings":
 						{
 							"codeintel": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/YAML/YAML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -10898,11 +10883,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 59,
 					"type": "text"
 				},
 				{
 					"buffer": 59,
 					"file": "app/views/layouts/_footer.html.haml",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 673,
@@ -11021,6 +11008,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Ruby Haml/Ruby Haml.tmLanguage",
 							"tab_size": 2,
@@ -11030,11 +11018,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 60,
 					"type": "text"
 				},
 				{
 					"buffer": 60,
 					"file": "app/controllers/posts_controller.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 221,
@@ -11153,6 +11143,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
 						},
@@ -11160,11 +11151,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 61,
 					"type": "text"
 				},
 				{
 					"buffer": 61,
 					"file": "app/views/pages/posts.html.erb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 353,
@@ -11181,17 +11174,20 @@
 						"settings":
 						{
 							"codeintel": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 62,
 					"type": "text"
 				},
 				{
 					"buffer": 62,
 					"file": "app/views/posts/index.html.haml",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 209,
@@ -11310,6 +11306,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
 						},
@@ -11317,11 +11314,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 63,
 					"type": "text"
 				},
 				{
 					"buffer": 63,
 					"file": "app/views/layouts/_divider.html.haml",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 34,
@@ -11440,6 +11439,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
 						},
@@ -11447,11 +11447,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 64,
 					"type": "text"
 				},
 				{
 					"buffer": 64,
 					"file": "app/views/posts/_post.html.haml",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 193,
@@ -11570,6 +11572,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
 						},
@@ -11577,11 +11580,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 65,
 					"type": "text"
 				},
 				{
 					"buffer": 65,
 					"file": "app/views/pages/show_post.html.erb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 259,
@@ -11598,28 +11603,31 @@
 						"settings":
 						{
 							"codeintel": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 66,
 					"type": "text"
 				},
 				{
 					"buffer": 66,
 					"file": ".gitignore",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 418,
+						"buffer_size": 209,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								170,
+								209
 							]
 						],
 						"settings":
@@ -11727,6 +11735,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
@@ -11734,11 +11743,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 67,
 					"file": "config/initializers/secret_token.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 844,
@@ -11755,6 +11766,7 @@
 						"settings":
 						{
 							"codeintel": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -11763,11 +11775,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 67,
 					"type": "text"
 				},
 				{
 					"buffer": 68,
 					"file": "config/environments/development.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1021,
@@ -11895,11 +11909,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 68,
 					"type": "text"
 				},
 				{
 					"buffer": 69,
 					"file": "app/controllers/application_controller.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1322,
@@ -12027,11 +12043,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 69,
 					"type": "text"
 				},
 				{
 					"buffer": 70,
 					"file": "app/views/devise/sessions/new.html.erb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1253,
@@ -12150,6 +12168,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"tab_size": 2,
@@ -12159,11 +12178,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 70,
 					"type": "text"
 				},
 				{
 					"buffer": 71,
 					"file": "app/assets/stylesheets/_variables.scss",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 27932,
@@ -12282,6 +12303,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
 						},
@@ -12289,11 +12311,13 @@
 						"translation.y": 67.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 71,
 					"type": "text"
 				},
 				{
 					"buffer": 72,
 					"file": "app/views/layouts/_messages.html.erb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 382,
@@ -12310,17 +12334,20 @@
 						"settings":
 						{
 							"codeintel": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 72,
 					"type": "text"
 				},
 				{
 					"buffer": 73,
 					"file": "config/unicorn.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 582,
@@ -12344,11 +12371,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 73,
 					"type": "text"
 				},
 				{
 					"buffer": 74,
 					"file": "app/views/devise/passwords/new.html.erb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 845,
@@ -12364,6 +12393,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -12372,11 +12402,13 @@
 						"translation.y": 80.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 74,
 					"type": "text"
 				},
 				{
 					"buffer": 75,
 					"file": "app/views/devise/passwords/edit.html.erb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1181,
@@ -12392,6 +12424,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -12400,11 +12433,13 @@
 						"translation.y": 330.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 75,
 					"type": "text"
 				},
 				{
 					"buffer": 76,
 					"file": "config/environment.rb",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 154,
@@ -12426,11 +12461,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 76,
 					"type": "text"
 				},
 				{
 					"buffer": 77,
 					"file": ".rbenv-version",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 6,
@@ -12452,6 +12489,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 77,
 					"type": "text"
 				}
 			]
@@ -12459,7 +12497,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 41.0
 	},
 	"input":
 	{
@@ -12492,10 +12530,16 @@
 	{
 		"height": 118.0
 	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
 	"output.tests":
 	{
 		"height": 118.0
 	},
+	"pinned_build_system": "",
+	"project": "kendo_gva.sublime-project",
 	"replace":
 	{
 		"height": 64.0
@@ -12504,8 +12548,61 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"modeuse",
+				"app/models/user.rb"
+			],
+			[
+				"modeluse",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"",
+				"kendo_gva.sublime-project"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"pro",
+				"kendo_gva.sublime-project"
+			],
+			[
+				"rob",
+				"config/robots.txt"
+			],
+			[
+				"ro",
+				"~/railsapps/kendo_gva/public/robots.txt"
+			],
+			[
+				"robots",
+				"public/robots.txt"
+			],
+			[
+				"robspe",
+				"spec/requests/robots_spec.rb"
+			],
+			[
+				"gemfil",
+				"Gemfile"
+			],
+			[
+				"appy",
+				"config/application.yml"
+			],
+			[
+				"apprb",
+				"config/application.rb"
+			],
 			[
 				"gemf",
 				"Gemfile"
@@ -12517,10 +12614,6 @@
 			[
 				"gemfile",
 				"Gemfile"
-			],
-			[
-				"apprb",
-				"config/application.rb"
 			],
 			[
 				"spec",
@@ -12539,20 +12632,12 @@
 				"Guardfile"
 			],
 			[
-				"gemfil",
-				"Gemfile"
-			],
-			[
 				"env",
 				"config/environment.rb"
 			],
 			[
 				"home",
 				"app/views/pages/home.html.haml"
-			],
-			[
-				"",
-				"app/admin/post.rb"
 			],
 			[
 				"moduser",
@@ -12799,10 +12884,6 @@
 				"Gemfile"
 			],
 			[
-				"routes",
-				"config/routes.rb"
-			],
-			[
 				"appcontr",
 				"app/controllers/application_controller.rb"
 			],
@@ -12813,14 +12894,6 @@
 			[
 				"appyml",
 				"config/application.yml"
-			],
-			[
-				"pro",
-				"config/environments/production.rb"
-			],
-			[
-				"git",
-				".gitignore"
 			],
 			[
 				"secret",
@@ -12951,10 +13024,6 @@
 				"config/initializers/asset_sync.rb"
 			],
 			[
-				"appy",
-				"config/application.yml"
-			],
-			[
 				"create",
 				"db/migrate/20141228171107_create_teachers.rb"
 			],
@@ -12993,30 +13062,6 @@
 			[
 				"navlink",
 				"app/views/layouts/_navigation_links.html.erb"
-			],
-			[
-				"homecon",
-				"vendor/bundle/ruby/2.1.0/gems/devise-3.4.1/test/rails_app/app/controllers/home_controller.rb"
-			],
-			[
-				"homeha",
-				"app/views/pages/home.html.haml"
-			],
-			[
-				"teacspe",
-				"spec/models/teacher_spec.rb"
-			],
-			[
-				"creattea",
-				"db/migrate/20141228171107_create_teachers.rb"
-			],
-			[
-				"users",
-				"spec/models/user_spec.rb"
-			],
-			[
-				"userr",
-				"app/models/user.rb"
 			]
 		],
 		"width": 0.0
@@ -13024,23 +13069,44 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"ka",
-				"/Users/yannis/railsapps/kasaharacup/kasaharacup.sublime-project"
+				"",
+				"~/railsapps/myanimals/myanimals.sublime-project"
 			],
 			[
-				"",
+				"pla",
+				"~/railsapps/plantvillage/plantvillage.sublime-project"
+			],
+			[
+				"ka",
 				"/Users/yannis/railsapps/kasaharacup/kasaharacup.sublime-project"
 			]
 		],
 		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 422.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
 	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 334.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
