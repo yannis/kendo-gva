@@ -61,7 +61,7 @@
         %p
           Nous organisons deux rentrées pour les débutants, au mois de septembre et janvier.
         %p
-          =raw "La prochaine aura lieu le <strong>#{l @startdate, format: :long}</strong>."
+          = startdate_helper(@startdate)
         %p
           Si vous désirez nous rejoindre, envoyez-nous <a href="#contact">un message</a> pour nous avertir que vous comptez participer à la prochaine rentrée. Ceci facilitera notre organisation.
         %p
@@ -109,7 +109,7 @@
         %p
           =raw "Nous proposons des cours aux enfants <strong>dès 8 ans</strong>. Les rentrées pour ces cours se font deux fois par ans, au mois de septembre et janvier."
         %p
-          =raw "La prochaine rentrée aura lieu le <strong>#{l @startdate, format: :long}</strong>."
+          = startdate_helper(@startdate)
         %p
           La Fédération Japonaise définit le Kendo comme un art martial
           %blockquote
@@ -173,12 +173,15 @@
             la page Wikipedia
           sur le sujet ou à venir nous rencontrer.
       - if @teachers.present?
-        %section#teachers
+        %section#teachers.clearfix
           %h2
             Les enseignants
           - @teachers.each do |teacher|
             .teacher{class: "col-sm-#{@teacher_col_width}"}
-              %i.fa.fa-user
+              - if teacher.portrait.present?
+                = image_tag teacher.portrait.url(:medium), class: 'img-circle img-responsive'
+              - else
+                %i.fa.fa-user
               %h4
                 = teacher.name
                 %br
