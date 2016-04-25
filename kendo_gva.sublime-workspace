@@ -531,7 +531,7 @@
 			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 1303,
+				"buffer_size": 1350,
 				"line_ending": "Unix"
 			}
 		},
@@ -620,7 +620,7 @@
 			"file": "app/admin/teacher.rb",
 			"settings":
 			{
-				"buffer_size": 75,
+				"buffer_size": 489,
 				"line_ending": "Unix"
 			}
 		},
@@ -683,13 +683,39 @@
 			}
 		},
 		{
-			"contents": "Searching 8931 files for \"icon-bar\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables.scss:\n  377  // Navbar toggle\n  378  $navbar-default-toggle-hover-bg:           darken($navbar-default-bg, 8%);\n  379: $navbar-default-toggle-icon-bar-bg:        $text-color;\n  380  $navbar-default-toggle-border-color:       darken($navbar-default-bg, 8%);\n  381  \n  ...\n  403  // Inverted navbar toggle\n  404  $navbar-inverse-toggle-hover-bg:            darken($navbar-inverse-bg, 12%);\n  405: $navbar-inverse-toggle-icon-bar-bg:         #fff;\n  406  $navbar-inverse-toggle-border-color:        darken($navbar-inverse-bg, 12%);\n  407  \n\n/Users/yannis/railsapps/kendo_gva/app/views/layouts/_navigation.html.haml:\n    7              %button.navbar-toggle{type: \"button\", data: {toggle: \"collapse\", target: \".navbar-collapse\"}}\n    8                %span.sr-only Toggle navigation\n    9:               %span.icon-bar\n   10:               %span.icon-bar\n   11:               %span.icon-bar\n   12              = link_to image_tag(\"logo_100.png\", size: \"50x50\", alt: \"Logo\"), root_path, class: 'navbar-brand'\n   13            .collapse.navbar-collapse.masthead-nav\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_glyphicons.scss:\n   78  .glyphicon-volume-up              { &:before { content: \"\\e038\"; } }\n   79  .glyphicon-qrcode                 { &:before { content: \"\\e039\"; } }\n   80: .glyphicon-barcode                { &:before { content: \"\\e040\"; } }\n   81  .glyphicon-tag                    { &:before { content: \"\\e041\"; } }\n   82  .glyphicon-tags                   { &:before { content: \"\\e042\"; } }\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss:\n  210  \n  211    // Bars\n  212:   .icon-bar {\n  213      display: block;\n  214      width: 22px;\n  ...\n  216      border-radius: 1px;\n  217    }\n  218:   .icon-bar + .icon-bar {\n  219      margin-top: 4px;\n  220    }\n  ...\n  446        background-color: $navbar-default-toggle-hover-bg;\n  447      }\n  448:     .icon-bar {\n  449:       background-color: $navbar-default-toggle-icon-bar-bg;\n  450      }\n  451    }\n  ...\n  581        background-color: $navbar-inverse-toggle-hover-bg;\n  582      }\n  583:     .icon-bar {\n  584:       background-color: $navbar-inverse-toggle-icon-bar-bg;\n  585      }\n  586    }\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_variables.scss:\n  383  // Navbar toggle\n  384  $navbar-default-toggle-hover-bg:           #ddd !default;\n  385: $navbar-default-toggle-icon-bar-bg:        #888 !default;\n  386  $navbar-default-toggle-border-color:       #ddd !default;\n  387  \n  ...\n  409  // Inverted navbar toggle\n  410  $navbar-inverse-toggle-hover-bg:            #333 !default;\n  411: $navbar-inverse-toggle-icon-bar-bg:         #fff !default;\n  412  $navbar-inverse-toggle-border-color:        #333 !default;\n  413  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.1.0/templates/project/_bootstrap-variables.sass:\n  385  // Navbar toggle\n  386  // $navbar-default-toggle-hover-bg:           #ddd\n  387: // $navbar-default-toggle-icon-bar-bg:        #888\n  388  // $navbar-default-toggle-border-color:       #ddd\n  389  \n  ...\n  411  // Inverted navbar toggle\n  412  // $navbar-inverse-toggle-hover-bg:            #333\n  413: // $navbar-inverse-toggle-icon-bar-bg:         #fff\n  414  // $navbar-inverse-toggle-border-color:        #333\n  415  \n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables.sass:\n  429  // Navbar toggle\n  430  $navbar-default-toggle-hover-bg: #dddddd !default\n  431: $navbar-default-toggle-icon-bar-bg: #888888 !default\n  432  $navbar-default-toggle-border-color: #dddddd !default\n  433  \n  ...\n  454  // Inverted navbar toggle\n  455  $navbar-inverse-toggle-hover-bg: #333333 !default\n  456: $navbar-inverse-toggle-icon-bar-bg: white !default\n  457  $navbar-inverse-toggle-border-color: #333333 !default\n  458  \n\n19 matches across 7 files\n\n\nSearching 8931 files for \"icon-bar\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables.scss:\n  377  // Navbar toggle\n  378  $navbar-default-toggle-hover-bg:           darken($navbar-default-bg, 8%);\n  379: $navbar-default-toggle-icon-bar-bg:        $text-color;\n  380  $navbar-default-toggle-border-color:       darken($navbar-default-bg, 8%);\n  381  \n  ...\n  403  // Inverted navbar toggle\n  404  $navbar-inverse-toggle-hover-bg:            darken($navbar-inverse-bg, 12%);\n  405: $navbar-inverse-toggle-icon-bar-bg:         #fff;\n  406  $navbar-inverse-toggle-border-color:        darken($navbar-inverse-bg, 12%);\n  407  \n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/application.sass:\n   20    height: 100px\n   21    background-color: yellow\n   22: .icon-bar,\n   23    color: white\n   24  \n\n/Users/yannis/railsapps/kendo_gva/app/views/layouts/_navigation.html.haml:\n    7              %button.navbar-toggle{type: \"button\", data: {toggle: \"collapse\", target: \".navbar-collapse\"}}\n    8                %span.sr-only Toggle navigation\n    9:               %span.icon-bar\n   10:               %span.icon-bar\n   11:               %span.icon-bar\n   12              = link_to image_tag(\"logo_100.png\", size: \"50x50\", alt: \"Logo\"), root_path, class: 'navbar-brand'\n   13            .collapse.navbar-collapse.masthead-nav\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_glyphicons.scss:\n   78  .glyphicon-volume-up              { &:before { content: \"\\e038\"; } }\n   79  .glyphicon-qrcode                 { &:before { content: \"\\e039\"; } }\n   80: .glyphicon-barcode                { &:before { content: \"\\e040\"; } }\n   81  .glyphicon-tag                    { &:before { content: \"\\e041\"; } }\n   82  .glyphicon-tags                   { &:before { content: \"\\e042\"; } }\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navbar.scss:\n  210  \n  211    // Bars\n  212:   .icon-bar {\n  213      display: block;\n  214      width: 22px;\n  ...\n  216      border-radius: 1px;\n  217    }\n  218:   .icon-bar + .icon-bar {\n  219      margin-top: 4px;\n  220    }\n  ...\n  446        background-color: $navbar-default-toggle-hover-bg;\n  447      }\n  448:     .icon-bar {\n  449:       background-color: $navbar-default-toggle-icon-bar-bg;\n  450      }\n  451    }\n  ...\n  581        background-color: $navbar-inverse-toggle-hover-bg;\n  582      }\n  583:     .icon-bar {\n  584:       background-color: $navbar-inverse-toggle-icon-bar-bg;\n  585      }\n  586    }\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_variables.scss:\n  383  // Navbar toggle\n  384  $navbar-default-toggle-hover-bg:           #ddd !default;\n  385: $navbar-default-toggle-icon-bar-bg:        #888 !default;\n  386  $navbar-default-toggle-border-color:       #ddd !default;\n  387  \n  ...\n  409  // Inverted navbar toggle\n  410  $navbar-inverse-toggle-hover-bg:            #333 !default;\n  411: $navbar-inverse-toggle-icon-bar-bg:         #fff !default;\n  412  $navbar-inverse-toggle-border-color:        #333 !default;\n  413  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.1.0/templates/project/_bootstrap-variables.sass:\n  385  // Navbar toggle\n  386  // $navbar-default-toggle-hover-bg:           #ddd\n  387: // $navbar-default-toggle-icon-bar-bg:        #888\n  388  // $navbar-default-toggle-border-color:       #ddd\n  389  \n  ...\n  411  // Inverted navbar toggle\n  412  // $navbar-inverse-toggle-hover-bg:            #333\n  413: // $navbar-inverse-toggle-icon-bar-bg:         #fff\n  414  // $navbar-inverse-toggle-border-color:        #333\n  415  \n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables.sass:\n  429  // Navbar toggle\n  430  $navbar-default-toggle-hover-bg: #dddddd !default\n  431: $navbar-default-toggle-icon-bar-bg: #888888 !default\n  432  $navbar-default-toggle-border-color: #dddddd !default\n  433  \n  ...\n  454  // Inverted navbar toggle\n  455  $navbar-inverse-toggle-hover-bg: #333333 !default\n  456: $navbar-inverse-toggle-icon-bar-bg: white !default\n  457  $navbar-inverse-toggle-border-color: #333333 !default\n  458  \n\n20 matches across 8 files\n\n\nSearching 8939 files for \"$cursive\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/typography.sass:\n   14  .ampersand\n   15    font:\n   16:     family:  $cursive\n   17      size: larger\n   18      style: normal\n\n1 match in 1 file\n\n\nSearching 8939 files for \"cursive\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/typography.sass:\n   14  .ampersand\n   15    font:\n   16:     family:  $cursive\n   17      size: larger\n   18      style: normal\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/bundler/gems/activeadmin-f51d96dddb5e/lib/active_admin/menu.rb:\n   32        end\n   33  \n   34:       # Recursively builds any given menu items. There are two syntaxes supported,\n   35        # as shown in the below examples. Both create an identical menu structure.\n   36        #\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/journey/formatter.rb:\n   75              yield named_routes[name]\n   76            else\n   77:             routes = non_recursive(cache, options.to_a)\n   78  \n   79              hash = routes.group_by { |_, r| r.score(options) }\n   ..\n   89          end\n   90  \n   91:         def non_recursive(cache, options)\n   92            routes = []\n   93            stack  = [cache]\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/actionview-4.1.8/CHANGELOG.md:\n  219  \n  220  *   Ensure `ActionView::Digestor.cache` is correctly cleaned up when\n  221:     combining recursive templates with `ActionView::Resolver.caching = false`.\n  222  \n  223      *wyaeld*\n  ...\n  330      *Murahashi Sanemat Kenichi*\n  331  \n  332: *   Fix \"Stack Level Too Deep\" error when rendering recursive partials.\n  333  \n  334      Fixes #11340.\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/actionview-4.1.8/lib/action_view/digestor.rb:\n   33          def compute_and_store_digest(cache_key, options) # called under @@digest_monitor lock\n   34            klass = if options[:partial] || options[:name].include?(\"/_\")\n   35:             # Prevent re-entry or else recursive templates will blow the stack.\n   36              # There is no need to worry about other threads seeing the +false+ value,\n   37              # as they will then have to wait for this thread to let go of the @@digest_monitor lock.\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.8/lib/active_record/core.rb:\n  395      #\n  396      # Since ActiveRecord objects can be inside multiple transactions, this\n  397:     # method recursively goes through the parent of the TransactionState and\n  398      # checks if the ActiveRecord object reflects the state of the object.\n  399      def sync_with_transaction_state\n  ...\n  415      end\n  416  \n  417:     # Under Ruby 1.9, Array#flatten will call #to_ary (recursively) on each of the elements\n  418      # of the array, and then rescues from the possible NoMethodError. If those elements are\n  419      # ActiveRecord::Base's, then this triggers the various method_missing's that we have,\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.8/lib/active_record/reflection.rb:\n  557        # array corresponds to a table which will be part of the query for this association.\n  558        #\n  559:       # The chain is built by recursively calling #chain on the source reflection and the through\n  560        # reflection. The base case for the recursion is a normal association, which just returns\n  561        # [self] as its #chain.\n  ...\n  614            end\n  615  \n  616:           # Recursively fill out the rest of the array from the through reflection\n  617            scope_chain + through_scope_chain\n  618          end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.8/lib/active_record/associations/preloader.rb:\n   65        #   for an Author.\n   66        # - an Array which specifies multiple association names. This array\n   67:       #   is processed recursively. For example, specifying <tt>[:avatar, :books]</tt>\n   68        #   allows this method to preload an author's avatar as well as all of his\n   69        #   books.\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/activerecord-4.1.8/lib/active_record/relation/query_methods.rb:\n 1105      end\n 1106  \n 1107:     # This function is recursive just for better readablity.\n 1108      # #where argument doesn't support more than one level nested hash in real world.\n 1109      def add_relations_to_bind_values(attributes)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.8/lib/active_support/core_ext/hash/conversions.rb:\n   22    # the _values_. Given a pair +key+, +value+:\n   23    #\n   24:   # * If +value+ is a hash there's a recursive call with +key+ as <tt>:root</tt>.\n   25    #\n   26:   # * If +value+ is an array there's a recursive call with +key+ as <tt>:root</tt>,\n   27    #   and +key+ singularized as <tt>:children</tt>.\n   28    #\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.8/lib/active_support/core_ext/hash/deep_merge.rb:\n    1  class Hash\n    2:   # Returns a new hash with +self+ and +other_hash+ merged recursively.\n    3    #\n    4    #   h1 = { a: true, b: { c: [1, 2, 3] } }\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.8/lib/active_support/json/encoding.rb:\n   67            # Convert an object into a \"JSON-ready\" representation composed of\n   68            # primitives like Hash, Array, String, Numeric, and true/false/nil.\n   69:           # Recursively calls #as_json to the object to recursively build a\n   70            # fully JSON-ready object.\n   71            #\n   72            # This allows developers to implement #as_json without having to\n   73            # worry about what base types of objects they are allowed to return\n   74:           # or having to remember to call #as_json recursively.\n   75            #\n   76            # Note: the +options+ hash passed to +object.to_json+ is only passed\n   77:           # to +object.as_json+, not any of this method's recursive +#as_json+\n   78            # calls.\n   79            def jsonify(value)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/arel-5.0.1.20140414130214/lib/arel/nodes/with.rb:\n    5      end\n    6  \n    7:     class WithRecursive < With; end\n    8    end\n    9  end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/arel-5.0.1.20140414130214/lib/arel/visitors/to_sql.rb:\n  246        end\n  247  \n  248:       def visit_Arel_Nodes_WithRecursive o, a\n  249          \"WITH RECURSIVE #{o.children.map { |x| visit x, a }.join(', ')}\"\n  250        end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/arel-5.0.1.20140414130214/test/test_select_manager.rb:\n  340          replies_id         = replies[:id]\n  341  \n  342:         recursive_term = Arel::SelectManager.new Table.engine\n  343:         recursive_term.from(comments).project(comments_id, comments_parent_id).where(comments_id.eq 42)\n  344  \n  345:         non_recursive_term = Arel::SelectManager.new Table.engine\n  346:         non_recursive_term.from(comments).project(comments_id, comments_parent_id).join(replies).on(comments_parent_id.eq replies_id)\n  347  \n  348:         union = recursive_term.union(non_recursive_term)\n  349  \n  350          as_statement = Arel::Nodes::As.new replies, union\n  351  \n  352          manager = Arel::SelectManager.new Table.engine\n  353:         manager.with(:recursive, as_statement).from(replies).project(Arel.star)\n  354  \n  355          sql = manager.to_sql\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/awesome_print-1.2.0/CHANGELOG:\n    8  \n    9  1.1.0\n   10:   - Objects are no longer recursively formatted by default. Reenable by using :raw => true option.\n   11    - ap(object) now returns nil when running under IRB or Pry\n   12    - Added support for Mongoid 3 and Moped (Nikolaj Nikolajsen)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/awesome_print-1.2.0/README.md:\n   30  :multiline  => true,   # Display in multiple lines.\n   31  :plain      => false,  # Use colors.\n   32: :raw        => false,  # Do not recursively format object instance variables.\n   33  :sort_keys  => false,  # Do not sort hash keys.\n   34  :limit      => false,  # Limit large output for arrays and hashes. Set to a boolean or integer.\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/awesome_print-1.2.0/lib/awesome_print/inspector.rb:\n   60          :multiline  => true,   # Display in multiple lines.\n   61          :plain      => false,  # Use colors.\n   62:         :raw        => false,  # Do not recursively format object instance variables.\n   63          :sort_keys  => false,  # Do not sort hash keys.\n   64          :limit      => false,  # Limit large output for arrays and hashes. Set to a boolean or integer.\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_grid-framework.scss:\n    4  // any value of `$grid-columns`.\n    5  \n    6: // [converter] This is defined recursively in LESS, but Sass supports real loops\n    7  @mixin make-grid-columns($i: 1, $list: \".col-xs-#{$i}, .col-sm-#{$i}, .col-md-#{$i}, .col-lg-#{$i}\") {\n    8    @for $i from (1 + 1) through $grid-columns {\n    .\n   20  \n   21  \n   22: // [converter] This is defined recursively in LESS, but Sass supports real loops\n   23  @mixin float-grid-columns($class, $i: 1, $list: \".col-#{$class}-#{$i}\") {\n   24    @for $i from (1 + 1) through $grid-columns {\n   ..\n   64  }\n   65  \n   66: // [converter] This is defined recursively in LESS, but Sass supports real loops\n   67  @mixin loop-grid-columns($columns, $class, $type) {\n   68    @for $i from 0 through $columns {\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.1.0/tasks/converter/less_conversion.rb:\n  183      end\n  184  \n  185:     # convert recursively evaluated selector $list to @for loop\n  186      def mixin_all_grid_columns(css, selector: raise('pass class'), from: 1, to: raise('pass to'))\n  187        mxn_def = css.each_line.first.strip\n  ...\n  195        step_body = (css =~ /\\$list \\{\\n(.*?)\\n[ ]*\\}/m) && $1\n  196  <<-SASS\n  197: // [converter] This is defined recursively in LESS, but Sass supports real loops\n  198  #{mxn_def}\n  199    @for $i from (#{from} + 1) through #{to} {\n  ...\n  226        file = replace_rules file, /@mixin loop-grid-columns/ do |css|\n  227          unindent <<-SASS, 8\n  228:         // [converter] This is defined recursively in LESS, but Sass supports real loops\n  229          @mixin loop-grid-columns($columns, $class, $type) {\n  230            @for $i from 0 through $columns {\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/brakeman-2.0.0/CHANGES:\n  229   * Handle render :layout in views\n  230   * Support output to multiple formats (Nick Green)\n  231:  * Prevent infinite loops in mutually recursive templates\n  232   * Only check eval arguments for user input, not targets\n  233   * Search subdirectories for models\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/celluloid-0.16.0/lib/celluloid/rspec/actor_examples.rb:\n  247    end\n  248  \n  249:   it \"supports recursive inspect with other actors\" do\n  250      klass = Class.new do\n  251        include included_module\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/code_analyzer-0.4.5/lib/code_analyzer/sexp.rb:\n   42    end\n   43  \n   44:   # recursively find all child nodes, and yeild each child node.\n   45:   def recursive_children\n   46      children.each do |child|\n   47        yield child\n   48:       child.recursive_children { |c| yield c }\n   49      end\n   50    end\n   51  \n   52:   # grep all the recursive child nodes with conditions, and yield each match node.\n   53    #\n   54    # @param [Hash] options grep conditions\n   ..\n   68      message = options[:message]\n   69      to_s = options[:to_s]\n   70:     self.recursive_children do |child|\n   71        if (!sexp_type || (sexp_type.is_a?(Array) ? sexp_type.include?(child.sexp_type) : sexp_type == child.sexp_type)) &&\n   72           (!receiver || (receiver.is_a?(Array) ? receiver.include?(child.receiver.to_s) : receiver == child.receiver.to_s)) &&\n   ..\n   78    end\n   79  \n   80:   # grep all the recursive child nodes with conditions, and yield the first match node.\n   81    #\n   82    # @param [Hash] options grep conditions\n   ..\n   96    end\n   97  \n   98:   # grep all the recursive child nodes with conditions, and get the count of match nodes.\n   99    #\n  100    # @param [Hash] options grep conditions\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/code_analyzer-0.4.5/lib/code_analyzer/checking_visitor/default.rb:\n   45      end\n   46  \n   47:     # recursively check ruby sexp node.\n   48      #\n   49      # 1. it triggers the interesting checkers' start callbacks.\n   50:     # 2. recursively check the sexp children.\n   51      # 3. it triggers the interesting checkers' end callbacks.\n   52      def check_node(node)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/coderay-1.1.0/lib/coderay/scanners/php.rb:\n   82          array_diff_key array_diff_uassoc array_diff_ukey array_fill array_fill_keys array_filter array_flip\n   83          array_intersect array_intersect_assoc array_intersect_key array_intersect_uassoc array_intersect_ukey\n   84:         array_key_exists array_keys array_map array_merge array_merge_recursive array_multisort array_pad\n   85          array_pop array_product array_push array_rand array_reduce array_reverse array_search array_shift\n   86          array_slice array_splice array_sum array_udiff array_udiff_assoc array_udiff_uassoc array_uintersect\n   87          array_uintersect_assoc array_uintersect_uassoc array_unique array_unshift array_values array_walk\n   88:         array_walk_recursive\n   89          assert_options base_convert base64_decode base64_encode\n   90          chunk_split class_exists class_implements class_parents\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/eventmachine-1.0.3/lib/em/deferrable.rb:\n  120      # We're shifting callbacks off and discarding them as we execute them.\n  121      # This is valid because by definition callbacks are executed no more than\n  122:     # once. It also has the magic effect of permitting recursive calls, which\n  123      # means that a callback can call #set_deferred_status and change the parameters\n  124      # that will be sent to subsequent callbacks down the chain.\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/eventmachine-1.0.3/lib/em/protocols/linetext2.rb:\n   42  \n   43        #--\n   44:       # Will be called recursively until there's no data to read.\n   45        # That way the user-defined handlers we call can modify the\n   46        # handling characteristics on a per-token basis.\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/eventmachine-1.0.3/lib/em/protocols/memcache.rb:\n  152  \n  153        #--\n  154:       # 19Feb09 Switched to a custom parser, LineText2 is recursive and can cause\n  155        #         stack overflows when there is too much data.\n  156        # include EM::P::LineText2\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/eventmachine-1.0.3/tests/test_completion.rb:\n   78    end\n   79  \n   80:   def test_recursive_callbacks\n   81      completion.callback do |val|\n   82        results << val\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/eventmachine-1.0.3/tests/test_futures.rb:\n   65  \n   66  \n   67:   class RecursiveCallback\n   68        include EM::Deferrable\n   69    end\n   ..\n   72    # passed to subsequent callbacks.\n   73    #\n   74:   def test_recursive_callbacks\n   75        n = 0 # counter assures that all the tests actually run.\n   76:       rc = RecursiveCallback.new\n   77        rc.callback {|a|\n   78          assert_equal(100, a)\n   ..\n   97  \n   98    def test_syntactic_sugar\n   99:     rc = RecursiveCallback.new\n  100      rc.set_deferred_success 100\n  101      rc.set_deferred_failure 200\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/execjs-2.2.2/lib/execjs/support/json2.js:\n  409              function walk(holder, key) {\n  410  \n  411: // The walk method is used to recursively walk the resulting structure so\n  412  // that modifications can be made.\n  413  \n  ...\n  467                  j = eval('(' + text + ')');\n  468  \n  469: // In the optional fourth stage, we recursively walk the new structure, passing\n  470  // each name/value pair to a reviver function for possible transformation.\n  471  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/ffi-1.9.6/ext/ffi_c/libffi/aclocal.m4:\n  220  	  [subproject], [AC_CONFIG_SUBDIRS(_LTDL_DIR)\n  221  			  _LT_SHELL_INIT([lt_dlopen_dir=\"$lt_ltdl_dir\"])],\n  222: 	  [nonrecursive], [_LT_SHELL_INIT([lt_dlopen_dir=\"$lt_ltdl_dir\"; lt_libobj_prefix=\"$lt_ltdl_dir/\"])],\n  223: 	  [recursive], [],\n  224  	[m4_fatal([unknown libltdl mode: ]_LTDL_MODE)])])dnl\n  225  dnl Be careful not to expand twice:\n  ...\n  258  m4_if(_LTDL_MODE, [],\n  259          [m4_define([_LTDL_MODE], m4_default([$2], [subproject]))\n  260:         m4_if([-1], [m4_bregexp(_LTDL_MODE, [\\(subproject\\|\\(non\\)?recursive\\)])],\n  261                  [m4_fatal([unknown libltdl mode: ]_LTDL_MODE)])])\n  262  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/ffi-1.9.6/ext/ffi_c/libffi/ChangeLog:\n 1939  2007-01-18  Alexandre Oliva  <aoliva@redhat.com>\n 1940  \n 1941: 	* Makefile.am (all-recursive, install-recursive,\n 1942: 	mostlyclean-recursive, clean-recursive, distclean-recursive,\n 1943: 	maintainer-clean-recursive): Add missing targets.\n 1944  	* Makefile.in: Rebuilt.\n 1945  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/ffi-1.9.6/ext/ffi_c/libffi/Makefile.in:\n  225  AM_MAKEINFOHTMLFLAGS = $(AM_MAKEINFOFLAGS)\n  226  DVIPS = dvips\n  227: RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\\n  228: 	html-recursive info-recursive install-data-recursive \\\n  229: 	install-dvi-recursive install-exec-recursive \\\n  230: 	install-html-recursive install-info-recursive \\\n  231: 	install-pdf-recursive install-ps-recursive install-recursive \\\n  232: 	installcheck-recursive installdirs-recursive pdf-recursive \\\n  233: 	ps-recursive uninstall-recursive\n  234  DATA = $(pkgconfig_DATA)\n  235: RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\\n  236:   distclean-recursive maintainer-clean-recursive\n  237: AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\\n  238: 	$(RECURSIVE_CLEAN_TARGETS:-recursive=) tags TAGS ctags CTAGS \\\n  239  	distdir dist dist-all distcheck\n  240  ETAGS = etags\n  ...\n  507  AM_CCASFLAGS = $(AM_CPPFLAGS)\n  508  all: fficonfig.h\n  509: 	$(MAKE) $(AM_MAKEFLAGS) all-recursive\n  510  \n  511  .SUFFIXES:\n  ...\n 1269  	done; \\\n 1270  	dot_seen=no; \\\n 1271: 	target=`echo $@ | sed s/-recursive//`; \\\n 1272  	list='$(SUBDIRS)'; for subdir in $$list; do \\\n 1273  	  echo \"Making $$target in $$subdir\"; \\\n ....\n 1304  	done; \\\n 1305  	rev=\"$$rev .\"; \\\n 1306: 	target=`echo $@ | sed s/-recursive//`; \\\n 1307  	for subdir in $$rev; do \\\n 1308  	  echo \"Making $$target in $$subdir\"; \\\n ....\n 1315  	  || eval $$failcom; \\\n 1316  	done && test -z \"$$fail\"\n 1317: tags-recursive:\n 1318  	list='$(SUBDIRS)'; for subdir in $$list; do \\\n 1319  	  test \"$$subdir\" = . || ($(am__cd) $$subdir && $(MAKE) $(AM_MAKEFLAGS) tags); \\\n 1320  	done\n 1321: ctags-recursive:\n 1322  	list='$(SUBDIRS)'; for subdir in $$list; do \\\n 1323  	  test \"$$subdir\" = . || ($(am__cd) $$subdir && $(MAKE) $(AM_MAKEFLAGS) ctags); \\\n ....\n 1334  tags: TAGS\n 1335  \n 1336: TAGS: tags-recursive $(HEADERS) $(SOURCES) fficonfig.h.in $(TAGS_DEPENDENCIES) \\\n 1337  		$(TAGS_FILES) $(LISP)\n 1338  	set x; \\\n ....\n 1369  	fi\n 1370  ctags: CTAGS\n 1371: CTAGS: ctags-recursive $(HEADERS) $(SOURCES) fficonfig.h.in $(TAGS_DEPENDENCIES) \\\n 1372  		$(TAGS_FILES) $(LISP)\n 1373  	list='$(SOURCES) $(HEADERS) fficonfig.h.in $(LISP) $(TAGS_FILES)'; \\\n ....\n 1568  	       exit 1; } >&2\n 1569  check-am: all-am\n 1570: check: check-recursive\n 1571  all-am: Makefile $(INFO_DEPS) $(LTLIBRARIES) $(DATA) fficonfig.h\n 1572: installdirs: installdirs-recursive\n 1573  installdirs-am:\n 1574  	for dir in \"$(DESTDIR)$(libdir)\" \"$(DESTDIR)$(infodir)\" \"$(DESTDIR)$(pkgconfigdir)\"; do \\\n 1575  	  test -z \"$$dir\" || $(MKDIR_P) \"$$dir\"; \\\n 1576  	done\n 1577: install: install-recursive\n 1578: install-exec: install-exec-recursive\n 1579: install-data: install-data-recursive\n 1580: uninstall: uninstall-recursive\n 1581  \n 1582  install-am: all-am\n 1583  	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am\n 1584  \n 1585: installcheck: installcheck-recursive\n 1586  install-strip:\n 1587  	$(MAKE) $(AM_MAKEFLAGS) INSTALL_PROGRAM=\"$(INSTALL_STRIP_PROGRAM)\" \\\n ....\n 1635  	@echo \"This command is intended for maintainers to use\"\n 1636  	@echo \"it deletes files that may require special tools to rebuild.\"\n 1637: clean: clean-recursive\n 1638  \n 1639  clean-am: clean-aminfo clean-generic clean-libLTLIBRARIES \\\n 1640  	clean-libtool clean-noinstLTLIBRARIES mostlyclean-am\n 1641  \n 1642: distclean: distclean-recursive\n 1643  	-rm -f $(am__CONFIG_DISTCLEAN_FILES)\n 1644  	-rm -rf src/$(DEPDIR) src/alpha/$(DEPDIR) src/arm/$(DEPDIR) src/avr32/$(DEPDIR) src/cris/$(DEPDIR) src/frv/$(DEPDIR) src/ia64/$(DEPDIR) src/m32r/$(DEPDIR) src/m68k/$(DEPDIR) src/mips/$(DEPDIR) src/pa/$(DEPDIR) src/powerpc/$(DEPDIR) src/s390/$(DEPDIR) src/sh/$(DEPDIR) src/sh64/$(DEPDIR) src/sparc/$(DEPDIR) src/x86/$(DEPDIR)\n ....\n 1647  	distclean-hdr distclean-libtool distclean-tags\n 1648  \n 1649: dvi: dvi-recursive\n 1650  \n 1651  dvi-am: $(DVIS)\n 1652  \n 1653: html: html-recursive\n 1654  \n 1655  html-am: $(HTMLS)\n 1656  \n 1657: info: info-recursive\n 1658  \n 1659  info-am: $(INFO_DEPS)\n ....\n 1661  install-data-am: install-info-am install-pkgconfigDATA\n 1662  \n 1663: install-dvi: install-dvi-recursive\n 1664  \n 1665  install-dvi-am: $(DVIS)\n ....\n 1698  	  $(INSTALL_DATA) $$files \"$(DESTDIR)$(htmldir)\" || exit $$?; \\\n 1699  	done; }\n 1700: install-info: install-info-recursive\n 1701  \n 1702  install-info-am: $(INFO_DEPS)\n ....\n 1744  	  echo \" $(INSTALL_DATA) $$files '$(DESTDIR)$(pdfdir)'\"; \\\n 1745  	  $(INSTALL_DATA) $$files \"$(DESTDIR)$(pdfdir)\" || exit $$?; done\n 1746: install-ps: install-ps-recursive\n 1747  \n 1748  install-ps-am: $(PSS)\n ....\n 1759  installcheck-am:\n 1760  \n 1761: maintainer-clean: maintainer-clean-recursive\n 1762  	-rm -f $(am__CONFIG_DISTCLEAN_FILES)\n 1763  	-rm -rf $(top_srcdir)/autom4te.cache\n ....\n 1767  	maintainer-clean-generic maintainer-clean-vti\n 1768  \n 1769: mostlyclean: mostlyclean-recursive\n 1770  \n 1771  mostlyclean-am: mostlyclean-aminfo mostlyclean-compile \\\n 1772  	mostlyclean-generic mostlyclean-libtool mostlyclean-vti\n 1773  \n 1774: pdf: pdf-recursive\n 1775  \n 1776  pdf-am: $(PDFS)\n 1777  \n 1778: ps: ps-recursive\n 1779  \n 1780  ps-am: $(PSS)\n ....\n 1785  \n 1786  .MAKE: $(RECURSIVE_CLEAN_TARGETS) $(RECURSIVE_TARGETS) all \\\n 1787: 	ctags-recursive install-am install-strip tags-recursive\n 1788  \n 1789  .PHONY: $(RECURSIVE_CLEAN_TARGETS) $(RECURSIVE_TARGETS) CTAGS GTAGS \\\n 1790  	all all-am am--refresh check check-am clean clean-aminfo \\\n 1791  	clean-generic clean-libLTLIBRARIES clean-libtool \\\n 1792: 	clean-noinstLTLIBRARIES ctags ctags-recursive dist dist-all \\\n 1793  	dist-bzip2 dist-gzip dist-info dist-lzma dist-shar dist-tarZ \\\n 1794  	dist-xz dist-zip distcheck distclean distclean-compile \\\n ....\n 1805  	maintainer-clean-vti mostlyclean mostlyclean-aminfo \\\n 1806  	mostlyclean-compile mostlyclean-generic mostlyclean-libtool \\\n 1807: 	mostlyclean-vti pdf pdf-am ps ps-am tags tags-recursive \\\n 1808  	uninstall uninstall-am uninstall-dvi-am uninstall-html-am \\\n 1809  	uninstall-info-am uninstall-libLTLIBRARIES uninstall-pdf-am \\\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/ffi-1.9.6/ext/ffi_c/libffi/texinfo.tex:\n 5664  \\newcount\\paramno   % Count of parameters\n 5665  \\newtoks\\macname    % Macro name\n 5666: \\newif\\ifrecursive  % Is it recursive?\n 5667  \n 5668  % List of all defined macros in the form\n ....\n 5758  \\expandafter\\def\\csname macarg.\\endcsname{\\realbackslash}\n 5759  \n 5760: \\def\\macro{\\recursivefalse\\parsearg\\macroxxx}\n 5761: \\def\\rmacro{\\recursivetrue\\parsearg\\macroxxx}\n 5762  \n 5763  \\def\\macroxxx#1{%\n ....\n 5778    \\fi\n 5779    \\begingroup \\macrobodyctxt\n 5780:   \\ifrecursive \\expandafter\\parsermacbody\n 5781    \\else \\expandafter\\parsemacbody\n 5782    \\fi}\n ....\n 5840    \\fi\\next}\n 5841  \n 5842: % These two commands read recursive and nonrecursive macro bodies.\n 5843  % (They're different since rec and nonrec macros end differently.)\n 5844  \n ....\n 5848  {\\xdef\\temp{\\eatcr{#1}}\\endgroup\\defmacro}%\n 5849  \n 5850: % This defines the macro itself. There are six cases: recursive and\n 5851: % nonrecursive macros of zero, one, and many arguments.\n 5852  % Much magic with \\expandafter here.\n 5853  % \\xdef is used so that macro definitions will survive the file\n ....\n 5855  \\def\\defmacro{%\n 5856    \\let\\hash=##% convert placeholders to macro parameter chars\n 5857:   \\ifrecursive\n 5858      \\ifcase\\paramno\n 5859      % 0\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/ffi-1.9.6/ext/ffi_c/libffi/m4/ltoptions.m4:\n  356  \n  357  m4_define([_LTDL_MODE], [])\n  358: LT_OPTION_DEFINE([LTDL_INIT], [nonrecursive],\n  359: 		 [m4_define([_LTDL_MODE], [nonrecursive])])\n  360: LT_OPTION_DEFINE([LTDL_INIT], [recursive],\n  361: 		 [m4_define([_LTDL_MODE], [recursive])])\n  362  LT_OPTION_DEFINE([LTDL_INIT], [subproject],\n  363  		 [m4_define([_LTDL_MODE], [subproject])])\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/ffi-1.9.6/ext/ffi_c/libffi/src/dlmalloc.c:\n 1462  /*\n 1463     Because lock-protected regions have bounded times, and there\n 1464:    are no recursive lock calls, we can use simple spinlocks.\n 1465  */\n 1466  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/guard-2.10.4/README.md:\n  660  \n  661  Note: Since recursion cannot be diabled on OSX, all other backends were made\n  662: recursive - so if you want to watch selected directories AND files in the root\n  663  directory of your project, move them to another directory and create symlinks\n  664  back, e.g.\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/haml-4.1.0.beta.1/Rakefile:\n   45    if File.exist?(File.dirname(__FILE__) + \"/.git\")\n   46      sh %{git submodule sync}\n   47:     sh %{git submodule update --init --recursive}\n   48    end\n   49  end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts/jquery.js:\n 1622  			// Strip excess characters from unquoted arguments\n 1623  			} else if ( unquoted && rpseudo.test( unquoted ) &&\n 1624: 				// Get excess from tokenize (recursively)\n 1625  				(excess = tokenize( unquoted, true )) &&\n 1626  				// advance to the next closing parenthesis\n ....\n 2451  \n 2452  	if ( !cached ) {\n 2453: 		// Generate a function of recursive functions that can be used to check each element\n 2454  		if ( !match ) {\n 2455  			match = tokenize( selector );\n ....\n 3150  								}\n 3151  							} else if ( arg && arg.length && type !== \"string\" ) {\n 3152: 								// Inspect recursively\n 3153  								add( arg );\n 3154  							}\n ....\n 9492  	} else {\n 9493  		// If traditional, encode the \"old\" way (the way 1.3.2 or older\n 9494: 		// did it), otherwise encode params recursively.\n 9495  		for ( prefix in a ) {\n 9496  			buildParams( prefix, a[ prefix ], traditional, add );\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/kaminari-0.16.1/lib/generators/kaminari/views_generator.rb:\n   99            ActiveSupport::JSON.decode(json.read)['object']['sha']\n  100          end\n  101:         open('https://api.github.com/repos/amatsuda/kaminari_themes/git/trees/' + master_tree_sha + '?recursive=1') do |json|\n  102            blobs = ActiveSupport::JSON.decode(json.read)['tree'].find_all {|i| i['type'] == 'blob' }\n  103            blobs.map do |blob|\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/listen-2.8.4/TROUBLESHOOTING.md:\n   25  * and there's a lot of disk activity, you may have to wait a few seconds\n   26  * you may be using an outdated version of Listen\n   27: * listen may have got stuck on a recursive symlink, see #259\n   28  \n   29  3) Make changes e.g. `touch foo` or `echo \"a\" >> foo` (for troubleshooting, avoid using an editor which could generate too many misleading events)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/listen-2.8.4/lib/listen/directory.rb:\n   61        # TODO: use a dedicated Event class\n   62        opts = options.dup\n   63:       opts.delete(:recursive)\n   64        if opts.empty?\n   65          queue.change(type, dir, path)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/listen-2.8.4/lib/listen/adapter/bsd.rb:\n   73            # Force dir content tracking to kick in, or we won't have\n   74            # names of added files\n   75:           _queue_change(:dir, dir, '.', recursive: true)\n   76          else\n   77            path = full_path.relative_path_from(dir)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/listen-2.8.4/lib/listen/adapter/darwin.rb:\n   46            # TODO: does this preserve symlinks?\n   47            rel_path = new_path.relative_path_from(dir).to_s\n   48:           _queue_change(:dir, dir, rel_path, recursive: true)\n   49          end\n   50        end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/listen-2.8.4/lib/listen/adapter/linux.rb:\n    7        DEFAULTS = {\n    8          events: [\n    9:           :recursive,\n   10            :attrib,\n   11            :create,\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/listen-2.8.4/lib/listen/adapter/polling.rb:\n   30  \n   31        def _process_event(dir, _)\n   32:         _queue_change(:dir, dir, '.', recursive: true)\n   33        end\n   34      end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/listen-2.8.4/lib/listen/adapter/windows.rb:\n   29          _log :debug, 'wdm - starting...'\n   30          @worker ||= WDM::Monitor.new\n   31:         @worker.watch_recursively(dir.to_s, :files) do |change|\n   32            callback.call([:file, change])\n   33          end\n   34  \n   35:         @worker.watch_recursively(dir.to_s, :directories) do |change|\n   36            callback.call([:dir, change])\n   37          end\n   38  \n   39          events = [:attributes, :last_write]\n   40:         @worker.watch_recursively(dir.to_s, *events) do |change|\n   41            callback.call([:attr, change])\n   42          end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/listen-2.8.4/spec/lib/listen/change_spec.rb:\n   92  \n   93      context 'directory' do\n   94:       let(:dir_options) { { recursive: true } }\n   95  \n   96        it 'calls Listen::Directory#new' do\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/listen-2.8.4/spec/lib/listen/directory_spec.rb:\n   29    end\n   30  \n   31:   context '#scan with recursive off' do\n   32:     let(:options) { { recursive: false } }\n   33  \n   34      context 'with file & subdir in record' do\n   ..\n   49  \n   50            expect(queue).to receive(:change).\n   51:             with(:dir, dir, 'subdir', recursive: false)\n   52  \n   53            described_class.scan(queue, record, dir, '.', options)\n   ..\n   63  \n   64            expect(queue).to receive(:change).\n   65:             with(:dir, dir, 'subdir', recursive: false)\n   66  \n   67            described_class.scan(queue, record, dir, '.', options)\n   ..\n   95  \n   96            expect(queue).to_not receive(:change).\n   97:             with(:dir, dir, 'subdir', recursive: false)\n   98  \n   99            described_class.scan(queue, record, dir, '.', options)\n  ...\n  103    end\n  104  \n  105:   context '#scan with recursive on' do\n  106:     let(:options) { { recursive: true } }\n  107  \n  108      context 'with file.rb & subdir in record' do\n  ...\n  120  \n  121            expect(queue).to receive(:change).\n  122:             with(:dir, dir, 'subdir', recursive: true)\n  123  \n  124            described_class.scan(queue, record, dir, '.', options)\n  ...\n  138  \n  139            expect(queue).to receive(:change).\n  140:             with(:dir, dir, 'subdir', recursive: true)\n  141  \n  142            expect(queue).to receive(:change).\n  143:             with(:dir, dir, 'subdir2', recursive: true)\n  144  \n  145            described_class.scan(queue, record, dir, '.', options)\n  ...\n  171          it 'queues changes for subdir' do\n  172            expect(queue).to receive(:change).\n  173:             with(:dir, dir, 'subdir', recursive: true)\n  174  \n  175            described_class.scan(queue, record, dir, '.', options)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/listen-2.8.4/spec/lib/listen/listener_spec.rb:\n  476      it 'queuing does not crash when no worker is available' do\n  477        expect do\n  478:         subject.send(:_queue_raw_change, :dir, dir, 'path', recursive: true)\n  479        end.to_not raise_error\n  480      end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/listen-2.8.4/spec/lib/listen/adapter/base_spec.rb:\n   23        it 'calls change on change_pool asynchronously' do\n   24          expect(mq).to receive(:_queue_raw_change).\n   25:           with(:dir, dir, 'path', recursive: true)\n   26  \n   27:         subject.send(:_queue_change, :dir, dir, 'path', recursive: true)\n   28        end\n   29      end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/listen-2.8.4/spec/lib/listen/adapter/polling_spec.rb:\n   22      it 'notifies change on every listener directories path' do\n   23        expect(mq).to receive(:_queue_raw_change).\n   24:         with(:dir, Pathname.pwd, '.', recursive: true)\n   25  \n   26        t = Thread.new { subject.start }\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/mail-2.6.3/CHANGELOG.rdoc:\n  507  \n  508  * Version bump to 2.0.3\n  509: * Made body.sort_parts! recursive, to do the entire body\n  510  * Added ability to use << on the results returned by the various address fields, ie, mail.to << 'new@address' now works\n  511  * Message now adds multipart/mixed as the content type if nothing is set and there are parts to the message\n  ...\n  649  * Added check on add_part to make sure if there is already a body, and if so, make a text_part of the body\n  650  * Fixing up attachment adding and making sure multipart emails always have boundaries\n  651: * Change Message#attachments to now recursively return all attachments in the email in an ordered flattened array\n  652  * Added ability for Mail::Message to accept {:headers => {'custom-header' => 'value', 'another-custom-header' => 'value'}} as a param on init\n  653  * Adding ability to Mail::Message to add a part via :part(params) with optional block\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/mail-2.6.3/lib/mail/parsers/ragel/common.rl:\n   31    qcontent = qtext | quoted_pair;\n   32  \n   33:   # Handle recursive comments\n   34    ccontent = ctext | quoted_pair | \"(\" @comment_begin;\n   35    comment_tail := ((FWS? ccontent)* >comment_s) FWS? \")\" @comment_exit;\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/mime-types-2.4.3/lib/mime/types/loader.rb:\n   11  # 3.  The value of MIME::Types::Loader::PATH.\n   12  #\n   13: # When #load is called, the +path+ will be searched recursively for all YAML\n   14  # (.yml or .yaml) files. By convention, there is one file for each media\n   15  # type (application.yml, audio.yml, etc.), but this is not required.\n   ..\n   31  \n   32    # Loads a MIME::Types registry from YAML files (<tt>*.yml</tt> or\n   33:   # <tt>*.yaml</tt>) recursively found in +path+.\n   34    #\n   35    # It is expected that the YAML objects contained within the registry array\n   ..\n   48  \n   49    # Loads a MIME::Types registry from JSON files (<tt>*.json</tt>)\n   50:   # recursively found in +path+.\n   51    #\n   52    # It is expected that the JSON objects will be an array of hash objects.\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/pry-0.10.1/CHANGELOG.md:\n  336    * Hard dependency on `ruby18_source_location` gem in MRI 1.8\n  337  * New `find-method` command\n  338:   * Performs a recursive search in a namespace for the existence of methods\n  339    * Can find methods whose names match a regex or methods which contain\n  340      provided code\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/pry-0.10.1/lib/pry/commands/find_method.rb:\n    5      match 'find-method'\n    6      group 'Context'\n    7:     description 'Recursively search for a method within a Class/Module or the current namespace.'\n    8      command_options :shellwords => false\n    9  \n   ..\n   11        Usage: find-method  [-n|-c] METHOD [NAMESPACE]\n   12  \n   13:       Recursively search for a method within a Class/Module or the current namespace.\n   14        Use the `-n` switch (the default) to search for methods whose name matches the\n   15        given regex. Use the `-c` switch to search for methods that contain the given\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack.rb:\n   37    autoload :Deflater, \"rack/deflater\"\n   38    autoload :Directory, \"rack/directory\"\n   39:   autoload :ForwardRequest, \"rack/recursive\"\n   40    autoload :Handler, \"rack/handler\"\n   41    autoload :Head, \"rack/head\"\n   ..\n   46    autoload :Mime, \"rack/mime\"\n   47    autoload :NullLogger, \"rack/nulllogger\"\n   48:   autoload :Recursive, \"rack/recursive\"\n   49    autoload :Reloader, \"rack/reloader\"\n   50    autoload :Runtime, \"rack/runtime\"\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/recursive.rb:\n    2  \n    3  module Rack\n    4:   # Rack::ForwardRequest gets caught by Rack::Recursive and redirects\n    5    # the current request to the app at +url+.\n    6    #\n    .\n   25    end\n   26  \n   27:   # Rack::Recursive allows applications called down the chain to\n   28    # include data from other applications (by using\n   29:   # <tt>rack['rack.recursive.include'][...]</tt> or raise a\n   30    # ForwardRequest to redirect internally.\n   31  \n   32:   class Recursive\n   33      def initialize(app)\n   34        @app = app\n   ..\n   41      def _call(env)\n   42        @script_name = env[\"SCRIPT_NAME\"]\n   43:       @app.call(env.merge('rack.recursive.include' => method(:include)))\n   44      rescue ForwardRequest => req\n   45        call(env.merge(req.env))\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/test/spec_recursive.rb:\n    1  require 'rack/lint'\n    2: require 'rack/recursive'\n    3  require 'rack/mock'\n    4  \n    5: describe Rack::Recursive do\n    6    @app1 = lambda { |env|\n    7      res = Rack::Response.new\n    .\n   16      Rack::Response.new.finish do |res|\n   17        res.write \"App2\"\n   18:       _, _, body = env['rack.recursive.include'].call(env, \"/app1\")\n   19        body.each { |b|\n   20          res.write b\n   ..\n   31    }\n   32    \n   33:   def recursive(map)\n   34:     Rack::Lint.new Rack::Recursive.new(Rack::URLMap.new(map))\n   35    end\n   36  \n   37    should \"allow for subrequests\" do\n   38:     res = Rack::MockRequest.new(recursive(\"/app1\" => @app1,\n   39                                            \"/app2\" => @app2)).\n   40        get(\"/app2\")\n   ..\n   46    should \"raise error on requests not below the app\" do\n   47      app = Rack::URLMap.new(\"/app1\" => @app1,\n   48:                            \"/app\" => recursive(\"/1\" => @app1,\n   49                                                 \"/2\" => @app2))\n   50  \n   ..\n   56  \n   57    should \"support forwarding\" do\n   58:     app = recursive(\"/app1\" => @app1,\n   59                      \"/app3\" => @app3,\n   60                      \"/app4\" => @app4)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rails-4.1.8/guides/assets/javascripts/syntaxhighlighter/shBrushCss.js:\n   49  		var values =	'above absolute all always aqua armenian attr aural auto avoid baseline behind below bidi-override black blink block blue bold bolder '+\n   50  						'both bottom braille capitalize caption center center-left center-right circle close-quote code collapse compact condensed '+\n   51: 						'continuous counter counters crop cross crosshair cursive dashed decimal decimal-leading-zero default digits disc dotted double '+\n   52  						'embed embossed e-resize expanded extra-condensed extra-expanded fantasy far-left far-right fast faster fixed format fuchsia '+\n   53  						'gray green groove handheld hebrew help hidden hide high higher icon inline-table inline inset inside invert italic '+\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rails-4.1.8/guides/assets/javascripts/syntaxhighlighter/shBrushPhp.js:\n   27  						'array_filter array_flip array_intersect array_intersect_assoc array_intersect_key '+\n   28  						'array_intersect_uassoc array_intersect_ukey array_key_exists array_keys array_map '+\n   29: 						'array_merge array_merge_recursive array_multisort array_pad array_pop array_product '+\n   30  						'array_push array_rand array_reduce array_reverse array_search array_shift '+\n   31  						'array_slice array_splice array_sum array_udiff array_udiff_assoc '+\n   32  						'array_udiff_uassoc array_uintersect array_uintersect_assoc '+\n   33  						'array_uintersect_uassoc array_unique array_unshift array_values array_walk '+\n   34: 						'array_walk_recursive atan atan2 atanh base64_decode base64_encode base_convert '+\n   35  						'basename bcadd bccomp bcdiv bcmod bcmul bindec bindtextdomain bzclose bzcompress '+\n   36  						'bzdecompress bzerrno bzerror bzerrstr bzflush bzopen bzread bzwrite ceil chdir '+\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rails-4.1.8/guides/assets/javascripts/syntaxhighlighter/shBrushSass.js:\n   49  		var values =	'above absolute all always aqua armenian attr aural auto avoid baseline behind below bidi-override black blink block blue bold bolder '+\n   50  						'both bottom braille capitalize caption center center-left center-right circle close-quote code collapse compact condensed '+\n   51: 						'continuous counter counters crop cross crosshair cursive dashed decimal decimal-leading-zero digits disc dotted double '+\n   52  						'embed embossed e-resize expanded extra-condensed extra-expanded fantasy far-left far-right fast faster fixed format fuchsia '+\n   53  						'gray green groove handheld hebrew help hidden hide high higher icon inline-table inline inset inside invert italic '+\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rails-4.1.8/guides/source/2_2_release_notes.md:\n  275  -----------\n  276  \n  277: * `javascript_include_tag` and `stylesheet_link_tag` support a new `:recursive` option to be used along with `:all`, so that you can load an entire tree of files with a single line of code.\n  278  * The included Prototype JavaScript library has been upgraded to version 1.6.0.3.\n  279  * `RJS#page.reload` to reload the browser's current location via JavaScript\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rails-4.1.8/guides/source/active_support_core_extensions.md:\n 2453  \n 2454  The method `Array.deep_dup` duplicates itself and all objects inside\n 2455: recursively with Active Support method `Object#deep_dup`. It works like `Array#map` with sending `deep_dup` method to each object inside.\n 2456  \n 2457  ```ruby\n ....\n 2583  To do so, the method loops over the pairs and builds nodes that depend on the _values_. Given a pair `key`, `value`:\n 2584  \n 2585: * If `value` is a hash there's a recursive call with `key` as `:root`.\n 2586  \n 2587: * If `value` is an array there's a recursive call with `key` as `:root`, and `key` singularized as `:children`.\n 2588  \n 2589  * If `value` is a callable object it must expect one or two arguments. Depending on the arity, the callable is invoked with the `options` hash as first argument with `key` as `:root`, and `key` singularized as second argument. Its return value becomes a new node.\n ....\n 2675  \n 2676  The method `Hash.deep_dup` duplicates itself and all keys and values\n 2677: inside recursively with Active Support method `Object#deep_dup`. It works like `Enumerator#each_with_object` with sending `deep_dup` method to each pair inside.\n 2678  \n 2679  ```ruby\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rails-4.1.8/guides/source/asset_pipeline.md:\n  460  file.\n  461  \n  462: The `require_tree` directive tells Sprockets to recursively include _all_\n  463  JavaScript files in the specified directory into the output. These paths must be\n  464  specified relative to the manifest file. You can also use the\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rails_best_practices-1.15.4/lib/rails_best_practices/reviews/add_model_virtual_attribute_review.rb:\n   32        add_callback :start_def do |node|\n   33          @assignments = {}\n   34:         node.recursive_children do |child|\n   35            case child.sexp_type\n   36            when :assign\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rails_best_practices-1.15.4/lib/rails_best_practices/reviews/needless_deep_nesting_review.rb:\n   11      #   chech all method_add_block nodes in route file.\n   12      #\n   13:     #   it is a recursively check in method_add_block node,\n   14      #\n   15      #   if it is a method_add_block node,\n   16      #   increment @counter at the beginning of resources,\n   17      #   decrement @counter at the end of resrouces,\n   18:     #   recursively check nodes in block body.\n   19      #\n   20      #   if the child node is a command_call or command node,\n   ..\n   36        # check all method_add_block node.\n   37        #\n   38:       # It is a recursively check, if it is a method_add_block node,\n   39        # increment @counter at the beginning of resources,\n   40        # decrement @counter at the end of method_add_block resources,\n   41:       # recursively check the block body.\n   42        #\n   43        # if the child node is a command_call or command node with message \"resources\" or \"resource\",\n   ..\n   46        add_callback :start_method_add_block do |node|\n   47          @file = node.file\n   48:         recursively_check(node)\n   49        end\n   50  \n   ..\n   53          #\n   54          # if the receiver of the method_add_block is with message \"resources\" or \"resource\",\n   55:         # then increment the @counter, recursively check the block body, and decrement the @counter.\n   56          #\n   57          # if the node type is command_call or command,\n   ..\n   59          # then check if @counter is greater than or equal to @nested_count,\n   60          # if so, it is the needless deep nesting.\n   61:         def recursively_check(node)\n   62            shallow = @shallow_nodes.include? node\n   63            if [:command_call, :command].include?(node[1].sexp_type) && [\"resources\", \"resource\"].include?(node[1].message.to_s)\n   ..\n   67              node.block_node.statements.each do |stmt_node|\n   68                @shallow_nodes << stmt_node if shallow\n   69:               recursively_check(stmt_node)\n   70              end\n   71              @counter -= 1\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rails_best_practices-1.15.4/lib/rails_best_practices/reviews/replace_complex_creation_with_factory_method_review.rb:\n   35        # then these attribute assignments are complex creation, should be replaced with factory method.\n   36        add_callback :start_def do |node|\n   37:         node.recursive_children do |child_node|\n   38            case child_node.sexp_type\n   39            when :assign\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rails_best_practices-1.15.4/lib/rails_best_practices/reviews/use_model_association_review.rb:\n   30        add_callback :start_def do |node|\n   31          @assignments = {}\n   32:         node.recursive_children do |child|\n   33            case child.sexp_type\n   34            when :assign\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rails_best_practices-1.15.4/lib/rails_best_practices/reviews/use_query_attribute_review.rb:\n   50  \n   51        private\n   52:         # recursively check conditional statement nodes to see if there is a call node that may be\n   53          # possible query attribute.\n   54          def query_attribute_node(conditional_statement_node)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rake-10.4.2/History.rdoc:\n  469    Sauerbeck).\n  470  * Added tar.gz and tar.bz2 support to package task (Tilman Sauerbeck).\n  471: * Recursive rules are now supported (Tilman Sauerbeck).\n  472  * Added warning option for the Test Task (requested by Eric Hodel).\n  473  * The jamis rdoc template is only used if it exists.\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rake-10.4.2/README.rdoc:\n  113  [<b>nobu.nokada@softhome.net</b>] For the initial patch for rule support.\n  114  \n  115: [<b>Tilman Sauerbeck <tilman@code-monkey.de></b>] For the recursive rule patch.\n  116  \n  117  [<b>Eric Hodel</b>] For aid in maintaining rake.\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rake-10.4.2/doc/rakefile.rdoc:\n  358  \n  359  If the file \"mycode.c\" does not exist, rake will attempt\n  360: to recursively synthesize a rule for it.\n  361  \n  362  When a task is synthesized from a rule, the +source+ attribute of the\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rake-10.4.2/doc/release_notes/rake-0.5.0.rdoc:\n    9    an abort with --trace or --dry-run.  (Brian Candler)\n   10  \n   11: * Recursive rules are now supported (Tilman Sauerbeck).\n   12  \n   13  * Added tar.gz and tar.bz2 support to package task (Tilman Sauerbeck).\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rake-10.4.2/test/test_rake_rules.rb:\n  295    end\n  296  \n  297:   def test_recursive_rules_will_work_as_long_as_they_terminate\n  298      actions = []\n  299      create_file(\"abc.xml\")\n  ...\n  306    end\n  307  \n  308:   def test_recursive_rules_that_dont_terminate_will_overflow\n  309      create_file(\"a.a\")\n  310      prev = 'a'\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rb-fsevent-0.9.4/ext/fsevent_watch/main.c:\n  399  \n  400      FLAG_CHECK_STDERR(eventFlags[i], kFSEventStreamEventFlagMustScanSubDirs,\n  401:                       \"    Recursive scanning of directory required\");\n  402      FLAG_CHECK_STDERR(eventFlags[i], kFSEventStreamEventFlagUserDropped,\n  403                        \"    Buffering problem: events dropped user-side\");\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rb-inotify-0.9.5/lib/rb-inotify/event.rb:\n   19      # This pathname is relative to the enclosing directory.\n   20      # For the absolute pathname, use \\{#absolute\\_name}.\n   21:     # Note that when the `:recursive` flag is passed to {Notifier#watch},\n   22      # events in nested subdirectories will still have a `#name` field\n   23      # relative to their immediately enclosing directory.\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rb-inotify-0.9.5/lib/rb-inotify/notifier.rb:\n   23    #   notifier.run\n   24    class Notifier\n   25:     # A list of directories that should never be recursively watched.\n   26      #\n   27      # * Files in `/dev/fd` sometimes register as directories, but are not enumerable.\n   ..\n   93      # This is only activated once \\{#process} or \\{#run} is called.\n   94      #\n   95:     # **Note that by default, this does not recursively watch subdirectories\n   96      # of the watched directory**.\n   97:     # To do so, use the `:recursive` flag.\n   98      #\n   99      # ## Flags\n  ...\n  169      # : Only send the event once, then shut down the watcher.\n  170      #\n  171:     # `:recursive`\n  172:     # : Recursively watch any subdirectories that are created.\n  173      #   Note that this is a feature of rb-inotify,\n  174      #   rather than of inotify itself, which can only watch one level of a directory.\n  175      #   This means that the {Event#name} field\n  176      #   will contain only the basename of the modified file.\n  177:     #   When using `:recursive`, {Event#absolute_name} should always be used.\n  178      #\n  179      # @param path [String] The path to the file or directory\n  ...\n  188      #   or the flags don't contain any events\n  189      def watch(path, *flags, &callback)\n  190:       return Watcher.new(self, path, *flags, &callback) unless flags.include?(:recursive)\n  191  \n  192        dir = Dir.new(path)\n  ...\n  202  \n  203        rec_flags = [:create, :moved_to]\n  204:       return watch(path, *((flags - [:recursive]) | rec_flags)) do |event|\n  205          callback.call(event) if flags.include?(:all_events) || !(flags & event.flags).empty?\n  206          next if (rec_flags & event.flags).empty? || !event.flags.include?(:isdir)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:\n  186        # around} hooks. In around hooks we need to yield this special\n  187        # kind of object (rather than the raw {Example}) because when\n  188:       # there are multiple `around` hooks we have to wrap them recursively.\n  189        #\n  190        # @example\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rspec-core-3.1.7/lib/rspec/core/example_group.rb:\n    1: RSpec::Support.require_rspec_support 'recursive_const_methods'\n    2  \n    3  module RSpec\n    .\n  552    # Namespace for the example group subclasses generated by top-level `describe`.\n  553    module ExampleGroups\n  554:     extend Support::RecursiveConstMethods\n  555  \n  556      def self.assign_const(group)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rspec-mocks-3.1.3/lib/rspec/mocks/mutate_const.rb:\n    1: RSpec::Support.require_rspec_support 'recursive_const_methods'\n    2  \n    3  module RSpec\n    .\n    6      # have been mutated by rspec-mocks.\n    7      class Constant\n    8:       extend Support::RecursiveConstMethods\n    9  \n   10        # @api private\n   ..\n   60        def self.unmutated(name)\n   61          const = new(name)\n   62:         const.previously_defined = recursive_const_defined?(name)\n   63          const.stubbed = false\n   64          const.hidden = false\n   65:         const.original_value = recursive_const_get(name) if const.previously_defined?\n   66  \n   67          const\n   ..\n   81      # Provides a means to stub constants.\n   82      class ConstantMutator\n   83:       extend Support::RecursiveConstMethods\n   84  \n   85        # Stubs a constant.\n   ..\n   95        #  classes).\n   96        def self.stub(constant_name, value, options={})\n   97:         mutator = if recursive_const_defined?(constant_name, &raise_on_invalid_const)\n   98                      DefinedConstantReplacer\n   99                    else\n  ...\n  123        # @private\n  124        class BaseMutator\n  125:         include Support::RecursiveConstMethods\n  126  \n  127          attr_reader :original_value, :full_constant_name\n  ...\n  154        class ConstantHider < BaseMutator\n  155          def mutate\n  156:           return unless (@defined = recursive_const_defined?(full_constant_name))\n  157:           @context = recursive_const_get(@context_parts.join('::'))\n  158            @original_value = get_const_defined_on(@context, @const_name)\n  159  \n  ...\n  187  \n  188          def mutate\n  189:           @context = recursive_const_get(@context_parts.join('::'))\n  190            @original_value = get_const_defined_on(@context, @const_name)\n  191  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/rspec-support-3.1.2/lib/rspec/support/recursive_const_methods.rb:\n    1  module RSpec\n    2    module Support\n    3:     # Provides recursive constant lookup methods useful for\n    4      # constant stubbing.\n    5:     module RecursiveConstMethods\n    6        # We only want to consider constants that are defined directly on a\n    7        # particular module, and not include top-level/inherited constants.\n    .\n   54        end\n   55  \n   56:       def recursive_const_get(const_name)\n   57          normalize_const_name(const_name).split('::').inject(Object) do |mod, name|\n   58            get_const_defined_on(mod, name)\n   ..\n   60        end\n   61  \n   62:       def recursive_const_defined?(const_name)\n   63          parts = normalize_const_name(const_name).split('::')\n   64          parts.inject([Object, '']) do |(mod, full_name), name|\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sass-3.2.19/lib/sass/exec.rb:\n  543          end\n  544  \n  545:         opts.on('-R', '--recursive',\n  546            'Convert all the files in a directory. Requires --from and --to.') do\n  547:           @options[:recursive] = true\n  548          end\n  549  \n  ...\n  592          require 'sass'\n  593  \n  594:         if @options[:recursive]\n  595            process_directory\n  596            return\n  ...\n  599          super\n  600          input = @options[:input]\n  601:         raise \"Error: '#{input.path}' is a directory (did you mean to use --recursive?)\" if File.directory?(input)\n  602          output = @options[:output]\n  603          output = input if @options[:in_place]\n  ...\n  609        def process_directory\n  610          unless input = @options[:input] = @args.shift\n  611:           raise \"Error: directory required when using --recursive.\"\n  612          end\n  613  \n  614          output = @options[:output] = @args.shift\n  615:         raise \"Error: --from required when using --recursive.\" unless @options[:from]\n  616:         raise \"Error: --to required when using --recursive.\" unless @options[:to]\n  617          raise \"Error: '#{@options[:input]}' is not a directory\" unless File.directory?(@options[:input])\n  618          if @options[:output] && File.exists?(@options[:output]) && !File.directory?(@options[:output])\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sass-3.2.19/lib/sass/selector/abstract_sequence.rb:\n   61  \n   62        # Whether or not this selector sequence contains a placeholder selector.\n   63:       # Checks recursively.\n   64        def has_placeholder?\n   65          @has_placeholder ||=\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sass-3.2.19/vendor/listen/CHANGELOG.md:\n  181  - Add rb-inotify support. ([@thibaudgg][] with [@Maher4Ever][] help)\n  182  - Add rb-fsevent support. ([@thibaudgg][])\n  183: - Add non-recursive diff with multiple directories support. ([@thibaudgg][])\n  184  - Ignore .DS_Store by default. ([@thibaudgg][])\n  185  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/adapter.rb:\n   32      # @yield [changed_dirs, options] callback Callback called when a change happens\n   33      # @yieldparam [Array<String>] changed_dirs the changed directories\n   34:     # @yieldparam [Hash] options callback options (like :recursive => true)\n   35      #\n   36      # @return [Listen::Adapter] the chosen adapter\n   ..\n   72      # @yield [changed_dirs, options] callback Callback called when a change happens\n   73      # @yieldparam [Array<String>] changed_dirs the changed directories\n   74:     # @yieldparam [Hash] options callback options (like :recursive => true)\n   75      #\n   76      # @return [Listen::Adapter] the adapter\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/directory_record.rb:\n  164      # @param [Array] directories the list of directories scan for changes\n  165      # @param [Hash] options\n  166:     # @option options [Boolean] recursive scan all sub-directories recursively\n  167      # @option options [Boolean] relative_paths whether or not to use relative paths for changes\n  168      #\n  ...\n  196      private\n  197  \n  198:     # Detects modifications and removals recursively in a directory.\n  199      #\n  200      # @note Modifications detection begins by checking the modification time (mtime)\n  ...\n  204      # @param [String] directory the path to analyze\n  205      # @param [Hash] options\n  206:     # @option options [Boolean] recursive scan all sub-directories recursively\n  207      # @option options [Boolean] relative_paths whether or not to use relative paths for changes\n  208      #\n  ...\n  214          when 'Dir'\n  215            if File.directory?(path)\n  216:             detect_modifications_and_removals(path, options) if options[:recursive]\n  217            else\n  218:             detect_modifications_and_removals(path, { :recursive => true }.merge(options))\n  219              @paths[directory].delete(basename)\n  220              @paths.delete(\"#{directory}/#{basename}\")\n  ...\n  249      # @param [String] directory the path to analyze\n  250      # @param [Hash] options\n  251:     # @option options [Boolean] recursive scan all sub-directories recursively\n  252      # @option options [Boolean] relative_paths whether or not to use relative paths for changes\n  253      #\n  ...\n  262            # Add a trailing slash to directories when checking if a directory is\n  263            # ignored to optimize finding them as Find.find doesn't.\n  264:           if ignored?(path + File::SEPARATOR) || (directory != path && (!options[:recursive] && existing_path?(path)))\n  265              Find.prune # Don't look any further into this directory.\n  266            else\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/adapters/linux.rb:\n   15        # @see https://github.com/nex3/rb-inotify/blob/master/lib/rb-inotify/notifier.rb#L99-L177\n   16        #\n   17:       EVENTS = %w[recursive attrib create delete move close_write]\n   18  \n   19        # The message to show when the limit of inotify watchers is not enough\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/adapters/polling.rb:\n   54  \n   55            start = Time.now.to_f\n   56:           @callback.call(@directories.dup, :recursive => true)\n   57            @turnstile.signal\n   58            nap_time = @latency - (Time.now.to_f - start)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/adapters/windows.rb:\n   78  \n   79          WDM::Monitor.new.tap do |worker|\n   80:           @directories.each { |d| worker.watch_recursively(d, &callback) }\n   81          end\n   82        end\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sass-3.2.19/vendor/listen/spec/listen/directory_record_spec.rb:\n  292  \n  293          context 'given an existing directory' do\n  294:           context 'with recursive option set to true' do\n  295              it 'detects the added file' do\n  296                fixtures do |path|\n  297                  mkdir 'a_directory'\n  298  \n  299:                 modified, added, removed = changes(path, :recursive => true) do\n  300                    touch 'a_directory/new_file.rb'\n  301                  end\n  ...\n  312                    mkdir 'ignored_directory'\n  313  \n  314:                   modified, added, removed = changes(path, :ignore => %r{^ignored_directory/}, :recursive => true) do\n  315                      touch 'ignored_directory/new_file.rb'\n  316                    end\n  ...\n  326                    mkdir 'ignored_directory'\n  327  \n  328:                   modified, added, removed = changes(path, :paths => [\"#{path}/ignored_directory\"], :ignore => %r{^ignored_directory/}, :recursive => true) do\n  329                      touch 'ignored_directory/new_file.rb'\n  330                    end\n  ...\n  338            end\n  339  \n  340:           context 'with recursive option set to false' do\n  341              it \"doesn't detect deeply-nested added files\" do\n  342                fixtures do |path|\n  343                  mkdir 'a_directory'\n  344  \n  345:                 modified, added, removed = changes(path, :recursive => false) do\n  346                    touch 'a_directory/new_file.rb'\n  347                  end\n  ...\n  360                mkdir_p 'a_directory/subdirectory'\n  361  \n  362:               modified, added, removed = changes(path, :recursive => true) do\n  363                  touch 'a_directory/subdirectory/new_file.rb'\n  364                end\n  ...\n  375                  mkdir_p 'ignored_directory/subdirectory'\n  376  \n  377:                 modified, added, removed = changes(path, :ignore => %r{^ignored_directory/}, :recursive => true) do\n  378                    touch 'ignored_directory/new_file.rb'\n  379                    touch 'ignored_directory/subdirectory/new_file.rb'\n  ...\n  571  \n  572          context 'given an existing directory' do\n  573:           context 'with recursive option set to true' do\n  574              it 'detects the modified file' do\n  575                fixtures do |path|\n  ...\n  577                  touch 'a_directory/existing_file.txt'\n  578  \n  579:                 modified, added, removed = changes(path, :recursive => true) do\n  580                    small_time_difference\n  581                    touch 'a_directory/existing_file.txt'\n  ...\n  589            end\n  590  \n  591:           context 'with recursive option set to false' do\n  592              it \"doesn't detects the modified file\" do\n  593                fixtures do |path|\n  ...\n  595                  touch 'a_directory/existing_file.txt'\n  596  \n  597:                 modified, added, removed = changes(path, :recursive => false) do\n  598                    small_time_difference\n  599                    touch 'a_directory/existing_file.txt'\n  ...\n  614                touch   'a_directory/subdirectory/existing_file.txt'\n  615  \n  616:               modified, added, removed = changes(path, :recursive => true) do\n  617                  small_time_difference\n  618                  touch 'a_directory/subdirectory/existing_file.txt'\n  ...\n  632                  touch   'ignored_directory/subdirectory/existing_file.txt'\n  633  \n  634:                 modified, added, removed = changes(path, :ignore => %r{^ignored_directory/}, :recursive => true) do\n  635                    touch 'ignored_directory/existing_file.txt'\n  636                    touch 'ignored_directory/subdirectory/existing_file.txt'\n  ...\n  662  \n  663          context 'given an existing directory' do\n  664:           context 'with recursive option set to true' do\n  665              it 'detects the file movement into the directory' do\n  666                fixtures do |path|\n  ...\n  668                  touch 'move_me.txt'\n  669  \n  670:                 modified, added, removed = changes(path, :recursive => true) do\n  671                    mv 'move_me.txt', 'a_directory/move_me.txt'\n  672                  end\n  ...\n  683                  touch 'a_directory/move_me.txt'\n  684  \n  685:                 modified, added, removed = changes(path, :recursive => true) do\n  686                    mv 'a_directory/move_me.txt', 'i_am_here.txt'\n  687                  end\n  ...\n  699                  mkdir 'to_directory'\n  700  \n  701:                 modified, added, removed = changes(path, :recursive => true) do\n  702                    mv 'from_directory/move_me.txt', 'to_directory/move_me.txt'\n  703                  end\n  ...\n  710            end\n  711  \n  712:           context 'with recursive option set to false' do\n  713              it \"doesn't detect the file movement into the directory\" do\n  714                fixtures do |path|\n  ...\n  716                  touch 'move_me.txt'\n  717  \n  718:                 modified, added, removed = changes(path, :recursive => false) do\n  719                    mv 'move_me.txt', 'a_directory/move_me.txt'\n  720                  end\n  ...\n  731                  touch 'a_directory/move_me.txt'\n  732  \n  733:                 modified, added, removed = changes(path, :recursive => false) do\n  734                    mv 'a_directory/move_me.txt', 'i_am_here.txt'\n  735                  end\n  ...\n  747                  mkdir 'to_directory'\n  748  \n  749:                 modified, added, removed = changes(path, :recursive => false) do\n  750                    mv 'from_directory/move_me.txt', 'to_directory/move_me.txt'\n  751                  end\n  ...\n  764                    touch   'a_directory/subdirectory/move_me.txt'\n  765  \n  766:                   modified, added, removed = changes(path, :recursive => true) do\n  767                      mv 'a_directory/subdirectory/move_me.txt', 'b_directory/subdirectory'\n  768                    end\n  ...\n  781                      touch   'a_ignored_directory/subdirectory/move_me.txt'\n  782  \n  783:                     modified, added, removed = changes(path, :ignore => %r{^(?:a|b)_ignored_directory/}, :recursive => true) do\n  784                        mv 'a_ignored_directory/subdirectory/move_me.txt', 'b_ignored_directory/subdirectory'\n  785                      end\n  ...\n  799                    touch 'move_me.txt'\n  800  \n  801:                   modified, added, removed = changes(path, :recursive => false, :paths => [path, \"#{path}/a_directory\"]) do\n  802                      mv 'move_me.txt', 'a_directory/move_me.txt'\n  803                    end\n  ...\n  814                    touch 'a_directory/move_me.txt'\n  815  \n  816:                   modified, added, removed = changes(path, :recursive => false, :paths => [path, \"#{path}/a_directory\"]) do\n  817                      mv 'a_directory/move_me.txt', 'i_am_here.txt'\n  818                    end\n  ...\n  830                    mkdir 'to_directory'\n  831  \n  832:                   modified, added, removed = changes(path, :recursive => false, :paths => [path, \"#{path}/from_directory\", \"#{path}/to_directory\"]) do\n  833                      mv 'from_directory/move_me.txt', 'to_directory/move_me.txt'\n  834                    end\n  ...\n  888  \n  889          context 'given an existing directory' do\n  890:           context 'with recursive option set to true' do\n  891              it 'detects the file removal' do\n  892                fixtures do |path|\n  ...\n  894                  touch 'a_directory/do_not_use.rb'\n  895  \n  896:                 modified, added, removed = changes(path, :recursive => true) do\n  897                    rm 'a_directory/do_not_use.rb'\n  898                  end\n  ...\n  905            end\n  906  \n  907:           context 'with recursive option set to false' do\n  908              it \"doesn't detect the file removal\" do\n  909                fixtures do |path|\n  ...\n  911                  touch 'a_directory/do_not_use.rb'\n  912  \n  913:                 modified, added, removed = changes(path, :recursive => false) do\n  914                    rm 'a_directory/do_not_use.rb'\n  915                  end\n  ...\n  929                touch   'a_directory/subdirectory/do_not_use.rb'\n  930  \n  931:               modified, added, removed = changes(path, :recursive => true) do\n  932                  rm 'a_directory/subdirectory/do_not_use.rb'\n  933                end\n  ...\n  946                  touch   'ignored_directory/subdirectory/do_not_use.rb'\n  947  \n  948:                 modified, added, removed = changes(path, :ignore => %r{^ignored_directory/}, :recursive => true) do\n  949                    rm 'ignored_directory/do_not_use.rb'\n  950                    rm 'ignored_directory/subdirectory/do_not_use.rb'\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sass-3.2.19/vendor/listen/spec/listen/adapters/polling_spec.rb:\n   22  \n   23        it 'calls listener.on_change' do\n   24:         listener.should_receive(:on_change).at_least(1).times.with(['dir'], :recursive => true)\n   25          subject.start(false)\n   26          subject.wait_for_callback\n   ..\n   29        it 'calls listener.on_change continuously' do\n   30          subject.latency = 0.001\n   31:         listener.should_receive(:on_change).at_least(10).times.with(['dir'], :recursive => true)\n   32          subject.start(false)\n   33          10.times { subject.wait_for_callback }\n   ..\n   46  \n   47        it 'calls listener.on_change' do\n   48:         listener.should_receive(:on_change).at_least(1).times.with(%w{dir1 dir2}, :recursive => true)\n   49          subject.start(false)\n   50          subject.wait_for_callback\n   ..\n   53        it 'calls listener.on_change continuously' do\n   54          subject.latency = 0.001\n   55:         listener.should_receive(:on_change).at_least(10).times.with(%w{dir1 dir2}, :recursive => true)\n   56          subject.start(false)\n   57          10.times { subject.wait_for_callback }\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sass-3.2.19/vendor/listen/spec/support/adapter_helper.rb:\n  126              watch(listener, 2, path) do\n  127                mkdir 'a_directory'\n  128:               # Needed for INotify, because of :recursive rb-inotify custom flag?\n  129                sleep 0.05\n  130                touch 'a_directory/new_file.rb'\n  ...\n  444            touch 'b_file.rb'\n  445            mkdir 'a_directory'\n  446:           # Needed for INotify, because of :recursive rb-inotify custom flag?\n  447            # Also needed for the osx adapter\n  448            sleep 0.05\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sass-3.2.19/vendor/listen/spec/support/directory_record_helper.rb:\n   23  \n   24    paths = options.delete(:paths) || [root_path]\n   25:   options[:recursive] = true if options[:recursive].nil?\n   26  \n   27    changes = @record.fetch_changes(paths, {:relative_paths => true}.merge(options))\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sexp_processor-4.4.4/lib/sexp.rb:\n   85  \n   86    ##\n   87:   # Recursively enumerates the sexp yielding to +block+ for every element.\n   88    # TODO: test\n   89  \n   ..\n  108  \n  109    ##\n  110:   # Recursively enumerates all sub-sexps skipping non-Sexp elements.\n  111    # TODO: test\n  112  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/slim-1.3.9/README.md:\n  684  \n  685  <a name=\"logicless\">Logic less mode</a> is inspired by [Mustache](https://github.com/defunkt/mustache). Logic less mode uses a dictionary object\n  686: e.g. a recursive hash tree which contains the dynamic content.\n  687  \n  688  #### Conditional\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sprockets-2.11.3/README.md:\n  254  \n  255  Sprockets reads these comments, called *directives*, and processes\n  256: them to recursively build a dependency graph. When you request an\n  257  asset with dependencies, the dependencies will be included in order at\n  258  the top of the file.\n  ...\n  323  \n  324  `require_tree` *path* works like `require_directory`, but operates\n  325: recursively to require all files in all subdirectories of the\n  326  directory specified by *path*.\n  327  \n  ...\n  340  \n  341  `depend_on_asset` *path* works like `depend_on`, but operates\n  342: recursively reading the the file and following the directives found.\n  343  \n  344  ### The `stub` Directive ###\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/sprockets-2.11.3/lib/sprockets/context.rb:\n  126      # This is used for caching purposes. Any changes that would\n  127      # invalidate the dependency asset will invalidate the source\n  128:     # file. Unlike `depend_on`, this will include recursively include\n  129      # the target asset's dependencies.\n  130      def depend_on_asset(path)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/thor-0.19.1/lib/thor/group.rb:\n  157  \n  158      # Overwrite class options help to allow invoked generators options to be\n  159:     # shown recursively when invoking a generator.\n  160      #\n  161      def class_options_help(shell, groups = {}) #:nodoc:\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/thor-0.19.1/lib/thor/actions/directory.rb:\n    3  class Thor\n    4    module Actions\n    5:     # Copies recursively the files from source directory to root directory.\n    6      # If any of the files finishes with .tt, it's considered to be a template\n    7      # and is placed in the destination without the extension .tt. If any\n    .\n   38      # destination<String>:: the relative path to the destination root.\n   39      # config<Hash>:: give :verbose => false to not log the status.\n   40:     #                If :recursive => false, does not look for paths recursively.\n   41      #                If :mode => :preserve, preserve the file mode from the source.\n   42      #                If :exclude_pattern => /regexp/, prevents copying files that match that regexp.\n   ..\n   45      #\n   46      #   directory \"doc\"\n   47:     #   directory \"doc\", \"docs\", :recursive => false\n   48      #\n   49      def directory(source, *args, &block)\n   ..\n   59          @source = File.expand_path(base.find_in_source_paths(source.to_s))\n   60          @block  = block\n   61:         super(base, destination, {:recursive => true}.merge(config))\n   62        end\n   63  \n   ..\n   75        def execute! # rubocop:disable MethodLength\n   76          lookup = Util.escape_globs(source)\n   77:         lookup = config[:recursive] ? File.join(lookup, \"**\") : lookup\n   78          lookup = file_level_lookup(lookup)\n   79  \n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/thor-0.19.1/spec/actions/directory_spec.rb:\n   46      end\n   47  \n   48:     it \"copies the whole directory recursively to the default destination\" do\n   49        invoke! \"doc\"\n   50        exists_and_identical?(\"doc\", \"doc\")\n   51      end\n   52  \n   53:     it \"copies the whole directory recursively to the specified destination\" do\n   54        invoke! \"doc\", \"docs\"\n   55        exists_and_identical?(\"doc\", \"docs\")\n   56      end\n   57  \n   58:     it \"copies only the first level files if recursive\" do\n   59:       invoke! \".\", \"commands\", :recursive => false\n   60  \n   61        file = File.join(destination_root, \"commands\", \"group.thor\")\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/thread_safe-0.3.4/ext/org/jruby/ext/thread_safe/jsr166e/ConcurrentHashMapV8.java:\n  248       * long sum = aForkJoinPool.invoke(new SumValues(m.valueSpliterator(), split, null));\n  249       * // ...\n  250:      * static class SumValues extends RecursiveTask<Long> {\n  251       *   final Spliterator<Long> s;\n  252       *   final int split;             // split while > 1\n  ...\n 2839       *         is null\n 2840       * @throws IllegalStateException if the computation detectably\n 2841:      *         attempts a recursive update to this map that would\n 2842       *         otherwise never complete\n 2843       * @throws RuntimeException or Error if the mappingFunction does so,\n ....\n 2880       *         is null\n 2881       * @throws IllegalStateException if the computation detectably\n 2882:      *         attempts a recursive update to this map that would\n 2883       *         otherwise never complete\n 2884       * @throws RuntimeException or Error if the remappingFunction does so,\n ....\n 2927       *         is null\n 2928       * @throws IllegalStateException if the computation detectably\n 2929:      *         attempts a recursive update to this map that would\n 2930       *         otherwise never complete\n 2931       * @throws RuntimeException or Error if the remappingFunction does so,\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/thread_safe-0.3.4/ext/org/jruby/ext/thread_safe/jsr166e/nounsafe/ConcurrentHashMapV8.java:\n  251       * long sum = aForkJoinPool.invoke(new SumValues(m.valueSpliterator(), split, null));\n  252       * // ...\n  253:      * static class SumValues extends RecursiveTask<Long> {\n  254       *   final Spliterator<Long> s;\n  255       *   final int split;             // split while > 1\n  ...\n 2831       *         is null\n 2832       * @throws IllegalStateException if the computation detectably\n 2833:      *         attempts a recursive update to this map that would\n 2834       *         otherwise never complete\n 2835       * @throws RuntimeException or Error if the mappingFunction does so,\n ....\n 2872       *         is null\n 2873       * @throws IllegalStateException if the computation detectably\n 2874:      *         attempts a recursive update to this map that would\n 2875       *         otherwise never complete\n 2876       * @throws RuntimeException or Error if the remappingFunction does so,\n ....\n 2919       *         is null\n 2920       * @throws IllegalStateException if the computation detectably\n 2921:      *         attempts a recursive update to this map that would\n 2922       *         otherwise never complete\n 2923       * @throws RuntimeException or Error if the remappingFunction does so,\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/tzinfo-1.2.2/lib/tzinfo/zoneinfo_data_source.rb:\n  359      end\n  360      \n  361:     # Recursively scans a directory of timezones, calling the passed in block\n  362      # for each identifier found.\n  363      def enum_timezones(dir, exclude = [], &block)\n\n/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/tzinfo-1.2.2/test/tc_linked_timezone.rb:\n   68          @timezones ||= {}\n   69          @timezones[identifier] ||= \n   70:           identifier == 'Test/Recursive/Linked' ? \n   71:             LinkedTimezone.new(LinkedTimezoneInfo.new(identifier, 'Test/Recursive/Data')) :\n   72              TestTimezone.new(identifier, identifier == 'Test/No/Local')\n   73        end\n   ..\n  131    end\n  132    \n  133:   def test_canonical_identifier_recursive\n  134:     # Recursive links are not currently used in the Time Zone database, but \n  135      # will be supported by TZInfo.\n  136    \n  137:     tz = LinkedTimezone.new(LinkedTimezoneInfo.new('Test/Zone', 'Test/Recursive/Linked'))\n  138:     assert_equal('Test/Recursive/Data', tz.canonical_identifier)\n  139    end\n  140    \n  ...\n  145    end\n  146    \n  147:   def test_canonical_zone_recursive\n  148:     # Recursive links are not currently used in the Time Zone database, but \n  149      # will be supported by TZInfo.\n  150    \n  151:     tz = LinkedTimezone.new(LinkedTimezoneInfo.new('Test/Zone', 'Test/Recursive/Linked'))\n  152:     linked_tz = Timezone.get('Test/Recursive/Data')\n  153      assert_same(linked_tz, tz.canonical_zone)\n  154    end\n\n353 matches across 107 files\n\n\nSearching 253 files for \"container-large-desktop\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables.sass:\n  392  \n  393  // Large screen / wide desktop\n  394: $container-large-desktop: 1140px + $grid-gutter-width !default\n  395  \n  396  //** For `$screen-lg-min` and up.\n  397: $container-lg: $container-large-desktop !default\n  398  \n  399  //== Navbar\n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables.scss:\n  338  \n  339  // Large screen / wide desktop\n  340: $container-large-desktop:      (800px + $grid-gutter-width); // 1140px\n  341  //** For `$screen-lg-min` and up.\n  342: $container-lg:                 $container-large-desktop;\n  343  \n  344  \n\n4 matches across 2 files\n\n\nSearching 253 files for \".padded\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/views/pages/home.html.haml:\n   98  \n   99            .row\n  100:             .col-xs-12.padded\n  101                %button.btn.btn-primary\n  102                  %i.fa.fa-envelope\n\n1 match in 1 file\n\n\nSearching 258 files for \"3e444c\" (case sensitive)\n\n0 matches across 0 files\n\n\nSearching 258 files for \"3e444c\"\n\n0 matches across 0 files\n\n\nSearching 257 files for \"body-bg\"\n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables.scss:\n   27  \n   28  //** Background color for `<body>`.\n   29: $body-bg:               $gray-darker;\n   30  //** Global text color on `<body>`.\n   31  $text-color:            #C8C8C8;\n   ..\n  128  \n  129  //** Default background color used for all tables.\n  130: $table-bg:                      lighten($body-bg, 3%);\n  131  //** Background color used for `.table-striped`.\n  132  $table-bg-accent:               lighten($table-bg, 3%);\n  ...\n  414  //=== Shared nav styles\n  415  $nav-link-padding:                          10px 15px;\n  416: $nav-link-hover-bg:                         lighten($body-bg, 10%);\n  417  \n  418  $nav-disabled-link-color:                   $gray-light;\n  ...\n  424  $nav-tabs-link-hover-border-color:          darken($gray-darker, 5%);\n  425  \n  426: $nav-tabs-active-link-hover-bg:             lighten($body-bg, 10%);\n  427  $nav-tabs-active-link-hover-color:          #fff;\n  428  $nav-tabs-active-link-hover-border-color:   darken($gray-darker, 5%);\n  429  \n  430  $nav-tabs-justified-link-border-color:            $nav-tabs-border-color;\n  431: $nav-tabs-justified-active-link-border-color:     $body-bg;\n  432  \n  433  //== Pills\n  ...\n  480  $jumbotron-padding:              30px;\n  481  $jumbotron-color:                inherit;\n  482: $jumbotron-bg:                   darken($body-bg, 5%);\n  483  $jumbotron-heading-color:        inherit;\n  484  $jumbotron-font-size:            ceil(($font-size-base * 1.5));\n  ...\n  529  \n  530  //** Popover body background color\n  531: $popover-bg:                          lighten($body-bg, 3%);\n  532  //** Popover maximum width\n  533  $popover-max-width:                   276px;\n  ...\n  589  \n  590  //** Background color of modal content area\n  591: $modal-content-bg:                             lighten($body-bg, 3%);\n  592  //** Modal content border color\n  593  $modal-content-border-color:                   rgba(0,0,0,.2);\n  ...\n  639  \n  640  //** Background color of the whole progress component\n  641: $progress-bg:                 darken($body-bg, 5%);\n  642  //** Progress bar text color\n  643  $progress-bar-color:          #fff;\n  ...\n  662  \n  663  //** Background color on `.list-group-item`\n  664: $list-group-bg:                 lighten($body-bg, 5%);\n  665  //** `.list-group-item` border color\n  666  $list-group-border:             rgba(0, 0, 0, 0.6);\n  ...\n  669  \n  670  //** Background color of single list items on hover\n  671: $list-group-hover-bg:           lighten($body-bg, 10%);\n  672  //** Text color of active list items\n  673  $list-group-active-color:       $component-active-color;\n  674  //** Background color of active list items\n  675: $list-group-active-bg:          lighten($body-bg, 10%);\n  676  //** Border color of active list elements\n  677  $list-group-active-border:      $list-group-border;\n  ...\n  695  //##\n  696  \n  697: $panel-bg:                    lighten($body-bg, 3%);\n  698  $panel-body-padding:          15px;\n  699  $panel-heading-padding:       10px 15px;\n  ...\n  703  //** Border color for elements within panels\n  704  $panel-inner-border:          rgba(0, 0, 0, 0.6);\n  705: $panel-footer-bg:             lighten($body-bg, 10%);\n  706  \n  707  $panel-default-text:          $text-color;\n  ...\n  737  $thumbnail-padding:           4px;\n  738  //** Thumbnail background color\n  739: $thumbnail-bg:                darken($body-bg, 5%);\n  740  //** Thumbnail border color\n  741  $thumbnail-border:            darken($thumbnail-bg, 7%);\n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables.sass:\n   37  \n   38  //** Background color for `<body>`.\n   39: $body-bg: white !default\n   40  \n   41  //** Global text color on `<body>`.\n   ..\n  473  $nav-tabs-link-hover-border-color: $gray-lighter !default\n  474  \n  475: $nav-tabs-active-link-hover-bg: $body-bg !default\n  476  $nav-tabs-active-link-hover-color: $gray !default\n  477  $nav-tabs-active-link-hover-border-color: #dddddd !default\n  478  \n  479  $nav-tabs-justified-link-border-color: #dddddd !default\n  480: $nav-tabs-justified-active-link-border-color: $body-bg !default\n  481  \n  482  //== Pills\n  ...\n  809  \n  810  //** Thumbnail background color\n  811: $thumbnail-bg: $body-bg !default\n  812  \n  813  //** Thumbnail border color\n\n19 matches across 2 files\n\n\nSearching 260 files for \"typekit\"\n\n/Users/yannis/railsapps/kendo_gva/app/views/layouts/application.html.haml:\n    8      = stylesheet_link_tag \"application\", media: \"all\", \"data-turbolinks-track\" => true\n    9      = stylesheet_link_tag \"//cdn-images.mailchimp.com/embedcode/classic-081711.css\"\n   10:     = javascript_include_tag \"//use.typekit.net/frb3cgd.js\"\n   11      :javascript\n   12:       try{Typekit.load();}catch(e){}\n   13      = javascript_include_tag \"application\", \"data-turbolinks-track\" => true\n   14      = csrf_meta_tags\n\n2 matches in 1 file\n\n\nproSearching 272 files for \"ActionMailer::Base.smtp_settings\"\n\n/Users/yannis/railsapps/kendo_gva/config/initializers/setup_mail.rb:\n    1  ActionMailer::Base.delivery_method = :smtp\n    2: ActionMailer::Base.smtp_settings = {\n    3    address: \"smtp.gmail.com\",\n    4    port: 587,\n\n1 match in 1 file\n\n\nSearching 272 files for \"ActionMailer\"\n\n/Users/yannis/railsapps/kendo_gva/Gemfile.lock:\n   21    specs:\n   22      CFPropertyList (2.2.8)\n   23:     actionmailer (4.1.8)\n   24        actionpack (= 4.1.8)\n   25        actionview (= 4.1.8)\n   ..\n  290        rack (>= 1.0)\n  291      rails (4.1.8)\n  292:       actionmailer (= 4.1.8)\n  293        actionpack (= 4.1.8)\n  294        actionview (= 4.1.8)\n\n/Users/yannis/railsapps/kendo_gva/app/mailers/contact_mailer.rb:\n    1: class ContactMailer < ActionMailer::Base\n    2    add_template_helper(EmailHelper)\n    3    default from: ENV[\"SENDER_EMAIL\"]\n\n/Users/yannis/railsapps/kendo_gva/config/environments/test.rb:\n   29     # Tell Action Mailer not to deliver emails to the real world.\n   30     # The :test delivery method accumulates sent emails in the\n   31:    # ActionMailer::Base.deliveries array.\n   32     config.action_mailer.delivery_method = :test\n   33  \n\n/Users/yannis/railsapps/kendo_gva/config/initializers/setup_mail.rb:\n    1: ActionMailer::Base.default_url_options = { host: ENV[\"DOMAIN\"] }\n    2: ActionMailer::Base.delivery_method = :smtp\n    3: ActionMailer::Base.smtp_settings = {\n    4    address: \"smtp.gmail.com\",\n    5    port: 587,\n\n7 matches across 4 files\n\n\nSearching 272 files for \"config.action_mailer\"\n\n/Users/yannis/railsapps/kendo_gva/config/environments/production.rb:\n   65    # Ignore bad email addresses and do not raise email delivery errors.\n   66    # Set this to true and configure the email server for immediate delivery to raise delivery errors.\n   67:   # config.action_mailer.raise_delivery_errors = false\n   68  \n   69    # Enable locale fallbacks for I18n (makes lookups for any locale fall back to\n\n/Users/yannis/railsapps/kendo_gva/config/environments/test.rb:\n   30     # The :test delivery method accumulates sent emails in the\n   31     # ActionMailer::Base.deliveries array.\n   32:    config.action_mailer.delivery_method = :test\n   33  \n   34     # Print deprecation notices to the stderr.\n   ..\n   36  \n   37     # Mailer\n   38:    config.action_mailer.raise_delivery_errors = true\n   39:    config.action_mailer.default_url_options = { :host => 'localhost:3000' }\n   40:    config.action_mailer.delivery_method = :smtp\n   41:    config.action_mailer.smtp_settings = {\n   42         address: ENV[\"SMTP_SERVER\"],\n   43         openssl_verify_mode: OpenSSL::SSL::VERIFY_NONE,\n\n6 matches across 2 files\n\n\nSearching 272 files for \"BRICK_DOMAIN\"\n\n/Users/yannis/railsapps/kendo_gva/config/application.yml:\n    1  # Generated by RailsBricks 3.0.3\n    2  # ENVIRONMENT VARIABLES\n    3: DOMAIN: \"BRICK_DOMAIN\"\n    4  SENDER_EMAIL: \"info@kendo-geneve.ch\"\n    5  MAILER_DOMAIN: \"localhost\"\n\n1 match in 1 file\n\n\nSearching 272 files for \"MAILER_DOMAIN\"\n\n/Users/yannis/railsapps/kendo_gva/config/application.yml:\n    3  DOMAIN: \"BRICK_DOMAIN\"\n    4  SENDER_EMAIL: \"info@kendo-geneve.ch\"\n    5: MAILER_DOMAIN: \"localhost\"\n    6  \n    7  GMAIL_USERNAME: \"kendo.geneve@gmail.com\"\n\n/Users/yannis/railsapps/kendo_gva/config/environments/test.rb:\n   43         openssl_verify_mode: OpenSSL::SSL::VERIFY_NONE,\n   44         port: ENV[\"SMTP_PORT\"].to_i,\n   45:        domain: ENV[\"MAILER_DOMAIN\"],\n   46         authentication: \"plain\",\n   47         enable_starttls_auto: true,\n\n2 matches across 2 files\n\n\nSearching 272 files for \"brick_domain\"\n\n/Users/yannis/railsapps/kendo_gva/config/application.yml:\n    1  # Generated by RailsBricks 3.0.3\n    2  # ENVIRONMENT VARIABLES\n    3: DOMAIN: \"BRICK_DOMAIN\"\n    4  SENDER_EMAIL: \"info@kendo-geneve.ch\"\n    5  MAILER_DOMAIN: \"localhost\"\n\n1 match in 1 file\n\n\nSearching 272 files for \"DOMAIN\"\n\n/Users/yannis/railsapps/kendo_gva/.rbricks/config:\n    1: {\"railsbricks_version\":\"3.0.3\",\"rails_version\":\"4.1.8\",\"app_name\":\"kendo_gva\",\"rails_app_name\":\"KendoGva\",\"ruby_version\":\"2.1.4\",\"gem_command\":\"gem\",\"rake_command\":\"bundle exec rake\",\"development_db\":\"postgresql\",\"db_config\":{\"server\":\"localhost\",\"port\":5432,\"name\":\"kendo_gva_development\",\"username\":\"yannis\",\"password\":\"\"},\"local_git\":true,\"remote_git\":false,\"git_url\":\"\",\"devise\":true,\"devise_config\":{\"scheme\":\"email\",\"allow_signup\":false,\"test_users\":false},\"post_resources\":true,\"contact_form\":true,\"google_analytics\":true,\"google_tracking_id\":\"UA-XXXXXX-XX\",\"email_settings\":true,\"email_config\":{\"sender\":\"info@kendo-geneve.ch\",\"smtp\":\"smtp.kendo-geneve.ch\",\"domain\":\"localhost\",\"port\":\"587\",\"username\":\"yannis\",\"password\":\"******\"},\"ui\":{\"theme_background\":\"light\",\"theme_navbar\":\"light\",\"theme_footer\":\"light\",\"color\":\"#428bca\",\"font\":\"open\"},\"production\":false,\"production_settings\":{\"target\":null,\"url\":null,\"unicorn\":null},\"generate\":true}\n\n/Users/yannis/railsapps/kendo_gva/app/mailers/contact_mailer.rb:\n    9      @message = message\n   10  \n   11:     mail to: ENV[\"SENDER_EMAIL\"], subject: \"New message received at #{ENV[\"DOMAIN\"]}\"\n   12    end\n   13  end\n\n/Users/yannis/railsapps/kendo_gva/app/views/contact_mailer/contact_message.html.erb:\n    1: <p>New message received at <%= ENV[\"DOMAIN\"] %>:</p>\n    2  <p>--------------</p>\n    3  <p>From: <%= @name %> - <%= @email %></p>\n\n/Users/yannis/railsapps/kendo_gva/config/application.yml:\n    1  # Generated by RailsBricks 3.0.3\n    2  # ENVIRONMENT VARIABLES\n    3: DOMAIN: \"BRICK_DOMAIN\"\n    4  SENDER_EMAIL: \"info@kendo-geneve.ch\"\n    5: MAILER_DOMAIN: \"localhost\"\n    6  \n    7  GMAIL_USERNAME: \"kendo.geneve@gmail.com\"\n\n/Users/yannis/railsapps/kendo_gva/config/environments/production.rb:\n   47  \n   48    # Prepend all log lines with the following tags.\n   49:   # config.log_tags = [ :subdomain, :uuid ]\n   50  \n   51    # Use a different logger for distributed setups.\n\n/Users/yannis/railsapps/kendo_gva/config/initializers/devise.rb:\n   37    # ==> Configuration for any authentication mechanism\n   38    # Configure which keys are used when authenticating a user. The default is\n   39:   # just :email. You can configure it to use [:username, :subdomain], so for\n   40    # authenticating a user, both parameters are required. Remember that those\n   41    # parameters are used only when authenticating and not when retrieving from\n   ..\n   48    # given should be a request method and it will automatically be passed to the\n   49    # find_for_authentication method and considered in your model lookup. For instance,\n   50:   # if you set :request_keys to [:subdomain], :subdomain will be used on authentication.\n   51    # The same considerations mentioned for authentication_keys also apply to request_keys.\n   52    # config.request_keys = []\n\n/Users/yannis/railsapps/kendo_gva/config/initializers/setup_mail.rb:\n    1: ActionMailer::Base.default_url_options = { host: ENV[\"DOMAIN\"] }\n    2  ActionMailer::Base.delivery_method = :smtp\n    3  ActionMailer::Base.smtp_settings = {\n    4    address: \"smtp.gmail.com\",\n    5    port: 587,\n    6:   domain: \"heroku.com\",\n    7    authentication: \"plain\",\n    8    enable_starttls_auto: true,\n\n12 matches across 7 files\n\n\nSearching 272 files for \"DOMAIN\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/mailers/contact_mailer.rb:\n    9      @message = message\n   10  \n   11:     mail to: ENV[\"SENDER_EMAIL\"], subject: \"New message received at #{ENV[\"DOMAIN\"]}\"\n   12    end\n   13  end\n\n/Users/yannis/railsapps/kendo_gva/app/views/contact_mailer/contact_message.html.erb:\n    1: <p>New message received at <%= ENV[\"DOMAIN\"] %>:</p>\n    2  <p>--------------</p>\n    3  <p>From: <%= @name %> - <%= @email %></p>\n\n/Users/yannis/railsapps/kendo_gva/config/application.yml:\n    1  # Generated by RailsBricks 3.0.3\n    2  # ENVIRONMENT VARIABLES\n    3: DOMAIN: \"BRICK_DOMAIN\"\n    4  SENDER_EMAIL: \"info@kendo-geneve.ch\"\n    5: MAILER_DOMAIN: \"localhost\"\n    6  \n    7  GMAIL_USERNAME: \"kendo.geneve@gmail.com\"\n\n/Users/yannis/railsapps/kendo_gva/config/initializers/setup_mail.rb:\n    1: ActionMailer::Base.default_url_options = { host: ENV[\"DOMAIN\"] }\n    2  ActionMailer::Base.delivery_method = :smtp\n    3  ActionMailer::Base.smtp_settings = {\n\n6 matches across 4 files\n\n\nSearching 476 files for \"SENDER_EMAIL\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/mailers/contact_mailer.rb:\n    1  class ContactMailer < ActionMailer::Base\n    2    add_template_helper(EmailHelper)\n    3:   default from: ENV[\"SENDER_EMAIL\"]\n    4  \n    5  \n    .\n    9      @message = message\n   10  \n   11:     mail to: ENV[\"SENDER_EMAIL\"], subject: \"New message received at #{ENV[\"MAILER_HOST\"]}\"\n   12    end\n   13  end\n\n/Users/yannis/railsapps/kendo_gva/config/application.yml:\n    2  # ENVIRONMENT VARIABLES\n    3  # DOMAIN: \"BRICK_DOMAIN\"\n    4: SENDER_EMAIL: \"info@kendo-geneve.ch\"\n    5  # MAILER_DOMAIN: \"localhost\"\n    6  \n\n/Users/yannis/railsapps/kendo_gva/config/initializers/devise.rb:\n   24    # note that it will be overwritten if you use your own mailer class\n   25    # with default \"from\" parameter.\n   26:   config.mailer_sender = ENV[\"SENDER_EMAIL\"]\n   27  \n   28    # Configure the class responsible to send e-mails.\n\n4 matches across 3 files\n\n\nSearching 482 files for \"link-hover-decoration\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables.scss:\n   45  $link-hover-color:      lighten($orange, 10%);\n   46  //** Link hover decoration.\n   47: $link-hover-decoration: underline;\n   48  \n   49  \n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables2.scss:\n   36  $link-hover-color:      $link-color;\n   37  //** Link hover decoration.\n   38: $link-hover-decoration: underline;\n   39  \n   40  \n\n2 matches across 2 files\n\n\nSearching 487 files for \"sidenav\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/assets/javascripts/common.js:\n    1  var ready = function() {\n    2:   $('#sidenav').affix({\n    3      offset: {\n    4        top: function () {\n    .\n   11    });\n   12    $('body').scrollspy({\n   13:     target: '#sidenav'\n   14    });\n   15  }\n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/application.sass:\n    5  \n    6  @import \"typography\"\n    7: @import \"sidenav\"\n    8  \n    9  body\n   ..\n   60      font-size: 10em\n   61  \n   62: .sidenav\n   63    &.affix\n   64      top: 0\n   ..\n   69    margin: 4em auto\n   70  \n   71: .sidenav\n   72    li.active\n   73      background-color: $gray-lighter\n\n/Users/yannis/railsapps/kendo_gva/app/views/pages/home.html.haml:\n  195  \n  196  \n  197:       #sidenav{role: \"complementary\"}\n  198          %nav.hidden-print.hidden-xs.hidden-sm\n  199            %ul.nav\n\n6 matches across 3 files\n\n\nSearching 487 files for \".sidenav\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/assets/javascripts/common.js:\n    1  var ready = function() {\n    2:   $('.sidenav').affix({\n    3      offset: {\n    4        top: function () {\n    .\n   11    });\n   12    $('body').scrollspy({\n   13:     target: '.sidenav'\n   14    });\n   15  }\n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/application.sass:\n   60      font-size: 10em\n   61  \n   62: .sidenav\n   63    &.affix\n   64      position: absolute\n   ..\n   70    margin: 4em auto\n   71  \n   72: .sidenav\n   73    li.active\n   74      background-color: $gray-lighter\n\n/Users/yannis/railsapps/kendo_gva/app/views/layouts/application.html.haml:\n   17      = javascript_include_tag \"application\", \"data-turbolinks-track\" => true\n   18      = csrf_meta_tags\n   19:   %body{data: {spy: \"scroll\", target: \".sidenav\"}}\n   20      - if flash.present?\n   21        .row\n\n/Users/yannis/railsapps/kendo_gva/app/views/pages/home.html.haml:\n  195  \n  196  \n  197:       .sidenav{role: \"complementary\"}\n  198          %nav.hidden-print.hidden-xs.hidden-sm\n  199            %ul.nav\n\n6 matches across 4 files\n\n\nSearching 490 files for \"20h00\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/views/pages/home.html.haml:\n   40                %dd 18h30-20h15 (tous niveaux)\n   41                %dt Jeudi\n   42:               %dd 18h30-20h00 (débutants)\n   43:               %dd 20h00-21h30 (avancés)\n   44            .col-md-6\n   45              %h3 Enfants (dès 8 ans)\n   46              %dl\n   47                %dt Jeudi\n   48:               %dd 18h30-20h00\n   49        %section#location\n   50          %h2 Situation\n\n3 matches in 1 file\n\n\nSearching 490 files for \"kids\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/views/layouts/_navigation.html.haml:\n   44                  = link_to \"Cotisations\", \"#fees\"\n   45                %li\n   46:                 = link_to \"Enfants\", \"#kids\"\n   47                %li\n   48                  = link_to \"Contact\", \"#contact\"\n\n/Users/yannis/railsapps/kendo_gva/app/views/layouts/_navigation_links.html.haml:\n   18      = link_to \"Cotisations\", \"#fees\"\n   19    %li\n   20:     = link_to \"Enfants\", \"#kids\"\n   21    %li\n   22      = link_to \"Contact\", \"#contact\"\n\n/Users/yannis/railsapps/kendo_gva/app/views/pages/home.html.haml:\n  101          %p\n  102            =raw \"Vous trouverez plus d'infos sur nos modalités d'inscription et sur nos statuts sur le site du #{link_to \"Shung Do Kwan\", \"http://sdkbudo.ch/index.php/en/sinscrire\", target: \"_blank\"}.\"\n  103:       %section#kids\n  104          %h2\n  105            Cours enfants\n  ...\n  211                = link_to \"Cotisations\", \"#fees\"\n  212              %li\n  213:               = link_to \"Enfants\", \"#kids\"\n  214              %li\n  215                = link_to \"Contact\", \"#contact\"\n\n4 matches across 3 files\n\n\nSearching 490 files for \"omniauth\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/models/user.rb:\n    5  \n    6    # Include default devise modules. Others available are:\n    7:   # :confirmable, :lockable, :timeoutable and :omniauthable\n    8    devise :database_authenticatable,\n    9           :recoverable, :rememberable, :trackable, :validatable, :confirmable\n\n/Users/yannis/railsapps/kendo_gva/app/views/devise/shared/_links.erb:\n   11  \n   12  \n   13: <%- if devise_mapping.omniauthable? %>\n   14:   <%- resource_class.omniauth_providers.each do |provider| %>\n   15:     <%= link_to \"Sign in with #{provider.to_s.titleize}\", omniauth_authorize_path(resource_name, provider) %><br />\n   16    <% end -%>\n   17  <% end -%>\n\n/Users/yannis/railsapps/kendo_gva/config/initializers/devise.rb:\n  241    # Add a new OmniAuth provider. Check the wiki for more information on setting\n  242    # up on your models and hooks.\n  243:   # config.omniauth :github, 'APP_ID', 'APP_SECRET', :scope => 'user,public_repo'\n  244  \n  245    # ==> Warden configuration\n  ...\n  262    # config.router_name = :my_engine\n  263    #\n  264:   # When using omniauth, Devise cannot automatically set Omniauth path,\n  265    # so you need to do it manually. For the users scope, it would be:\n  266:   # config.omniauth_path_prefix = '/my_engine/users/auth'\n  267  end\n  268  \n\n/Users/yannis/railsapps/kendo_gva/config/locales/activeadmin.fr.yml:\n  104          sign_in: \"Connectez-vous\"\n  105          forgot_your_password: \"Vous avez oublié votre mot de passe ?\"\n  106:         sign_in_with_omniauth_provider: \"Connectez-vous avec %{provider}\"\n  107      access_denied:\n  108        message: \"Vous n'êtes pas autorisé à exécuter cette action\"\n\n8 matches across 4 files\n\n\nSearching 490 files for \"@teachers\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/controllers/pages_controller.rb:\n    6    def home\n    7      @last_post = Post.order(:created_at).last\n    8:     @teachers = Teacher.active.order(\"grade DESC, name ASC\")\n    9      @startdate = Startdate.future.order(:start_on).first.start_on\n   10:     teachers_size = @teachers.count\n   11      if 12.modulo(teachers_size) == 0\n   12        @teacher_col_width = 12/teachers_size\n\n/Users/yannis/railsapps/kendo_gva/app/views/pages/home.html.haml:\n  170              la page Wikipedia\n  171            sur le sujet ou à venir nous rencontrer.\n  172:       - if @teachers.present?\n  173          %section#teachers\n  174            %h2\n  175              Les enseignants\n  176:           - @teachers.each do |teacher|\n  177              .teacher{class: \"col-sm-#{@teacher_col_width}\"}\n  178                %i.fa.fa-user\n\n4 matches across 2 files\n\n\nSearching 491 files for \"last_post\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/controllers/pages_controller.rb:\n    5  \n    6    def home\n    7:     @last_post = Post.order(:created_at).last\n    8      @teachers = Teacher.active.order(\"grade DESC, name ASC\")\n    9      @startdate = Startdate.future.order(:start_on).first.start_on\n\n/Users/yannis/railsapps/kendo_gva/app/views/pages/home.html.haml:\n   23    .row\n   24      .col-md-9\n   25:       - if @last_post\n   26          %section#last_news.panel.panel-default\n   27            .panel-heading\n   28              %h2 Dernière nouvelle\n   29            .panel-body\n   30:             %h3= @last_post.title\n   31:             =raw @last_post.content_html\n   32            .panel-footer.text-right\n   33              = link_to \"Toutes les nouvelles\", posts_path\n\n4 matches across 2 files\n\n\nSearching 491 files for \"guard/guard\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/Guardfile:\n    1  # A sample Guardfile\n    2: # More info at https://github.com/guard/guard#readme\n    3  \n    4  guard :bundler do\n\n1 match in 1 file\n\n\nSearching 491 files for \"simplecov\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/spec/rails_helper.rb:\n    9  \n   10  if ENV['RAILS_ENV'] == 'test'\n   11:   require 'simplecov'\n   12    SimpleCov.start 'rails'\n   13:   puts \"required simplecov\"\n   14  end\n   15  \n\n2 matches in 1 file\n\n\nSearching 491 files for \"focus\" (case sensitive)\n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables.scss:\n  203  $input-border-radius-small:      $border-radius-small;\n  204  \n  205: //** Border color for inputs on focus\n  206: $input-border-focus:             #66afe9;\n  207  \n  208  //** Placeholder text color\n\n/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/superhero.scss.txt:\n  187  }\n  188  \n  189: .form-control:focus {\n  190    @include box-shadow(none);\n  191  }\n  ...\n  194  .has-error,\n  195  .has-success {\n  196:   .form-control:focus {\n  197      @include box-shadow(none);\n  198    }\n  ...\n  204    .open > a,\n  205    .open > a:hover,\n  206:   .open > a:focus {\n  207      border-color: transparent;\n  208    }\n  ...\n  246  \n  247    &:hover,\n  248:   &:focus {\n  249      opacity: 1;\n  250    }\n  ...\n  263    &.active,\n  264    &.active:hover,\n  265:   &.active:focus {\n  266      border: none;\n  267    }\n  ...\n  273  \n  274      &.active:hover,\n  275:     &.active:focus {\n  276        background-color: darken($state-success-bg, 5%);\n  277      }\n  ...\n  284      \n  285      &.active:hover,\n  286:     &.active:focus {\n  287        background-color: darken($state-warning-bg, 5%);\n  288      }\n  ...\n  295      \n  296      &.active:hover,\n  297:     &.active:focus {\n  298        background-color: darken($state-danger-bg, 5%);\n  299      }\n\n/Users/yannis/railsapps/kendo_gva/app/views/devise/confirmations/new.html.erb:\n   13          <div class=\"row\">\n   14            <div class=\"col-sm-6\">      \n   15:             <%= f.text_field :email, :autofocus => true, class: \"form-control\" %>  \n   16            </div>\n   17          </div>\n\n/Users/yannis/railsapps/kendo_gva/app/views/devise/passwords/new.html.erb:\n   15            <div class=\"row\">\n   16              <div class=\"col-sm-6\">\n   17:               <%= f.email_field :email, :autofocus => true, class: \"form-control\" %>\n   18              </div>\n   19            </div>\n\n/Users/yannis/railsapps/kendo_gva/app/views/devise/registrations/edit.html.erb:\n   13          <div class=\"row\">\n   14            <div class=\"col-sm-6\">      \n   15:             <%= f.email_field :email, :autofocus => true, class: \"form-control\" %>  \n   16            </div>\n   17          </div>\n\n/Users/yannis/railsapps/kendo_gva/app/views/devise/sessions/new.html.erb:\n   12            <div class=\"row\">\n   13              <div class=\"col-sm-6\">\n   14:               <%= f.text_field :email, :autofocus => true, class: \"form-control\" %>\n   15              </div>\n   16            </div>\n\n/Users/yannis/railsapps/kendo_gva/app/views/pages/contact.html.erb:\n   11        <div class=\"row\">\n   12          <div class=\"col-xs-12\">\n   13:           <%= text_field_tag :name, @name, placeholder: \"Enter your name...\", :autofocus => true, class: \"form-control\" %>\n   14          </div>\n   15        </div>\n\n/Users/yannis/railsapps/kendo_gva/spec/spec_helper.rb:\n   47    # These two settings work together to allow you to limit a spec run\n   48    # to individual examples or groups you care about by tagging them with\n   49:   # `:focus` metadata. When nothing is tagged with `:focus`, all examples\n   50    # get run.\n   51:   config.filter_run :focus\n   52    config.run_all_when_everything_filtered = true\n   53  \n\n18 matches across 8 files\n",
+			"file": "config/initializers/carrierwave.rb",
 			"settings":
 			{
-				"buffer_size": 118457,
+				"buffer_size": 702,
 				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
+				"name": "CarrierWave.configure do |config|"
+			}
+		},
+		{
+			"file": "Gemfile.lock",
+			"settings":
+			{
+				"buffer_size": 12206,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20151118090954_add_portrait_to_teachers.rb",
+			"settings":
+			{
+				"buffer_size": 122,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# encoding: utf-8\n\nclass PortraitUploader < CarrierWave::Uploader::Base\n\n  # Include RMagick or MiniMagick support:\n  # include CarrierWave::RMagick\n  include CarrierWave::MiniMagick\n\n  # Choose what kind of storage to use for this uploader:\n  # storage :file\n\n  if Rails.env.development? || Rails.env.test?\n    storage :file\n  else\n    storage :fog\n  end\n\n  # Override the directory where uploaded files will be stored.\n  # This is a sensible default for uploaders that are meant to be mounted:\n  def store_dir\n    \"uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}\"\n  end\n\n  # Provide a default URL as a default if there hasn't been a file uploaded:\n  # def default_url\n  #   # For Rails 3.1+ asset pipeline compatibility:\n  #   # ActionController::Base.helpers.asset_path(\"fallback/\" + [version_name, \"default.png\"].compact.join('_'))\n  #\n  #   \"/images/fallback/\" + [version_name, \"default.png\"].compact.join('_')\n  # end\n\n  # Process files as they are uploaded:\n  # process :scale => [200, 300]\n  #\n  # def scale(width, height)\n  #   # do something\n  # end\n\n  # Create different versions of your uploaded files:\n  # version :thumb do\n  #   process :resize_to_fit => [50, 50]\n  # end\n  version :thumb do\n    process resize_to_fit: [50, 50]\n  end\n  version :medium do\n    process resize_to_fit: [400, 400]\n  end\n\n  # Add a white list of extensions which are allowed to be uploaded.\n  # For images you might use something like this:\n  # def extension_white_list\n  #   %w(jpg jpeg gif png)\n  # end\n  def extension_white_list\n    %w(jpg jpeg gif png)\n  end\n\n  # Override the filename of the uploaded files:\n  # Avoid using model.id or version_name here, see uploader/store.rb for details.\n  # def filename\n  #   \"something.jpg\" if original_filename\n  # end\n\nend\n",
+			"file": "app/uploaders/portrait_uploader.rb",
+			"file_size": 1783,
+			"file_write_time": 130929600680000000,
+			"settings":
+			{
+				"buffer_size": 1777,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -712,7 +738,7 @@
 			"file": "config/environments/test.rb",
 			"settings":
 			{
-				"buffer_size": 1587,
+				"buffer_size": 1645,
 				"line_ending": "Unix"
 			}
 		},
@@ -728,7 +754,7 @@
 			"file": "app/controllers/pages_controller.rb",
 			"settings":
 			{
-				"buffer_size": 1704,
+				"buffer_size": 1695,
 				"line_ending": "Unix"
 			}
 		},
@@ -736,7 +762,15 @@
 			"file": "app/views/pages/home.html.haml",
 			"settings":
 			{
-				"buffer_size": 10710,
+				"buffer_size": 10771,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/helpers/application_helper.rb",
+			"settings":
+			{
+				"buffer_size": 375,
 				"line_ending": "Unix"
 			}
 		},
@@ -800,7 +834,7 @@
 			"file": "app/models/teacher.rb",
 			"settings":
 			{
-				"buffer_size": 230,
+				"buffer_size": 276,
 				"line_ending": "Unix"
 			}
 		},
@@ -917,13 +951,10 @@
 			}
 		},
 		{
-			"contents": "# ENVIRONMENT VARIABLES\nSENDER_EMAIL: \"info@kendo-geneve.ch\"\n\nGMAIL_USERNAME: \"kendo.geneve@gmail.com\"\nGMAIL_PASSWORD: \"4btW2PPY8vBbJCjqrB2fmwP26vEqqGw8g6D4PYn6QW28iWntaR\"\n\nFOG_PROVIDER: AWS\nFOG_REGION: eu-central-1\n\nTYPEKIT_API_KEY: frb3cgd\nMAILER_HOST: \"kendo-gva.dev\"\nAIRBRAKE_API_KEY: \"8a46c7cf34c5468b989bcb9d2da07752\"\n\nGOOGLE_ANALYTICS: \"UA-37790349-3\"\nROBOTS: \"disallow\"\n\ndevelopment:\n  SECRET_TOKEN: f1ff8ec7ee49cb71219e7df4de4fb0230fbca71ece7e4f2dceea0baea1b5bc0ffa3eaab4f4d40184b4d3cd404fc21ca5ff44a414c94086141438ac2c0fc21595\n\ntest:\n  SECRET_TOKEN: 67c4ef442a4403bd5c3b09e2098f38c9d639533e2b7a89d45749b2d782152b38f9e6ed8fd05ae8930d4b6522487885529881c58f19748a4ff5d8893897dc5fb5\n\nstaging:\n  SECRET_TOKEN: 276f8fa7db23ba16eef35f9a1b272a4a5a292a4d918a368589630f672c9ed361816c06e847ab58a0007183451da160bae94938773efcc4c3b4a2dfb130e309ba\n  MAILER_HOST: \"kendo-gva-staging.herokuapp.com\"\n  # FOG_DIRECTORY: kendo-gva-staging\n  # AWS_ACCESS_KEY_ID: AKIAJQZJVF3L4IFEPGOQ\n  # AWS_SECRET_ACCESS_KEY: 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\n\n  #use same bucket than production for asset sync (required for heroku pipeline)\n  FOG_DIRECTORY: kendo-gva\n  AWS_ACCESS_KEY_ID: AKIAI5XGUXGANRNFOBCA\n  AWS_SECRET_ACCESS_KEY: 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\n\nproduction:\n  SECRET_TOKEN: 7e53b10b2a840e558e15b352b746d7456b4e6adfe4285276b730055be95c0b5a7ddc1bb3b0f8594fca2a5ca92c6f29e78c9d62b7443d3569736f6495d7945b1d\n  MAILER_HOST: \"kendo-geneve.ch\"\n  FOG_DIRECTORY: kendo-gva\n  AWS_ACCESS_KEY_ID: AKIAI5XGUXGANRNFOBCA\n  AWS_SECRET_ACCESS_KEY: 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\n  ROBOTS: \"allow\"",
 			"file": "config/application.yml",
-			"file_size": 1603,
-			"file_write_time": 130868636000000000,
 			"settings":
 			{
-				"buffer_size": 1602,
+				"buffer_size": 1603,
 				"line_ending": "Unix"
 			}
 		},
@@ -1059,7 +1090,7 @@
 			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 209,
+				"buffer_size": 226,
 				"line_ending": "Unix"
 			}
 		},
@@ -1341,10 +1372,14 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/yannis/railsapps/kendo_gva"
+		"/Users/yannis/railsapps/kendo_gva",
+		"/Users/yannis/railsapps/kendo_gva/app",
+		"/Users/yannis/railsapps/kendo_gva/app/admin",
+		"/Users/yannis/railsapps/kendo_gva/app/helpers"
 	],
 	"file_history":
 	[
+		"/Users/yannis/railsapps/kendo_gva/app/helpers/posts_helper.rb",
 		"/Users/yannis/railsapps/kendo_gva/public/robots.txt",
 		"/Users/yannis/railsapps/kendo_gva/app/controllers/admin/posts_controller.rb",
 		"/Users/yannis/railsapps/kendo_gva/app/assets/stylesheets/_variables.sass",
@@ -1471,16 +1506,15 @@
 		"/Users/yannis/railsapps/myanimals/spec/views/cages/labels.html.haml_spec.rb",
 		"/Users/yannis/railsapps/myanimals/spec/views/labels/labels.html.haml_spec.rb",
 		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/utilities/augmentable.js.coffee",
-		"/Users/yannis/railsapps/myanimals/spec/features/cages/cage_label_feature_spec.rb",
-		"/Users/yannis/railsapps/myanimals/app/views/animals/_mouse_chromosome_id_to_add.html.haml (original)"
+		"/Users/yannis/railsapps/myanimals/spec/features/cages/cage_label_feature_spec.rb"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 105.0,
 		"where_history":
 		[
 			"",
@@ -1618,6 +1652,17 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"cors",
+			"S3",
+			"Aws::S3",
+			"cors",
+			"font_assets",
+			"dat",
+			"cover_page",
+			"50",
+			"FOG_DIRECTORY",
+			"start",
+			"starts",
 			"focus",
 			"simplecov",
 			"guard/guard",
@@ -1734,18 +1779,7 @@
 			"add_column :kendocup_",
 			"create_table :kendocup_",
 			"require 'active",
-			"require \"active",
-			"Extra",
-			"loca",
-			"I18",
-			"default_locale",
-			".locale =",
-			"action_item \\w",
-			"action_item only:",
-			"action_item ",
-			"action_item :",
-			"action_item :only",
-			"action_item"
+			"require \"active"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1891,7 +1925,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 19,
 			"sheets":
 			[
 				{
@@ -2018,13 +2052,14 @@
 							"codeintel_tooltips": "popup",
 							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
@@ -2033,15 +2068,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1303,
+						"buffer_size": 1350,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								951,
-								966
+								1080,
+								1083
 							]
 						],
 						"settings":
@@ -2156,10 +2191,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 525.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -2190,7 +2225,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
@@ -2219,7 +2254,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
@@ -2354,7 +2389,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
@@ -2489,7 +2524,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
@@ -2625,7 +2660,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
@@ -2760,7 +2795,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
@@ -2895,7 +2930,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
@@ -3030,7 +3065,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
@@ -3298,7 +3333,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -3307,27 +3342,29 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 75,
+						"buffer_size": 489,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								70,
-								70
+								413,
+								268
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -3460,7 +3497,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
@@ -3595,7 +3632,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
@@ -3627,7 +3664,7 @@
 						"translation.y": 2595.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 35,
 					"type": "text"
 				},
 				{
@@ -3657,7 +3694,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 36,
 					"type": "text"
 				},
 				{
@@ -3789,10 +3826,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 122.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
@@ -3925,7 +3962,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 38,
 					"type": "text"
 				},
 				{
@@ -4060,2226 +4097,134 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 20,
+					"file": "config/initializers/carrierwave.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 118457,
+						"buffer_size": 702,
 						"regions":
 						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										264,
-										272
-									],
-									[
-										540,
-										548
-									],
-									[
-										928,
-										936
-									],
-									[
-										964,
-										972
-									],
-									[
-										1000,
-										1008
-									],
-									[
-										1482,
-										1490
-									],
-									[
-										1863,
-										1871
-									],
-									[
-										1983,
-										1991
-									],
-									[
-										1995,
-										2003
-									],
-									[
-										2140,
-										2148
-									],
-									[
-										2205,
-										2213
-									],
-									[
-										2337,
-										2345
-									],
-									[
-										2402,
-										2410
-									],
-									[
-										2692,
-										2700
-									],
-									[
-										2935,
-										2943
-									],
-									[
-										3293,
-										3301
-									],
-									[
-										3515,
-										3523
-									],
-									[
-										3794,
-										3802
-									],
-									[
-										4019,
-										4027
-									],
-									[
-										4409,
-										4417
-									],
-									[
-										4685,
-										4693
-									],
-									[
-										4945,
-										4953
-									],
-									[
-										5254,
-										5262
-									],
-									[
-										5290,
-										5298
-									],
-									[
-										5326,
-										5334
-									],
-									[
-										5808,
-										5816
-									],
-									[
-										6189,
-										6197
-									],
-									[
-										6309,
-										6317
-									],
-									[
-										6321,
-										6329
-									],
-									[
-										6466,
-										6474
-									],
-									[
-										6531,
-										6539
-									],
-									[
-										6663,
-										6671
-									],
-									[
-										6728,
-										6736
-									],
-									[
-										7018,
-										7026
-									],
-									[
-										7261,
-										7269
-									],
-									[
-										7619,
-										7627
-									],
-									[
-										7841,
-										7849
-									],
-									[
-										8120,
-										8128
-									],
-									[
-										8345,
-										8353
-									],
-									[
-										8652,
-										8660
-									],
-									[
-										8912,
-										8919
-									],
-									[
-										9135,
-										9142
-									],
-									[
-										9535,
-										9542
-									],
-									[
-										9700,
-										9707
-									],
-									[
-										9990,
-										9997
-									],
-									[
-										10195,
-										10202
-									],
-									[
-										10585,
-										10592
-									],
-									[
-										11053,
-										11060
-									],
-									[
-										11332,
-										11339
-									],
-									[
-										11832,
-										11839
-									],
-									[
-										12094,
-										12101
-									],
-									[
-										12507,
-										12514
-									],
-									[
-										12865,
-										12872
-									],
-									[
-										13294,
-										13301
-									],
-									[
-										13396,
-										13403
-									],
-									[
-										13728,
-										13735
-									],
-									[
-										14113,
-										14120
-									],
-									[
-										14157,
-										14164
-									],
-									[
-										14465,
-										14472
-									],
-									[
-										14648,
-										14655
-									],
-									[
-										14890,
-										14897
-									],
-									[
-										15119,
-										15126
-									],
-									[
-										15423,
-										15430
-									],
-									[
-										15492,
-										15499
-									],
-									[
-										15615,
-										15622
-									],
-									[
-										15688,
-										15695
-									],
-									[
-										15841,
-										15848
-									],
-									[
-										15866,
-										15873
-									],
-									[
-										16054,
-										16061
-									],
-									[
-										16306,
-										16313
-									],
-									[
-										16755,
-										16762
-									],
-									[
-										17242,
-										17249
-									],
-									[
-										17694,
-										17701
-									],
-									[
-										17968,
-										17975
-									],
-									[
-										18214,
-										18221
-									],
-									[
-										18534,
-										18541
-									],
-									[
-										18865,
-										18872
-									],
-									[
-										19148,
-										19155
-									],
-									[
-										19549,
-										19556
-									],
-									[
-										19840,
-										19847
-									],
-									[
-										20093,
-										20100
-									],
-									[
-										20167,
-										20174
-									],
-									[
-										20266,
-										20273
-									],
-									[
-										20361,
-										20368
-									],
-									[
-										20581,
-										20588
-									],
-									[
-										20924,
-										20931
-									],
-									[
-										21106,
-										21113
-									],
-									[
-										21407,
-										21414
-									],
-									[
-										21541,
-										21548
-									],
-									[
-										22096,
-										22103
-									],
-									[
-										22500,
-										22507
-									],
-									[
-										22987,
-										22994
-									],
-									[
-										23342,
-										23349
-									],
-									[
-										23724,
-										23731
-									],
-									[
-										24005,
-										24012
-									],
-									[
-										24231,
-										24238
-									],
-									[
-										24376,
-										24383
-									],
-									[
-										24484,
-										24491
-									],
-									[
-										24636,
-										24643
-									],
-									[
-										24936,
-										24943
-									],
-									[
-										25138,
-										25145
-									],
-									[
-										25505,
-										25512
-									],
-									[
-										25612,
-										25619
-									],
-									[
-										25913,
-										25920
-									],
-									[
-										26204,
-										26211
-									],
-									[
-										26223,
-										26230
-									],
-									[
-										26254,
-										26261
-									],
-									[
-										26271,
-										26278
-									],
-									[
-										26292,
-										26299
-									],
-									[
-										26328,
-										26335
-									],
-									[
-										26608,
-										26615
-									],
-									[
-										26624,
-										26631
-									],
-									[
-										26638,
-										26645
-									],
-									[
-										26663,
-										26670
-									],
-									[
-										26678,
-										26685
-									],
-									[
-										26701,
-										26708
-									],
-									[
-										26733,
-										26740
-									],
-									[
-										26756,
-										26763
-									],
-									[
-										26789,
-										26796
-									],
-									[
-										26812,
-										26819
-									],
-									[
-										26844,
-										26851
-									],
-									[
-										26865,
-										26872
-									],
-									[
-										26883,
-										26890
-									],
-									[
-										26916,
-										26923
-									],
-									[
-										26938,
-										26945
-									],
-									[
-										26952,
-										26959
-									],
-									[
-										26975,
-										26982
-									],
-									[
-										26995,
-										27002
-									],
-									[
-										27082,
-										27089
-									],
-									[
-										27098,
-										27105
-									],
-									[
-										27129,
-										27136
-									],
-									[
-										27156,
-										27163
-									],
-									[
-										27217,
-										27224
-									],
-									[
-										27266,
-										27273
-									],
-									[
-										27466,
-										27473
-									],
-									[
-										27580,
-										27587
-									],
-									[
-										27778,
-										27785
-									],
-									[
-										27958,
-										27965
-									],
-									[
-										28138,
-										28145
-									],
-									[
-										28343,
-										28350
-									],
-									[
-										28518,
-										28525
-									],
-									[
-										28775,
-										28782
-									],
-									[
-										28889,
-										28896
-									],
-									[
-										29108,
-										29115
-									],
-									[
-										29152,
-										29159
-									],
-									[
-										29196,
-										29203
-									],
-									[
-										29234,
-										29241
-									],
-									[
-										29385,
-										29392
-									],
-									[
-										29660,
-										29667
-									],
-									[
-										29842,
-										29849
-									],
-									[
-										30315,
-										30322
-									],
-									[
-										30382,
-										30389
-									],
-									[
-										30451,
-										30458
-									],
-									[
-										30606,
-										30613
-									],
-									[
-										30783,
-										30790
-									],
-									[
-										31015,
-										31022
-									],
-									[
-										31142,
-										31149
-									],
-									[
-										31342,
-										31349
-									],
-									[
-										31512,
-										31519
-									],
-									[
-										31575,
-										31582
-									],
-									[
-										31710,
-										31717
-									],
-									[
-										31750,
-										31757
-									],
-									[
-										32015,
-										32022
-									],
-									[
-										32369,
-										32376
-									],
-									[
-										32729,
-										32736
-									],
-									[
-										32748,
-										32755
-									],
-									[
-										32913,
-										32920
-									],
-									[
-										32967,
-										32974
-									],
-									[
-										33100,
-										33107
-									],
-									[
-										33258,
-										33265
-									],
-									[
-										33275,
-										33282
-									],
-									[
-										33507,
-										33514
-									],
-									[
-										33533,
-										33540
-									],
-									[
-										33809,
-										33816
-									],
-									[
-										34054,
-										34061
-									],
-									[
-										34105,
-										34112
-									],
-									[
-										34157,
-										34164
-									],
-									[
-										34205,
-										34212
-									],
-									[
-										34527,
-										34534
-									],
-									[
-										34784,
-										34791
-									],
-									[
-										35199,
-										35206
-									],
-									[
-										35518,
-										35525
-									],
-									[
-										35711,
-										35718
-									],
-									[
-										35953,
-										35960
-									],
-									[
-										36149,
-										36156
-									],
-									[
-										36582,
-										36589
-									],
-									[
-										37024,
-										37031
-									],
-									[
-										37424,
-										37431
-									],
-									[
-										37775,
-										37782
-									],
-									[
-										38150,
-										38157
-									],
-									[
-										38379,
-										38386
-									],
-									[
-										38644,
-										38651
-									],
-									[
-										38923,
-										38930
-									],
-									[
-										39069,
-										39076
-									],
-									[
-										39271,
-										39278
-									],
-									[
-										39568,
-										39575
-									],
-									[
-										39808,
-										39815
-									],
-									[
-										39855,
-										39862
-									],
-									[
-										40048,
-										40055
-									],
-									[
-										40257,
-										40264
-									],
-									[
-										40470,
-										40477
-									],
-									[
-										40624,
-										40631
-									],
-									[
-										40670,
-										40677
-									],
-									[
-										40865,
-										40872
-									],
-									[
-										41073,
-										41080
-									],
-									[
-										41196,
-										41203
-									],
-									[
-										41445,
-										41452
-									],
-									[
-										41814,
-										41821
-									],
-									[
-										42161,
-										42168
-									],
-									[
-										42249,
-										42256
-									],
-									[
-										42588,
-										42595
-									],
-									[
-										42821,
-										42828
-									],
-									[
-										43352,
-										43359
-									],
-									[
-										43849,
-										43856
-									],
-									[
-										44238,
-										44245
-									],
-									[
-										44536,
-										44543
-									],
-									[
-										44759,
-										44766
-									],
-									[
-										45098,
-										45105
-									],
-									[
-										45454,
-										45461
-									],
-									[
-										45678,
-										45685
-									],
-									[
-										46163,
-										46170
-									],
-									[
-										46365,
-										46372
-									],
-									[
-										46382,
-										46389
-									],
-									[
-										46660,
-										46667
-									],
-									[
-										46791,
-										46798
-									],
-									[
-										46930,
-										46937
-									],
-									[
-										47044,
-										47051
-									],
-									[
-										47227,
-										47234
-									],
-									[
-										47494,
-										47501
-									],
-									[
-										47562,
-										47569
-									],
-									[
-										47761,
-										47768
-									],
-									[
-										47896,
-										47903
-									],
-									[
-										47943,
-										47950
-									],
-									[
-										48083,
-										48090
-									],
-									[
-										48371,
-										48378
-									],
-									[
-										48545,
-										48552
-									],
-									[
-										49158,
-										49165
-									],
-									[
-										49886,
-										49893
-									],
-									[
-										50315,
-										50322
-									],
-									[
-										51076,
-										51083
-									],
-									[
-										51640,
-										51647
-									],
-									[
-										52150,
-										52157
-									],
-									[
-										52489,
-										52496
-									],
-									[
-										52577,
-										52584
-									],
-									[
-										53037,
-										53044
-									],
-									[
-										53400,
-										53407
-									],
-									[
-										53848,
-										53855
-									],
-									[
-										54204,
-										54211
-									],
-									[
-										54449,
-										54456
-									],
-									[
-										54661,
-										54668
-									],
-									[
-										54870,
-										54877
-									],
-									[
-										55140,
-										55147
-									],
-									[
-										55358,
-										55365
-									],
-									[
-										55664,
-										55671
-									],
-									[
-										56031,
-										56038
-									],
-									[
-										56475,
-										56482
-									],
-									[
-										56842,
-										56849
-									],
-									[
-										57143,
-										57150
-									],
-									[
-										57542,
-										57549
-									],
-									[
-										57975,
-										57982
-									],
-									[
-										58239,
-										58246
-									],
-									[
-										58553,
-										58560
-									],
-									[
-										58834,
-										58841
-									],
-									[
-										58989,
-										58996
-									],
-									[
-										59325,
-										59332
-									],
-									[
-										59802,
-										59809
-									],
-									[
-										60206,
-										60213
-									],
-									[
-										60478,
-										60485
-									],
-									[
-										60585,
-										60592
-									],
-									[
-										60740,
-										60747
-									],
-									[
-										60766,
-										60773
-									],
-									[
-										61122,
-										61129
-									],
-									[
-										61451,
-										61458
-									],
-									[
-										61608,
-										61615
-									],
-									[
-										62164,
-										62171
-									],
-									[
-										62376,
-										62383
-									],
-									[
-										62581,
-										62588
-									],
-									[
-										62812,
-										62819
-									],
-									[
-										62973,
-										62980
-									],
-									[
-										63150,
-										63157
-									],
-									[
-										63292,
-										63299
-									],
-									[
-										63493,
-										63500
-									],
-									[
-										63677,
-										63684
-									],
-									[
-										63916,
-										63923
-									],
-									[
-										64132,
-										64139
-									],
-									[
-										64206,
-										64213
-									],
-									[
-										64408,
-										64415
-									],
-									[
-										64739,
-										64746
-									],
-									[
-										64834,
-										64841
-									],
-									[
-										65066,
-										65073
-									],
-									[
-										65285,
-										65292
-									],
-									[
-										65614,
-										65621
-									],
-									[
-										65740,
-										65747
-									],
-									[
-										65857,
-										65864
-									],
-									[
-										66077,
-										66084
-									],
-									[
-										66376,
-										66383
-									],
-									[
-										66529,
-										66536
-									],
-									[
-										66620,
-										66627
-									],
-									[
-										67108,
-										67115
-									],
-									[
-										67439,
-										67446
-									],
-									[
-										67916,
-										67923
-									],
-									[
-										68245,
-										68252
-									],
-									[
-										68606,
-										68613
-									],
-									[
-										68641,
-										68648
-									],
-									[
-										68850,
-										68857
-									],
-									[
-										69122,
-										69129
-									],
-									[
-										69157,
-										69164
-									],
-									[
-										69439,
-										69446
-									],
-									[
-										69534,
-										69541
-									],
-									[
-										69824,
-										69831
-									],
-									[
-										69859,
-										69866
-									],
-									[
-										70243,
-										70250
-									],
-									[
-										70642,
-										70649
-									],
-									[
-										71004,
-										71011
-									],
-									[
-										71354,
-										71361
-									],
-									[
-										71642,
-										71649
-									],
-									[
-										71881,
-										71888
-									],
-									[
-										72155,
-										72162
-									],
-									[
-										72480,
-										72487
-									],
-									[
-										72662,
-										72669
-									],
-									[
-										72920,
-										72927
-									],
-									[
-										73160,
-										73167
-									],
-									[
-										73454,
-										73461
-									],
-									[
-										73716,
-										73723
-									],
-									[
-										73982,
-										73989
-									],
-									[
-										74180,
-										74187
-									],
-									[
-										74455,
-										74462
-									],
-									[
-										74739,
-										74746
-									],
-									[
-										75077,
-										75084
-									],
-									[
-										75351,
-										75358
-									],
-									[
-										75618,
-										75625
-									],
-									[
-										75870,
-										75877
-									],
-									[
-										76113,
-										76120
-									],
-									[
-										76313,
-										76320
-									],
-									[
-										76588,
-										76595
-									],
-									[
-										76841,
-										76848
-									],
-									[
-										77085,
-										77092
-									],
-									[
-										77373,
-										77380
-									],
-									[
-										77730,
-										77737
-									],
-									[
-										78024,
-										78031
-									],
-									[
-										78326,
-										78333
-									],
-									[
-										78619,
-										78626
-									],
-									[
-										78927,
-										78934
-									],
-									[
-										79188,
-										79195
-									],
-									[
-										79359,
-										79366
-									],
-									[
-										79628,
-										79635
-									],
-									[
-										79881,
-										79888
-									],
-									[
-										80188,
-										80195
-									],
-									[
-										80614,
-										80621
-									],
-									[
-										80899,
-										80906
-									],
-									[
-										81158,
-										81165
-									],
-									[
-										81449,
-										81456
-									],
-									[
-										81824,
-										81831
-									],
-									[
-										82072,
-										82079
-									],
-									[
-										82398,
-										82405
-									],
-									[
-										82428,
-										82435
-									],
-									[
-										82672,
-										82679
-									],
-									[
-										82810,
-										82817
-									],
-									[
-										83166,
-										83173
-									],
-									[
-										83444,
-										83451
-									],
-									[
-										83703,
-										83710
-									],
-									[
-										83901,
-										83908
-									],
-									[
-										84322,
-										84329
-									],
-									[
-										84632,
-										84639
-									],
-									[
-										84917,
-										84924
-									],
-									[
-										85335,
-										85342
-									],
-									[
-										85379,
-										85386
-									],
-									[
-										85682,
-										85689
-									],
-									[
-										85923,
-										85930
-									],
-									[
-										86127,
-										86134
-									],
-									[
-										86405,
-										86412
-									],
-									[
-										86589,
-										86596
-									],
-									[
-										86794,
-										86801
-									],
-									[
-										86847,
-										86854
-									],
-									[
-										87258,
-										87265
-									],
-									[
-										87530,
-										87537
-									],
-									[
-										87840,
-										87847
-									],
-									[
-										88152,
-										88159
-									],
-									[
-										88640,
-										88647
-									],
-									[
-										88912,
-										88919
-									],
-									[
-										89222,
-										89229
-									],
-									[
-										89534,
-										89541
-									],
-									[
-										89857,
-										89864
-									],
-									[
-										90245,
-										90252
-									],
-									[
-										90345,
-										90352
-									],
-									[
-										90529,
-										90536
-									],
-									[
-										90552,
-										90559
-									],
-									[
-										90752,
-										90759
-									],
-									[
-										90802,
-										90809
-									],
-									[
-										90929,
-										90936
-									],
-									[
-										90952,
-										90959
-									],
-									[
-										91152,
-										91159
-									],
-									[
-										91214,
-										91221
-									],
-									[
-										91523,
-										91546
-									],
-									[
-										91657,
-										91680
-									],
-									[
-										91846,
-										91869
-									],
-									[
-										91996,
-										92019
-									],
-									[
-										92242,
-										92249
-									],
-									[
-										92664,
-										92671
-									],
-									[
-										92904,
-										92911
-									],
-									[
-										93196,
-										93203
-									],
-									[
-										93434,
-										93441
-									],
-									[
-										93730,
-										93737
-									],
-									[
-										93914,
-										93921
-									],
-									[
-										94158,
-										94165
-									],
-									[
-										94386,
-										94393
-									],
-									[
-										94629,
-										94636
-									],
-									[
-										94835,
-										94842
-									],
-									[
-										95073,
-										95080
-									],
-									[
-										95294,
-										95301
-									],
-									[
-										95489,
-										95496
-									],
-									[
-										95755,
-										95762
-									],
-									[
-										95960,
-										95967
-									],
-									[
-										96207,
-										96214
-									],
-									[
-										96401,
-										96408
-									],
-									[
-										96666,
-										96673
-									],
-									[
-										96785,
-										96792
-									],
-									[
-										97212,
-										97219
-									],
-									[
-										97276,
-										97283
-									],
-									[
-										97626,
-										97658
-									],
-									[
-										97889,
-										97901
-									],
-									[
-										98049,
-										98061
-									],
-									[
-										98235,
-										98247
-									],
-									[
-										98556,
-										98568
-									],
-									[
-										98733,
-										98745
-									],
-									[
-										98805,
-										98817
-									],
-									[
-										98855,
-										98867
-									],
-									[
-										99290,
-										99310
-									],
-									[
-										99628,
-										99648
-									],
-									[
-										99777,
-										99797
-									],
-									[
-										99837,
-										99857
-									],
-									[
-										99920,
-										99940
-									],
-									[
-										99975,
-										99995
-									],
-									[
-										100332,
-										100344
-									],
-									[
-										100625,
-										100638
-									],
-									[
-										100904,
-										100917
-									],
-									[
-										101215,
-										101227
-									],
-									[
-										102086,
-										102092
-									],
-									[
-										102558,
-										102564
-									],
-									[
-										102722,
-										102728
-									],
-									[
-										102954,
-										102960
-									],
-									[
-										102969,
-										102975
-									],
-									[
-										103035,
-										103041
-									],
-									[
-										103282,
-										103288
-									],
-									[
-										103644,
-										103650
-									],
-									[
-										104059,
-										104065
-									],
-									[
-										104072,
-										104078
-									],
-									[
-										104375,
-										104381
-									],
-									[
-										104545,
-										104551
-									],
-									[
-										104903,
-										104909
-									],
-									[
-										105067,
-										105073
-									],
-									[
-										105299,
-										105305
-									],
-									[
-										105314,
-										105320
-									],
-									[
-										105380,
-										105386
-									],
-									[
-										105587,
-										105593
-									],
-									[
-										105960,
-										105972
-									],
-									[
-										106060,
-										106072
-									],
-									[
-										106286,
-										106298
-									],
-									[
-										106589,
-										106601
-									],
-									[
-										106937,
-										106958
-									],
-									[
-										107150,
-										107171
-									],
-									[
-										107393,
-										107400
-									],
-									[
-										107535,
-										107542
-									],
-									[
-										107694,
-										107701
-									],
-									[
-										107772,
-										107779
-									],
-									[
-										107863,
-										107870
-									],
-									[
-										108030,
-										108037
-									],
-									[
-										108332,
-										108340
-									],
-									[
-										108474,
-										108482
-									],
-									[
-										108624,
-										108632
-									],
-									[
-										108727,
-										108735
-									],
-									[
-										109031,
-										109039
-									],
-									[
-										109188,
-										109196
-									],
-									[
-										109556,
-										109561
-									],
-									[
-										109599,
-										109604
-									],
-									[
-										109776,
-										109781
-									],
-									[
-										110116,
-										110120
-									],
-									[
-										110375,
-										110379
-									],
-									[
-										110752,
-										110756
-									],
-									[
-										110934,
-										110938
-									],
-									[
-										111278,
-										111286
-									],
-									[
-										111534,
-										111542
-									],
-									[
-										111579,
-										111587
-									],
-									[
-										111685,
-										111693
-									],
-									[
-										111992,
-										112000
-									],
-									[
-										112189,
-										112197
-									],
-									[
-										112340,
-										112348
-									],
-									[
-										112622,
-										112630
-									],
-									[
-										113009,
-										113018
-									],
-									[
-										113166,
-										113175
-									],
-									[
-										113457,
-										113466
-									],
-									[
-										113584,
-										113593
-									],
-									[
-										113905,
-										113914
-									],
-									[
-										114208,
-										114217
-									],
-									[
-										114399,
-										114408
-									],
-									[
-										114440,
-										114449
-									],
-									[
-										114767,
-										114778
-									],
-									[
-										115013,
-										115022
-									],
-									[
-										115081,
-										115090
-									],
-									[
-										115367,
-										115372
-									],
-									[
-										115394,
-										115399
-									],
-									[
-										115581,
-										115586
-									],
-									[
-										115704,
-										115709
-									],
-									[
-										115832,
-										115837
-									],
-									[
-										115932,
-										115937
-									],
-									[
-										116042,
-										116047
-									],
-									[
-										116147,
-										116152
-									],
-									[
-										116295,
-										116300
-									],
-									[
-										116443,
-										116448
-									],
-									[
-										116733,
-										116738
-									],
-									[
-										117026,
-										117031
-									],
-									[
-										117326,
-										117331
-									],
-									[
-										117617,
-										117622
-									],
-									[
-										117936,
-										117941
-									],
-									[
-										118244,
-										118249
-									],
-									[
-										118291,
-										118296
-									],
-									[
-										118360,
-										118365
-									]
-								],
-								"scope": ""
-							}
 						},
 						"selection":
 						[
 							[
-								115134,
-								115134
+								522,
+								522
 							]
 						],
 						"settings":
 						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2.0,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5.0,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10.0,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
+							"auto_name": "CarrierWave.configure do |config|",
 							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
-							"detect_indentation": false,
-							"output_tag": 30,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"sublime_auto_complete": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 80575.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "Gemfile.lock",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11729,
+								11729
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11171.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 22,
+					"file": "db/migrate/20151118090954_add_portrait_to_teachers.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "app/uploaders/portrait_uploader.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1276,
+								1282
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
 					"file": "app/views/contact_mailer/contact_message.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -6408,11 +4353,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 39,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 25,
 					"file": "app/mailers/contact_mailer.rb",
 					"semi_transient": false,
 					"settings":
@@ -6541,24 +4486,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 40,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 26,
 					"file": "config/environments/test.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1587,
+						"buffer_size": 1645,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1639,
+								1639
 							]
 						],
 						"settings":
@@ -6673,14 +4618,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 102.0,
+						"translation.y": 311.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 27,
 					"file": "vendor/bundle/ruby/2.1.0/gems/devise-3.4.1/test/rails_app/app/views/home/index.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -6706,24 +4651,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 41,
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 28,
 					"file": "app/controllers/pages_controller.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1704,
+						"buffer_size": 1695,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								136,
-								140
+								282,
+								282
 							]
 						],
 						"settings":
@@ -6841,24 +4786,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 31,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 29,
 					"file": "app/views/pages/home.html.haml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10710,
+						"buffer_size": 10771,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								8884,
+								8884
 							]
 						],
 						"settings":
@@ -6976,11 +4921,42 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 30,
+					"file": "app/helpers/application_helper.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								333,
+								333
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
 					"file": "app/assets/stylesheets/typography.sass",
 					"semi_transient": false,
 					"settings":
@@ -7123,11 +5099,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 33,
+					"stack_index": 42,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 32,
 					"file": "app/views/pages/contact.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -7155,11 +5131,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 34,
+					"stack_index": 43,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 33,
 					"file": "app/assets/javascripts/application.js",
 					"semi_transient": false,
 					"settings":
@@ -7288,11 +5264,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 35,
+					"stack_index": 44,
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 34,
 					"file": "app/models/post.rb",
 					"semi_transient": false,
 					"settings":
@@ -7423,11 +5399,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 36,
+					"stack_index": 45,
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 35,
 					"file": "db/migrate/20141010133702_create_posts.rb",
 					"semi_transient": false,
 					"settings":
@@ -7558,11 +5534,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 37,
+					"stack_index": 46,
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 36,
 					"file": "vendor/bundle/ruby/2.1.0/gems/devise-3.4.1/test/rails_app/app/controllers/home_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -7590,11 +5566,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 38,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 37,
 					"file": "db/seeds.rb",
 					"semi_transient": false,
 					"settings":
@@ -7722,27 +5698,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 617.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 39,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 38,
 					"file": "app/models/teacher.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 230,
+						"buffer_size": 276,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								177,
-								177
+								72,
+								72
 							]
 						],
 						"settings":
@@ -7858,11 +5834,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 40,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 39,
 					"file": "spec/models/teacher_spec.rb",
 					"semi_transient": false,
 					"settings":
@@ -7993,11 +5969,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 41,
+					"stack_index": 47,
 					"type": "text"
 				},
 				{
-					"buffer": 36,
+					"buffer": 40,
 					"file": "spec/models/startdate_spec.rb",
 					"semi_transient": false,
 					"settings":
@@ -8128,11 +6104,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 42,
+					"stack_index": 48,
 					"type": "text"
 				},
 				{
-					"buffer": 37,
+					"buffer": 41,
 					"file": "config/locales/startdate.fr.yml",
 					"semi_transient": false,
 					"settings":
@@ -8267,11 +6243,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 43,
+					"stack_index": 49,
 					"type": "text"
 				},
 				{
-					"buffer": 38,
+					"buffer": 42,
 					"file": "config/locales/user.fr.yml",
 					"semi_transient": false,
 					"settings":
@@ -8400,11 +6376,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 44,
+					"stack_index": 50,
 					"type": "text"
 				},
 				{
-					"buffer": 39,
+					"buffer": 43,
 					"file": "config/locales/post.fr.yml",
 					"semi_transient": false,
 					"settings":
@@ -8535,11 +6511,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 45,
+					"stack_index": 51,
 					"type": "text"
 				},
 				{
-					"buffer": 40,
+					"buffer": 44,
 					"file": "config/database.yml",
 					"semi_transient": false,
 					"settings":
@@ -8670,11 +6646,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 46,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 41,
+					"buffer": 45,
 					"file": "spec/models/user_spec.rb",
 					"semi_transient": false,
 					"settings":
@@ -8803,11 +6779,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 42,
+					"buffer": 46,
 					"file": "app/models/user.rb",
 					"semi_transient": false,
 					"settings":
@@ -8938,11 +6914,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 43,
+					"buffer": 47,
 					"file": "db/migrate/20141010133701_devise_create_users.rb",
 					"semi_transient": false,
 					"settings":
@@ -9073,11 +7049,11 @@
 						"translation.y": 455.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 47,
+					"stack_index": 52,
 					"type": "text"
 				},
 				{
-					"buffer": 44,
+					"buffer": 48,
 					"file": "db/migrate/20141228171107_create_teachers.rb",
 					"semi_transient": false,
 					"settings":
@@ -9206,11 +7182,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 48,
+					"stack_index": 53,
 					"type": "text"
 				},
 				{
-					"buffer": 45,
+					"buffer": 49,
 					"file": "spec/spec_helper.rb",
 					"semi_transient": false,
 					"settings":
@@ -9341,11 +7317,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 49,
+					"stack_index": 54,
 					"type": "text"
 				},
 				{
-					"buffer": 46,
+					"buffer": 50,
 					"file": "Guardfile",
 					"semi_transient": false,
 					"settings":
@@ -9476,11 +7452,11 @@
 						"translation.y": 1830.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 50,
+					"stack_index": 55,
 					"type": "text"
 				},
 				{
-					"buffer": 47,
+					"buffer": 51,
 					"file": "spec/rails_helper.rb",
 					"semi_transient": false,
 					"settings":
@@ -9611,11 +7587,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 51,
+					"stack_index": 56,
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 52,
 					"file": "spec/support/factories.rb",
 					"semi_transient": false,
 					"settings":
@@ -9746,24 +7722,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 52,
+					"stack_index": 57,
 					"type": "text"
 				},
 				{
-					"buffer": 49,
+					"buffer": 53,
 					"file": "config/application.yml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1602,
+						"buffer_size": 1603,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1602,
-								1602
+								191,
+								201
 							]
 						],
 						"settings":
@@ -9885,7 +7861,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 50,
+					"buffer": 54,
 					"file": "config/environments/production.rb",
 					"semi_transient": false,
 					"settings":
@@ -10016,11 +7992,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 53,
+					"stack_index": 58,
 					"type": "text"
 				},
 				{
-					"buffer": 51,
+					"buffer": 55,
 					"file": "config/initializers/asset_sync.rb",
 					"semi_transient": false,
 					"settings":
@@ -10151,11 +8127,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 54,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 52,
+					"buffer": 56,
 					"file": "app/assets/javascripts/common.js",
 					"semi_transient": false,
 					"settings":
@@ -10286,11 +8262,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 55,
+					"stack_index": 59,
 					"type": "text"
 				},
 				{
-					"buffer": 53,
+					"buffer": 57,
 					"file": "app/assets/javascripts/analytics.js.coffee",
 					"semi_transient": false,
 					"settings":
@@ -10419,11 +8395,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 56,
+					"stack_index": 60,
 					"type": "text"
 				},
 				{
-					"buffer": 54,
+					"buffer": 58,
 					"file": "config/application.rb",
 					"semi_transient": false,
 					"settings":
@@ -10551,14 +8527,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 65.0,
+						"translation.y": 479.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 55,
+					"buffer": 59,
 					"file": "lib/robots_generator.rb",
 					"semi_transient": false,
 					"settings":
@@ -10585,11 +8561,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 56,
+					"buffer": 60,
 					"file": "config/initializers/setup_mail.rb",
 					"semi_transient": false,
 					"settings":
@@ -10718,11 +8694,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 57,
+					"stack_index": 61,
 					"type": "text"
 				},
 				{
-					"buffer": 57,
+					"buffer": 61,
 					"file": "app/models/startdate.rb",
 					"semi_transient": false,
 					"settings":
@@ -10851,11 +8827,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 58,
+					"stack_index": 62,
 					"type": "text"
 				},
 				{
-					"buffer": 58,
+					"buffer": 62,
 					"file": "config/locales/fr-CH.yml",
 					"semi_transient": false,
 					"settings":
@@ -10883,11 +8859,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 59,
+					"stack_index": 63,
 					"type": "text"
 				},
 				{
-					"buffer": 59,
+					"buffer": 63,
 					"file": "app/views/layouts/_footer.html.haml",
 					"semi_transient": false,
 					"settings":
@@ -11018,11 +8994,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 60,
+					"stack_index": 64,
 					"type": "text"
 				},
 				{
-					"buffer": 60,
+					"buffer": 64,
 					"file": "app/controllers/posts_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -11151,11 +9127,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 61,
+					"stack_index": 65,
 					"type": "text"
 				},
 				{
-					"buffer": 61,
+					"buffer": 65,
 					"file": "app/views/pages/posts.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -11181,11 +9157,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 62,
+					"stack_index": 66,
 					"type": "text"
 				},
 				{
-					"buffer": 62,
+					"buffer": 66,
 					"file": "app/views/posts/index.html.haml",
 					"semi_transient": false,
 					"settings":
@@ -11314,11 +9290,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 63,
+					"stack_index": 67,
 					"type": "text"
 				},
 				{
-					"buffer": 63,
+					"buffer": 67,
 					"file": "app/views/layouts/_divider.html.haml",
 					"semi_transient": false,
 					"settings":
@@ -11447,11 +9423,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 64,
+					"stack_index": 68,
 					"type": "text"
 				},
 				{
-					"buffer": 64,
+					"buffer": 68,
 					"file": "app/views/posts/_post.html.haml",
 					"semi_transient": false,
 					"settings":
@@ -11580,11 +9556,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 65,
+					"stack_index": 69,
 					"type": "text"
 				},
 				{
-					"buffer": 65,
+					"buffer": 69,
 					"file": "app/views/pages/show_post.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -11610,24 +9586,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 66,
+					"stack_index": 70,
 					"type": "text"
 				},
 				{
-					"buffer": 66,
+					"buffer": 70,
 					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 209,
+						"buffer_size": 226,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								170,
-								209
+								118,
+								118
 							]
 						],
 						"settings":
@@ -11743,11 +9719,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 67,
+					"buffer": 71,
 					"file": "config/initializers/secret_token.rb",
 					"semi_transient": false,
 					"settings":
@@ -11775,11 +9751,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 67,
+					"stack_index": 71,
 					"type": "text"
 				},
 				{
-					"buffer": 68,
+					"buffer": 72,
 					"file": "config/environments/development.rb",
 					"semi_transient": false,
 					"settings":
@@ -11900,6 +9876,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -11909,11 +9886,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 68,
+					"stack_index": 72,
 					"type": "text"
 				},
 				{
-					"buffer": 69,
+					"buffer": 73,
 					"file": "app/controllers/application_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -12034,6 +10011,7 @@
 								"Python Django": "Python"
 							},
 							"codeintel_tooltips": "popup",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
@@ -12043,11 +10021,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 69,
+					"stack_index": 73,
 					"type": "text"
 				},
 				{
-					"buffer": 70,
+					"buffer": 74,
 					"file": "app/views/devise/sessions/new.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -12178,11 +10156,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 70,
+					"stack_index": 74,
 					"type": "text"
 				},
 				{
-					"buffer": 71,
+					"buffer": 75,
 					"file": "app/assets/stylesheets/_variables.scss",
 					"semi_transient": false,
 					"settings":
@@ -12311,11 +10289,11 @@
 						"translation.y": 67.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 71,
+					"stack_index": 75,
 					"type": "text"
 				},
 				{
-					"buffer": 72,
+					"buffer": 76,
 					"file": "app/views/layouts/_messages.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -12341,11 +10319,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 72,
+					"stack_index": 76,
 					"type": "text"
 				},
 				{
-					"buffer": 73,
+					"buffer": 77,
 					"file": "config/unicorn.rb",
 					"semi_transient": false,
 					"settings":
@@ -12363,6 +10341,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -12371,11 +10350,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 73,
+					"stack_index": 77,
 					"type": "text"
 				},
 				{
-					"buffer": 74,
+					"buffer": 78,
 					"file": "app/views/devise/passwords/new.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -12402,11 +10381,11 @@
 						"translation.y": 80.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 74,
+					"stack_index": 78,
 					"type": "text"
 				},
 				{
-					"buffer": 75,
+					"buffer": 79,
 					"file": "app/views/devise/passwords/edit.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -12433,11 +10412,11 @@
 						"translation.y": 330.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 75,
+					"stack_index": 79,
 					"type": "text"
 				},
 				{
-					"buffer": 76,
+					"buffer": 80,
 					"file": "config/environment.rb",
 					"semi_transient": false,
 					"settings":
@@ -12455,17 +10434,18 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 76,
+					"stack_index": 80,
 					"type": "text"
 				},
 				{
-					"buffer": 77,
+					"buffer": 81,
 					"file": ".rbenv-version",
 					"semi_transient": false,
 					"settings":
@@ -12483,13 +10463,14 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Railscasts Extended.tmTheme",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 77,
+					"stack_index": 81,
 					"type": "text"
 				}
 			]
@@ -12497,7 +10478,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 41.0
+		"height": 39.0
 	},
 	"input":
 	{
@@ -12552,6 +10533,110 @@
 		"selected_items":
 		[
 			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"uploa",
+				"app/uploaders/portrait_uploader.rb"
+			],
+			[
+				"admin",
+				"app/admin/post.rb"
+			],
+			[
+				"apprb",
+				"config/application.rb"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"carr",
+				"config/initializers/carrierwave.rb"
+			],
+			[
+				"appyml",
+				"config/application.yml"
+			],
+			[
+				"asser",
+				"config/initializers/asset_sync.rb"
+			],
+			[
+				"gelo",
+				"Gemfile.lock"
+			],
+			[
+				"",
+				"Gemfile"
+			],
+			[
+				"appy",
+				"config/application.yml"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"test",
+				"config/environments/test.rb"
+			],
+			[
+				"port",
+				"app/uploaders/portrait_uploader.rb"
+			],
+			[
+				"tea",
+				"app/models/teacher.rb"
+			],
+			[
+				"home",
+				"app/views/pages/home.html.haml"
+			],
+			[
+				"upl",
+				"app/uploaders/portrait_uploader.rb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"teache",
+				"app/admin/teacher.rb"
+			],
+			[
+				"addpo",
+				"db/migrate/20151118090954_add_portrait_to_teachers.rb"
+			],
+			[
+				"app",
+				"config/application.yml"
+			],
+			[
+				"po",
+				"app/uploaders/portrait_uploader.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"helpe",
+				"app/helpers/posts_helper.rb"
+			],
+			[
+				"pagecon",
+				"app/controllers/pages_controller.rb"
+			],
+			[
+				"homeco",
+				"~/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/devise-3.4.1/test/rails_app/app/controllers/home_controller.rb"
+			],
+			[
 				"routes",
 				"config/routes.rb"
 			],
@@ -12562,14 +10647,6 @@
 			[
 				"modeluse",
 				"spec/models/user_spec.rb"
-			],
-			[
-				"",
-				"kendo_gva.sublime-project"
-			],
-			[
-				"git",
-				".gitignore"
 			],
 			[
 				"pro",
@@ -12596,24 +10673,12 @@
 				"Gemfile"
 			],
 			[
-				"appy",
-				"config/application.yml"
-			],
-			[
-				"apprb",
-				"config/application.rb"
-			],
-			[
 				"gemf",
 				"Gemfile"
 			],
 			[
 				"rben",
 				".rbenv-version"
-			],
-			[
-				"gemfile",
-				"Gemfile"
 			],
 			[
 				"spec",
@@ -12636,10 +10701,6 @@
 				"config/environment.rb"
 			],
 			[
-				"home",
-				"app/views/pages/home.html.haml"
-			],
-			[
 				"moduser",
 				"app/models/user.rb"
 			],
@@ -12652,10 +10713,6 @@
 				"app/admin/user.rb"
 			],
 			[
-				"admin",
-				"app/admin/post.rb"
-			],
-			[
 				"crepo",
 				"db/migrate/20141010133702_create_posts.rb"
 			],
@@ -12666,10 +10723,6 @@
 			[
 				"post",
 				"app/models/post.rb"
-			],
-			[
-				"seed",
-				"db/seeds.rb"
 			],
 			[
 				"appym",
@@ -12706,10 +10759,6 @@
 			[
 				"homco",
 				"/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/devise-3.4.1/test/rails_app/app/controllers/home_controller.rb"
-			],
-			[
-				"data",
-				"config/database.yml"
 			],
 			[
 				"uni",
@@ -12804,10 +10853,6 @@
 				"app/assets/stylesheets/sidenav.sass"
 			],
 			[
-				"app",
-				"app/views/layouts/application.html.haml"
-			],
-			[
 				"comon",
 				"app/assets/javascripts/common.js"
 			],
@@ -12880,20 +10925,12 @@
 				"app/admin/user.rb"
 			],
 			[
-				"gem",
-				"Gemfile"
-			],
-			[
 				"appcontr",
 				"app/controllers/application_controller.rb"
 			],
 			[
 				"deve",
 				"config/environments/development.rb"
-			],
-			[
-				"appyml",
-				"config/application.yml"
 			],
 			[
 				"secret",
@@ -12980,14 +11017,6 @@
 				"app/assets/stylesheets/typography.sass"
 			],
 			[
-				"pagecon",
-				"app/controllers/pages_controller.rb"
-			],
-			[
-				"homeco",
-				"/Users/yannis/railsapps/kendo_gva/vendor/bundle/ruby/2.1.0/gems/devise-3.4.1/test/rails_app/app/controllers/home_controller.rb"
-			],
-			[
 				"fact",
 				"spec/support/factories.rb"
 			],
@@ -13014,54 +11043,6 @@
 			[
 				"ana",
 				"app/assets/javascripts/analytics.js.coffee"
-			],
-			[
-				"navigat",
-				"app/views/layouts/_navigation_links.html.haml"
-			],
-			[
-				"ass",
-				"config/initializers/asset_sync.rb"
-			],
-			[
-				"create",
-				"db/migrate/20141228171107_create_teachers.rb"
-			],
-			[
-				"modeltea",
-				"app/models/teacher.rb"
-			],
-			[
-				"railshe",
-				"spec/rails_helper.rb"
-			],
-			[
-				"tease",
-				"spec/models/teacher_spec.rb"
-			],
-			[
-				"fac",
-				"spec/support/factories.rb"
-			],
-			[
-				"teac",
-				"spec/models/teacher_spec.rb"
-			],
-			[
-				"spe",
-				"spec/spec_helper.rb"
-			],
-			[
-				"guar",
-				"Guardfile"
-			],
-			[
-				"namham",
-				"app/views/layouts/_navigation.html.haml"
-			],
-			[
-				"navlink",
-				"app/views/layouts/_navigation_links.html.erb"
 			]
 		],
 		"width": 0.0
