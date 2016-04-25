@@ -39,6 +39,7 @@ gem "asset_sync"
 gem "mini_magick"
 gem "carrierwave"
 gem "fog"
+gem 'puma'
 
 group :development, :test do
   gem 'figaro', '1.0.0'
@@ -67,6 +68,5 @@ end
 
 group :production do
   gem 'rails_12factor'
-  gem 'puma'
 end
 

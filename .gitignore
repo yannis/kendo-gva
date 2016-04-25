@@ -18,3 +18,5 @@ public/uploads/
 
 *.sublime-workspace
 *.sublime-project
+
+.bundle/config
