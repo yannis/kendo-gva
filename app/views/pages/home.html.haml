@@ -27,8 +27,7 @@
           .panel-heading
             %h2 Dernière nouvelle
           .panel-body
-            %h3= @last_post.title
-            =raw @last_post.content_html
+            = render @last_post
           .panel-footer.text-right
             = link_to "Toutes les nouvelles", posts_path
       %section#horaires

@@ -531,7 +531,15 @@
 			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 1350,
+				"buffer_size": 1345,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Procfile",
+			"settings":
+			{
+				"buffer_size": 40,
 				"line_ending": "Unix"
 			}
 		},
@@ -686,7 +694,7 @@
 			"file": "config/initializers/carrierwave.rb",
 			"settings":
 			{
-				"buffer_size": 702,
+				"buffer_size": 596,
 				"line_ending": "Unix",
 				"name": "CarrierWave.configure do |config|"
 			}
@@ -695,7 +703,7 @@
 			"file": "Gemfile.lock",
 			"settings":
 			{
-				"buffer_size": 12206,
+				"buffer_size": 12104,
 				"line_ending": "Unix"
 			}
 		},
@@ -762,7 +770,7 @@
 			"file": "app/views/pages/home.html.haml",
 			"settings":
 			{
-				"buffer_size": 10771,
+				"buffer_size": 10765,
 				"line_ending": "Unix"
 			}
 		},
@@ -1090,7 +1098,7 @@
 			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 226,
+				"buffer_size": 242,
 				"line_ending": "Unix"
 			}
 		},
@@ -1925,7 +1933,7 @@
 	"groups":
 	[
 		{
-			"selected": 19,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -2059,7 +2067,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
@@ -2068,15 +2076,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1350,
+						"buffer_size": 1345,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1080,
-								1083
+								841,
+								841
 							]
 						],
 						"settings":
@@ -2191,14 +2199,42 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 525.0,
+						"translation.y": 498.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "Procfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "spec/requests/robots_spec.rb",
 					"semi_transient": false,
 					"settings":
@@ -2225,11 +2261,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "config/robots.txt",
 					"semi_transient": false,
 					"settings":
@@ -2254,11 +2290,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "app/views/layouts/application.html.haml",
 					"semi_transient": false,
 					"settings":
@@ -2389,11 +2425,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "app/views/layouts/_navigation.html.haml",
 					"semi_transient": false,
 					"settings":
@@ -2524,11 +2560,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "app/views/layouts/_navigation_links.html.haml",
 					"semi_transient": false,
 					"settings":
@@ -2660,11 +2696,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "config/routes.rb",
 					"semi_transient": false,
 					"settings":
@@ -2795,11 +2831,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "config/initializers/active_admin.rb",
 					"semi_transient": false,
 					"settings":
@@ -2930,11 +2966,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 31,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "lib/markdown.rb",
 					"semi_transient": false,
 					"settings":
@@ -3065,11 +3101,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "app/admin/user.rb",
 					"semi_transient": false,
 					"settings":
@@ -3200,11 +3236,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "app/admin/post.rb",
 					"semi_transient": false,
 					"settings":
@@ -3333,11 +3369,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "app/admin/teacher.rb",
 					"semi_transient": false,
 					"settings":
@@ -3364,11 +3400,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "app/admin/startdate.rb",
 					"semi_transient": false,
 					"settings":
@@ -3497,11 +3533,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 33,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 15,
 					"semi_transient": false,
 					"settings":
 					{
@@ -3632,11 +3668,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 34,
+					"stack_index": 35,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "vendor/bundle/ruby/2.1.0/gems/rails-4.1.8/guides/source/layout.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -3664,11 +3700,11 @@
 						"translation.y": 2595.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 35,
+					"stack_index": 36,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "vendor/bundle/ruby/2.1.0/gems/bootstrap-sass-3.3.1.0/test/dummy_rails/app/assets/stylesheets/application.css.sass",
 					"semi_transient": false,
 					"settings":
@@ -3694,11 +3730,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 36,
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "app/assets/stylesheets/application.sass",
 					"semi_transient": false,
 					"settings":
@@ -3829,11 +3865,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 37,
+					"stack_index": 38,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
 					"file": "app/assets/stylesheets/_post.sass",
 					"semi_transient": false,
 					"settings":
@@ -3962,11 +3998,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 38,
+					"stack_index": 39,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 20,
 					"file": "app/assets/stylesheets/sidenav.sass",
 					"semi_transient": false,
 					"settings":
@@ -4097,24 +4133,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 21,
 					"file": "config/initializers/carrierwave.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 702,
+						"buffer_size": 596,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								522,
-								522
+								258,
+								258
 							]
 						],
 						"settings":
@@ -4133,12 +4169,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 22,
 					"file": "Gemfile.lock",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12206,
+						"buffer_size": 12104,
 						"regions":
 						{
 						},
@@ -4160,11 +4196,11 @@
 						"translation.y": 11171.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 23,
 					"file": "db/migrate/20151118090954_add_portrait_to_teachers.rb",
 					"semi_transient": false,
 					"settings":
@@ -4189,11 +4225,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 24,
 					"file": "app/uploaders/portrait_uploader.rb",
 					"semi_transient": false,
 					"settings":
@@ -4220,11 +4256,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 25,
 					"file": "app/views/contact_mailer/contact_message.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -4353,11 +4389,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 39,
+					"stack_index": 40,
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 26,
 					"file": "app/mailers/contact_mailer.rb",
 					"semi_transient": false,
 					"settings":
@@ -4486,11 +4522,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 40,
+					"stack_index": 41,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 27,
 					"file": "config/environments/test.rb",
 					"semi_transient": false,
 					"settings":
@@ -4621,11 +4657,11 @@
 						"translation.y": 311.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 28,
 					"file": "vendor/bundle/ruby/2.1.0/gems/devise-3.4.1/test/rails_app/app/views/home/index.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -4651,11 +4687,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 41,
+					"stack_index": 42,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 29,
 					"file": "app/controllers/pages_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -4786,24 +4822,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 30,
 					"file": "app/views/pages/home.html.haml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10771,
+						"buffer_size": 10765,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8884,
-								8884
+								2282,
+								2282
 							]
 						],
 						"settings":
@@ -4918,14 +4954,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 948.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 31,
 					"file": "app/helpers/application_helper.rb",
 					"semi_transient": false,
 					"settings":
@@ -4952,11 +4988,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 32,
 					"file": "app/assets/stylesheets/typography.sass",
 					"semi_transient": false,
 					"settings":
@@ -5099,11 +5135,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 42,
+					"stack_index": 43,
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 33,
 					"file": "app/views/pages/contact.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -5131,11 +5167,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 43,
+					"stack_index": 44,
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 34,
 					"file": "app/assets/javascripts/application.js",
 					"semi_transient": false,
 					"settings":
@@ -5264,11 +5300,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 44,
+					"stack_index": 45,
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 35,
 					"file": "app/models/post.rb",
 					"semi_transient": false,
 					"settings":
@@ -5399,11 +5435,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 45,
+					"stack_index": 46,
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 36,
 					"file": "db/migrate/20141010133702_create_posts.rb",
 					"semi_transient": false,
 					"settings":
@@ -5534,11 +5570,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 46,
+					"stack_index": 47,
 					"type": "text"
 				},
 				{
-					"buffer": 36,
+					"buffer": 37,
 					"file": "vendor/bundle/ruby/2.1.0/gems/devise-3.4.1/test/rails_app/app/controllers/home_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -5566,11 +5602,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 37,
+					"buffer": 38,
 					"file": "db/seeds.rb",
 					"semi_transient": false,
 					"settings":
@@ -5701,11 +5737,11 @@
 						"translation.y": 617.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 38,
+					"buffer": 39,
 					"file": "app/models/teacher.rb",
 					"semi_transient": false,
 					"settings":
@@ -5834,11 +5870,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 39,
+					"buffer": 40,
 					"file": "spec/models/teacher_spec.rb",
 					"semi_transient": false,
 					"settings":
@@ -5969,11 +6005,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 47,
+					"stack_index": 48,
 					"type": "text"
 				},
 				{
-					"buffer": 40,
+					"buffer": 41,
 					"file": "spec/models/startdate_spec.rb",
 					"semi_transient": false,
 					"settings":
@@ -6104,11 +6140,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 48,
+					"stack_index": 49,
 					"type": "text"
 				},
 				{
-					"buffer": 41,
+					"buffer": 42,
 					"file": "config/locales/startdate.fr.yml",
 					"semi_transient": false,
 					"settings":
@@ -6243,11 +6279,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 49,
+					"stack_index": 50,
 					"type": "text"
 				},
 				{
-					"buffer": 42,
+					"buffer": 43,
 					"file": "config/locales/user.fr.yml",
 					"semi_transient": false,
 					"settings":
@@ -6376,11 +6412,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 50,
+					"stack_index": 51,
 					"type": "text"
 				},
 				{
-					"buffer": 43,
+					"buffer": 44,
 					"file": "config/locales/post.fr.yml",
 					"semi_transient": false,
 					"settings":
@@ -6511,11 +6547,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 51,
+					"stack_index": 52,
 					"type": "text"
 				},
 				{
-					"buffer": 44,
+					"buffer": 45,
 					"file": "config/database.yml",
 					"semi_transient": false,
 					"settings":
@@ -6646,11 +6682,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 45,
+					"buffer": 46,
 					"file": "spec/models/user_spec.rb",
 					"semi_transient": false,
 					"settings":
@@ -6779,11 +6815,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 46,
+					"buffer": 47,
 					"file": "app/models/user.rb",
 					"semi_transient": false,
 					"settings":
@@ -6914,11 +6950,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 47,
+					"buffer": 48,
 					"file": "db/migrate/20141010133701_devise_create_users.rb",
 					"semi_transient": false,
 					"settings":
@@ -7049,11 +7085,11 @@
 						"translation.y": 455.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 52,
+					"stack_index": 53,
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 49,
 					"file": "db/migrate/20141228171107_create_teachers.rb",
 					"semi_transient": false,
 					"settings":
@@ -7182,11 +7218,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 53,
+					"stack_index": 54,
 					"type": "text"
 				},
 				{
-					"buffer": 49,
+					"buffer": 50,
 					"file": "spec/spec_helper.rb",
 					"semi_transient": false,
 					"settings":
@@ -7317,11 +7353,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 54,
+					"stack_index": 55,
 					"type": "text"
 				},
 				{
-					"buffer": 50,
+					"buffer": 51,
 					"file": "Guardfile",
 					"semi_transient": false,
 					"settings":
@@ -7452,11 +7488,11 @@
 						"translation.y": 1830.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 55,
+					"stack_index": 56,
 					"type": "text"
 				},
 				{
-					"buffer": 51,
+					"buffer": 52,
 					"file": "spec/rails_helper.rb",
 					"semi_transient": false,
 					"settings":
@@ -7587,11 +7623,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 56,
+					"stack_index": 57,
 					"type": "text"
 				},
 				{
-					"buffer": 52,
+					"buffer": 53,
 					"file": "spec/support/factories.rb",
 					"semi_transient": false,
 					"settings":
@@ -7722,11 +7758,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 57,
+					"stack_index": 58,
 					"type": "text"
 				},
 				{
-					"buffer": 53,
+					"buffer": 54,
 					"file": "config/application.yml",
 					"semi_transient": false,
 					"settings":
@@ -7738,8 +7774,8 @@
 						"selection":
 						[
 							[
-								191,
-								201
+								270,
+								270
 							]
 						],
 						"settings":
@@ -7857,11 +7893,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 54,
+					"buffer": 55,
 					"file": "config/environments/production.rb",
 					"semi_transient": false,
 					"settings":
@@ -7992,11 +8028,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 58,
+					"stack_index": 59,
 					"type": "text"
 				},
 				{
-					"buffer": 55,
+					"buffer": 56,
 					"file": "config/initializers/asset_sync.rb",
 					"semi_transient": false,
 					"settings":
@@ -8127,11 +8163,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 56,
+					"buffer": 57,
 					"file": "app/assets/javascripts/common.js",
 					"semi_transient": false,
 					"settings":
@@ -8262,11 +8298,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 59,
+					"stack_index": 60,
 					"type": "text"
 				},
 				{
-					"buffer": 57,
+					"buffer": 58,
 					"file": "app/assets/javascripts/analytics.js.coffee",
 					"semi_transient": false,
 					"settings":
@@ -8395,11 +8431,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 60,
+					"stack_index": 61,
 					"type": "text"
 				},
 				{
-					"buffer": 58,
+					"buffer": 59,
 					"file": "config/application.rb",
 					"semi_transient": false,
 					"settings":
@@ -8530,11 +8566,11 @@
 						"translation.y": 479.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 59,
+					"buffer": 60,
 					"file": "lib/robots_generator.rb",
 					"semi_transient": false,
 					"settings":
@@ -8561,11 +8597,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 60,
+					"buffer": 61,
 					"file": "config/initializers/setup_mail.rb",
 					"semi_transient": false,
 					"settings":
@@ -8694,11 +8730,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 61,
+					"stack_index": 62,
 					"type": "text"
 				},
 				{
-					"buffer": 61,
+					"buffer": 62,
 					"file": "app/models/startdate.rb",
 					"semi_transient": false,
 					"settings":
@@ -8827,11 +8863,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 62,
+					"stack_index": 63,
 					"type": "text"
 				},
 				{
-					"buffer": 62,
+					"buffer": 63,
 					"file": "config/locales/fr-CH.yml",
 					"semi_transient": false,
 					"settings":
@@ -8859,11 +8895,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 63,
+					"stack_index": 64,
 					"type": "text"
 				},
 				{
-					"buffer": 63,
+					"buffer": 64,
 					"file": "app/views/layouts/_footer.html.haml",
 					"semi_transient": false,
 					"settings":
@@ -8994,11 +9030,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 64,
+					"stack_index": 65,
 					"type": "text"
 				},
 				{
-					"buffer": 64,
+					"buffer": 65,
 					"file": "app/controllers/posts_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -9127,11 +9163,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 65,
+					"stack_index": 66,
 					"type": "text"
 				},
 				{
-					"buffer": 65,
+					"buffer": 66,
 					"file": "app/views/pages/posts.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -9157,11 +9193,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 66,
+					"stack_index": 67,
 					"type": "text"
 				},
 				{
-					"buffer": 66,
+					"buffer": 67,
 					"file": "app/views/posts/index.html.haml",
 					"semi_transient": false,
 					"settings":
@@ -9290,11 +9326,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 67,
+					"stack_index": 68,
 					"type": "text"
 				},
 				{
-					"buffer": 67,
+					"buffer": 68,
 					"file": "app/views/layouts/_divider.html.haml",
 					"semi_transient": false,
 					"settings":
@@ -9423,11 +9459,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 68,
+					"stack_index": 69,
 					"type": "text"
 				},
 				{
-					"buffer": 68,
+					"buffer": 69,
 					"file": "app/views/posts/_post.html.haml",
 					"semi_transient": false,
 					"settings":
@@ -9556,11 +9592,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 69,
+					"stack_index": 70,
 					"type": "text"
 				},
 				{
-					"buffer": 69,
+					"buffer": 70,
 					"file": "app/views/pages/show_post.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -9586,24 +9622,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 70,
+					"stack_index": 71,
 					"type": "text"
 				},
 				{
-					"buffer": 70,
+					"buffer": 71,
 					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 226,
+						"buffer_size": 242,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								118,
-								118
+								95,
+								95
 							]
 						],
 						"settings":
@@ -9719,11 +9755,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 71,
+					"buffer": 72,
 					"file": "config/initializers/secret_token.rb",
 					"semi_transient": false,
 					"settings":
@@ -9751,11 +9787,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 71,
+					"stack_index": 72,
 					"type": "text"
 				},
 				{
-					"buffer": 72,
+					"buffer": 73,
 					"file": "config/environments/development.rb",
 					"semi_transient": false,
 					"settings":
@@ -9886,11 +9922,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 72,
+					"stack_index": 73,
 					"type": "text"
 				},
 				{
-					"buffer": 73,
+					"buffer": 74,
 					"file": "app/controllers/application_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -10021,11 +10057,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 73,
+					"stack_index": 74,
 					"type": "text"
 				},
 				{
-					"buffer": 74,
+					"buffer": 75,
 					"file": "app/views/devise/sessions/new.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -10156,11 +10192,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 74,
+					"stack_index": 75,
 					"type": "text"
 				},
 				{
-					"buffer": 75,
+					"buffer": 76,
 					"file": "app/assets/stylesheets/_variables.scss",
 					"semi_transient": false,
 					"settings":
@@ -10289,11 +10325,11 @@
 						"translation.y": 67.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 75,
+					"stack_index": 76,
 					"type": "text"
 				},
 				{
-					"buffer": 76,
+					"buffer": 77,
 					"file": "app/views/layouts/_messages.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -10319,11 +10355,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 76,
+					"stack_index": 77,
 					"type": "text"
 				},
 				{
-					"buffer": 77,
+					"buffer": 78,
 					"file": "config/unicorn.rb",
 					"semi_transient": false,
 					"settings":
@@ -10350,11 +10386,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 77,
+					"stack_index": 78,
 					"type": "text"
 				},
 				{
-					"buffer": 78,
+					"buffer": 79,
 					"file": "app/views/devise/passwords/new.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -10381,11 +10417,11 @@
 						"translation.y": 80.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 78,
+					"stack_index": 79,
 					"type": "text"
 				},
 				{
-					"buffer": 79,
+					"buffer": 80,
 					"file": "app/views/devise/passwords/edit.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -10412,11 +10448,11 @@
 						"translation.y": 330.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 79,
+					"stack_index": 80,
 					"type": "text"
 				},
 				{
-					"buffer": 80,
+					"buffer": 81,
 					"file": "config/environment.rb",
 					"semi_transient": false,
 					"settings":
@@ -10441,11 +10477,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 80,
+					"stack_index": 81,
 					"type": "text"
 				},
 				{
-					"buffer": 81,
+					"buffer": 82,
 					"file": ".rbenv-version",
 					"semi_transient": false,
 					"settings":
@@ -10470,7 +10506,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 81,
+					"stack_index": 82,
 					"type": "text"
 				}
 			]
@@ -10533,8 +10569,36 @@
 		"selected_items":
 		[
 			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"carr",
+				"config/initializers/carrierwave.rb"
+			],
+			[
+				"appyam",
+				"config/application.yml"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"pro",
+				"Procfile"
+			],
+			[
 				"gemfile",
 				"Gemfile"
+			],
+			[
+				"home",
+				"app/views/pages/home.html.haml"
 			],
 			[
 				"uploa",
@@ -10551,10 +10615,6 @@
 			[
 				"seed",
 				"db/seeds.rb"
-			],
-			[
-				"carr",
-				"config/initializers/carrierwave.rb"
 			],
 			[
 				"appyml",
@@ -10577,10 +10637,6 @@
 				"config/application.yml"
 			],
 			[
-				"git",
-				".gitignore"
-			],
-			[
 				"test",
 				"config/environments/test.rb"
 			],
@@ -10591,10 +10647,6 @@
 			[
 				"tea",
 				"app/models/teacher.rb"
-			],
-			[
-				"home",
-				"app/views/pages/home.html.haml"
 			],
 			[
 				"upl",
@@ -10621,10 +10673,6 @@
 				"app/uploaders/portrait_uploader.rb"
 			],
 			[
-				"gem",
-				"Gemfile"
-			],
-			[
 				"helpe",
 				"app/helpers/posts_helper.rb"
 			],
@@ -10647,10 +10695,6 @@
 			[
 				"modeluse",
 				"spec/models/user_spec.rb"
-			],
-			[
-				"pro",
-				"kendo_gva.sublime-project"
 			],
 			[
 				"rob",
@@ -11035,14 +11079,6 @@
 			[
 				"modelstart",
 				"app/models/startdate.rb"
-			],
-			[
-				"specmode",
-				"spec/models/teacher_spec.rb"
-			],
-			[
-				"ana",
-				"app/assets/javascripts/analytics.js.coffee"
 			]
 		],
 		"width": 0.0
