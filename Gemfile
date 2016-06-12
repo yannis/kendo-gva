@@ -41,6 +41,8 @@ gem "carrierwave"
 gem "fog"
 gem 'puma'
 
+gem 'airbrake'
+
 group :development, :test do
   gem 'figaro', '1.0.0'
   gem "guard-livereload"
