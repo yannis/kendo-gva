@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.4.6'
 
 gem 'rails', '4.2.11.1'
-gem 'sass-rails', '4.0.4'
+gem 'sass-rails'
 gem 'haml-rails'
 gem 'uglifier', '2.5.3'
 gem 'coffee-rails', '4.1.0'
