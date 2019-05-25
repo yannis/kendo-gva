@@ -97,12 +97,11 @@ GEM
     crass (1.0.4)
     declarative (0.0.10)
     declarative-option (0.1.0)
-    devise (3.5.10)
+    devise (4.6.2)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
-      railties (>= 3.2.6, < 5)
+      railties (>= 4.1.0, < 6.0)
       responders
-      thread_safe (~> 0.1)
       warden (~> 1.2.3)
     devise-i18n (1.5.1)
       devise (>= 3.4)
@@ -541,8 +540,8 @@ GEM
       rake
     sexp_processor (4.12.0)
     shellany (0.0.1)
-    shoulda-matchers (4.0.1)
-      activesupport (>= 4.2.0)
+    shoulda-matchers (2.8.0)
+      activesupport (>= 3.0.0)
     signet (0.11.0)
       addressable (~> 2.3)
       faraday (~> 0.9)
@@ -593,7 +592,7 @@ DEPENDENCIES
   byebug
   carrierwave
   coffee-rails (= 4.1.0)
-  devise (~> 3.5.0)
+  devise (~> 4.6.0)
   devise-i18n
   email_spec
   factory_girl_rails
@@ -620,7 +619,7 @@ DEPENDENCIES
   redcarpet (= 3.2.0)
   rspec-rails
   sass-rails
-  shoulda-matchers
+  shoulda-matchers (~> 2.8.0)
   timecop
   turbolinks (= 2.5.2)
   tzinfo-data
