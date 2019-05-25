@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby '2.2.2'
+ruby '2.3.4'
 
-gem 'rails', '4.2.3'
+gem 'rails', '4.2.6'
 gem 'sass-rails', '4.0.4'
 gem 'haml-rails'
 gem 'uglifier', '2.5.3'
@@ -32,7 +32,7 @@ gem 'font-awesome-sass', '4.2.2'
 
 gem 'bootstrap-sass', '3.3.1.0'
 
-gem "activeadmin", github: "activeadmin/activeadmin"
+gem "activeadmin", "~> 1.0.0"
 
 gem "asset_sync"
 
@@ -71,4 +71,3 @@ end
 group :production do
   gem 'rails_12factor'
 end
-
