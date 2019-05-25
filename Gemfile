@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 ruby '2.4.6'
 
 gem 'rails', '4.2.11.1'
+# PostgreSQL
+gem 'pg', '0.21.0'
 gem 'sass-rails'
 gem 'haml-rails'
 gem 'uglifier', '2.5.3'
@@ -10,8 +12,7 @@ gem 'jquery-rails', '~> 3.1.0'
 gem 'turbolinks', '2.5.2'
 gem 'jbuilder', '2.2.5'
 gem 'bcrypt', '3.1.9'
-# PostgreSQL
-gem 'pg'
+
 
 # Devise: https://github.com/plataformatec/devise
 gem 'devise', '~> 3.5.0'
