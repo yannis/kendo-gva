@@ -6,7 +6,7 @@ gem 'sass-rails'
 gem 'haml-rails'
 gem 'uglifier', '2.5.3'
 gem 'coffee-rails', '4.1.0'
-gem 'jquery-rails', '3.1.2'
+gem 'jquery-rails', '~> 3.1.0'
 gem 'turbolinks', '2.5.2'
 gem 'jbuilder', '2.2.5'
 gem 'bcrypt', '3.1.9'
@@ -14,7 +14,7 @@ gem 'bcrypt', '3.1.9'
 gem 'pg'
 
 # Devise: https://github.com/plataformatec/devise
-gem 'devise', '3.4.1'
+gem 'devise', '~> 3.5.0'
 gem "devise-i18n"
 
 # Redcarpet: https://github.com/vmg/redcarpet
@@ -30,7 +30,7 @@ gem 'friendly_id', '5.0.4'
 
 gem 'font-awesome-sass', '4.2.2'
 
-gem 'bootstrap-sass', '3.3.1.0'
+gem 'bootstrap-sass', '~> 3.4.0'
 
 gem "activeadmin", "~> 1.0.0"
 
