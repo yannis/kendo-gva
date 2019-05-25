@@ -15,7 +15,7 @@ gem 'bcrypt', '3.1.9'
 
 
 # Devise: https://github.com/plataformatec/devise
-gem 'devise', '~> 3.5.0'
+gem 'devise', '~> 4.6.0'
 gem "devise-i18n"
 
 # Redcarpet: https://github.com/vmg/redcarpet
@@ -66,7 +66,7 @@ group :test do
   gem 'timecop'
   gem 'email_spec'
   gem "factory_girl_rails"
-  gem 'shoulda-matchers'
+  gem 'shoulda-matchers', "~> 2.8.0"
 end
 
 group :production do
