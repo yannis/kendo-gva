@@ -46,9 +46,20 @@ class PagesController < ApplicationController
     elsif @message.scan(/<a href=/).size > 0 || @message.scan(/\[url=/).size > 0 || @message.scan(/\[link=/).size > 0 || @message.scan(/http:\/\//).size > 0
       flash[:alert] = "You can't send links. Thank you for your understanding."
       render :contact
-    else
-      ContactMailer.contact_message(@name,@email,@message).deliver
+    elsif verify_recaptcha(model: @message, action: "email", minimum_score: 0.5)
+      ContactMailer.contact_message(@name, @email, @message).deliver
       redirect_to root_path, notice: "Your message was sent. Thank you."
+    else
+      @last_post = Post.order(:created_at).last
+      @teachers = Teacher.active.order("grade DESC, name ASC")
+      @startdate = Startdate.future.order(:start_on).first
+      teachers_size = @teachers.count
+      if 12.modulo(teachers_size) == 0
+        @teacher_col_width = 12/teachers_size
+      else
+        @teacher_col_width = 2
+      end
+      render :home
     end
   end
 

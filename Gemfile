@@ -44,6 +44,8 @@ gem 'puma'
 
 gem 'airbrake'
 
+gem "recaptcha"
+
 group :development, :test do
   gem 'figaro', '1.0.0'
   gem "guard-livereload"

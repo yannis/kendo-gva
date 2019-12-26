@@ -485,6 +485,8 @@ GEM
       json (>= 1.8)
       nokogiri (~> 1.5)
       optimist (~> 3.0)
+    recaptcha (5.2.1)
+      json
     redcarpet (3.2.0)
     representable (3.0.4)
       declarative (< 0.1.0)
@@ -616,6 +618,7 @@ DEPENDENCIES
   rails (= 4.2.11.1)
   rails_12factor
   rails_best_practices
+  recaptcha
   redcarpet (= 3.2.0)
   rspec-rails
   sass-rails
