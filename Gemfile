@@ -15,7 +15,7 @@ gem 'bcrypt', '3.1.9'
 
 
 # Devise: https://github.com/plataformatec/devise
-gem 'devise', '~> 4.6.0'
+gem 'devise', '~> 4.7.1'
 gem "devise-i18n"
 
 # Redcarpet: https://github.com/vmg/redcarpet
