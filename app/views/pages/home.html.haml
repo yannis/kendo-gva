@@ -119,6 +119,7 @@
         .row
           .col-md-6
             = form_tag email_confirmation_path, method: 'post', html: {role: "form"} do
+              = recaptcha_v3(action: "email")
               .panel.panel-default
                 .panel-heading
                   %h2 Contactez-nous
