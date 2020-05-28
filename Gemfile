@@ -25,7 +25,7 @@ gem 'redcarpet', '3.2.0'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 # Kaminari: https://github.com/amatsuda/kaminari
-gem 'kaminari', '0.16.1'
+gem 'kaminari', '1.2.1'
 
 gem 'friendly_id', '5.0.4'
 
