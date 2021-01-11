@@ -489,7 +489,7 @@ GEM
       optimist (~> 3.0)
     recaptcha (5.2.1)
       json
-    redcarpet (3.2.0)
+    redcarpet (3.5.1)
     representable (3.0.4)
       declarative (< 0.1.0)
       declarative-option (< 0.2.0)
@@ -621,7 +621,7 @@ DEPENDENCIES
   rails_12factor
   rails_best_practices
   recaptcha
-  redcarpet (= 3.2.0)
+  redcarpet (= 3.5.1)
   rspec-rails
   sass-rails
   shoulda-matchers (~> 2.8.0)
