@@ -19,7 +19,7 @@ gem 'devise', '~> 4.7.0'
 gem "devise-i18n"
 
 # Redcarpet: https://github.com/vmg/redcarpet
-gem 'redcarpet', '3.2.0'
+gem 'redcarpet', '3.5.1'
 
 # Necessary for Windows OS (won't install on *nix systems)
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
